@@ -1,6 +1,3 @@
-
-export default function page() {
-  return (
-    <div>Phyisican Details Page</div>
-  )
+export default function Page() {
+  return <div>Phyisican Details Page</div>;
 }
