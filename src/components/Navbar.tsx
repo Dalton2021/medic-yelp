@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <nav className="h-16">
+    <nav className="h-20">
       <div className="h-full p-4">
         <div className="grid grid-cols-6 text-center h-full">
           <div className="col-start-5 flex justify-end items-center text-lg relative">
