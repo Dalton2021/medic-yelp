@@ -1,7 +1,7 @@
 // types/index.ts
 
 export interface Doctor {
-  id: string;
+  id: number;
   firstName: string;
   lastName: string;
   specialties: Specialty[];
@@ -25,7 +25,7 @@ export interface Clinic {
   phone: string;
   website?: string;
   acceptedInsurance: string[];
-  doctorIds: string[]; // Doctors practicing at this clinic
+  doctorIds: number[]; // Doctors practicing at this clinic
 }
 
 export interface Review {
