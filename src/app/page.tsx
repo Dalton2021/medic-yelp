@@ -24,6 +24,20 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="pt-20 px-20">
+          <div className="grid grid-cols-10 gap-20">
+            <div className="col-start-3 col-span-2">
+              <Image src="/"
+              <p className="text-3xl font-extrabold">Manage and edit your ratings</p>
+            </div>
+            <div className="col-span-2">
+              <p className="text-3xl font-extrabold">Your ratings are always anonymous</p>
+            </div>
+            <div className="col-span-2">
+              <p className="text-3xl font-extrabold">Like or dislike ratings</p>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );
