@@ -1,21 +1,32 @@
 import DoctorRatingChart from "@/components/DoctorRatingChart";
-import AppNavbar from "../../../components/appNavbar";
 import POverallStats from "@/components/POverallStats";
 import SimilarDocs from "@/components/SimilarDocs";
-export default function Page() {
+import ReviewCard from "@/components/ReviewCard";
+import doctors from "@/data/doctors.json";
+import { Doctor } from "@/types";
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ physician: string }>;
+}) {
+  const { physician } = await params;
+  const d: Doctor | undefined = (doctors as Doctor[]).find((doctor) => {
+    return doctor.id === Number(physician);
+  });
+  console.log(d);
   return (
-    <div className="grid sm:grid-cols-3 lg:grid-cols-6 gap-x-12">
-      <div className=" col-start-2 col-span-3 gap-x-12">
-        <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-x-12">
-          <div>
-            <POverallStats />
-            <div>More Deets</div>
-          </div>
-          <div className="flex flex-col">
-            <DoctorRatingChart />
-            <SimilarDocs />
-          </div>
+    <div className="flex flex-col items-center gap-9">
+      <div className="grid w-3/5 sm:grid-cols-1 lg:grid-cols-2 gap-x-12">
+        <div>
+          <POverallStats />
         </div>
+        <div className="flex flex-col">
+          <DoctorRatingChart />
+          <SimilarDocs />
+        </div>
+      </div>
+      <div className="flex w-full justify-center items-center mt-10">
+        <ReviewCard />
       </div>
     </div>
   );
