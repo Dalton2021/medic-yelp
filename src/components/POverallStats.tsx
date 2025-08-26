@@ -1,0 +1,76 @@
+import { Bookmark } from "lucide-react";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+export default function POverallStats() {
+  return (
+    <Card className="max-w-md mx-auto bg-white border-0 ">
+      <CardHeader className="pb-4">
+        <div className="flex items-start justify-between">
+          <div>
+            <div className="text-6xl font-black text-gray-900 mb-1">
+              3.4
+              <span className="text-lg font-bold text-gray-500 ml-1">/ 5</span>
+            </div>
+            <div className="text-sm text-gray-600">
+              Overall Quality Based on{" "}
+              <span className="underline cursor-pointer hover:text-blue-600">
+                5 ratings
+              </span>
+            </div>
+          </div>
+          <Bookmark className="w-6 h-6 text-gray-400 hover:text-gray-600 cursor-pointer" />
+        </div>
+
+        <div className="mt-4">
+          <h2 className="text-4xl font-bold text-gray-900 mb-2">
+            Brian Johnson
+          </h2>
+          <p className="text-gray-600 text-sm">
+            {" "}
+            <span className="underline cursor-pointer hover:text-blue-600">
+              Professor of Medicine
+            </span>{" "}
+            at{" "}
+            <span className="underline cursor-pointer hover:text-blue-600">
+              Stanford University
+            </span>
+          </p>
+        </div>
+      </CardHeader>
+
+      <CardContent className="pt-0">
+        <div className="flex justify-between items-start mb-6">
+          <div className="text-left">
+            <div className="text-4xl font-bold text-black mb-2">60%</div>
+            <div className="text-sm text-gray-700 font-medium">
+              Would take again
+            </div>
+          </div>
+
+          <div className="text-left">
+            <div className="text-4xl font-bold text-black mb-2">2.8</div>
+            <div className="text-sm text-gray-700 font-medium">
+              Level of Difficulty
+            </div>
+          </div>
+        </div>
+
+        <div className="flex gap-3">
+          <Button className="flex-1 bg-blue-600 hover:bg-blue-700 text-white rounded-full py-3">
+            Rate
+            {/* <ArrowRight className="w-4 h-4 ml-2" /> */}
+          </Button>
+
+          <Button
+            variant="outline"
+            className="flex-1 border-2 border-gray-300 hover:bg-gray-50 text-gray-700 rounded-full py-3"
+          >
+            Compare
+          </Button>
+        </div>
+
+        <div className="mt-4"></div>
+      </CardContent>
+    </Card>
+  );
+}

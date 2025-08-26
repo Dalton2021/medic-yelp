@@ -63,15 +63,18 @@
   html {
     font-family: 'Inter', system-ui, sans-serif;
   }
+
   a:hover {
     text-decoration: underline;
   }
 }
 
+
 @layer base {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
