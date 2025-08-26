@@ -35,17 +35,14 @@ export interface Review {
   patientAge?: number;
   visitDate: string; // ISO date string
   ratings: {
-    overall: number; // 1-5
-    bedside_manner: number;
-    waitTime: number;
-    officeEnvironment: number;
+    overall: Rating;
+    bedside_manner: Rating;
+    waitTime: Rating;
+    officeEnvironment: Rating;
   };
 }
 
 // Helper types you might find useful
-export type DoctorWithReviews = Doctor & {
-  reviews: Review[];
-};
 
 export type SearchFilters = {
   name?: string;

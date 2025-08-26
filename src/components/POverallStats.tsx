@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 export default function POverallStats() {
   return (
-    <Card className="max-w-md mx-auto ">
+    <Card className="bg-[#d9e8ff9c] mx-auto ">
       <CardHeader className="pb-4">
         <div className="flex items-start justify-between">
           <div>
