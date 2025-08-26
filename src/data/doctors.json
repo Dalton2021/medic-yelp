@@ -3,22 +3,36 @@
     "id": 1,
     "firstName": "Sarah",
     "lastName": "Johnson",
-    "specialties": [
-      { "name": "Cardiology" }
-    ],
+    "specialties": ["Cardiology"],
     "clinicIds": [1, 4],
     "clinics": [
       {
         "id": 1,
         "name": "Central Medical Center",
-        "address": "123 Main St, Downtown, NY 10001",
-        "phone": "(555) 123-4567"
+        "address": {
+          "street": "123 Main St",
+          "city": "Downtown",
+          "state": "NY",
+          "zipCode": "10001"
+        },
+        "phone": "(555) 123-4567",
+        "website": "https://centralmedical.com",
+        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "UnitedHealthcare"],
+        "doctorIds": [1, 4, 5, 8, 9, 11, 14, 17, 19]
       },
       {
         "id": 4,
         "name": "Heart & Vascular Institute",
-        "address": "321 Elm Dr, Uptown, NY 10004",
-        "phone": "(555) 456-7890"
+        "address": {
+          "street": "321 Elm Dr",
+          "city": "Uptown",
+          "state": "NY",
+          "zipCode": "10004"
+        },
+        "phone": "(555) 456-7890",
+        "website": "https://heartvascular.org",
+        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Medicare", "Humana"],
+        "doctorIds": [1, 8, 11, 14, 20]
       }
     ],
     "yearsOfExperience": 15,
@@ -30,22 +44,36 @@
     "id": 2,
     "firstName": "Michael",
     "lastName": "Chen",
-    "specialties": [
-      { "name": "Dermatology" }
-    ],
+    "specialties": ["Dermatology"],
     "clinicIds": [2, 5],
     "clinics": [
       {
         "id": 2,
         "name": "Westside Health Clinic",
-        "address": "456 Oak Ave, Westside, NY 10002",
-        "phone": "(555) 234-5678"
+        "address": {
+          "street": "456 Oak Ave",
+          "city": "Westside",
+          "state": "NY",
+          "zipCode": "10002"
+        },
+        "phone": "(555) 234-5678",
+        "website": "https://westsidehealth.com",
+        "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Blue Cross Blue Shield", "Kaiser Permanente"],
+        "doctorIds": [2, 5, 6, 10, 13, 16, 19]
       },
       {
         "id": 5,
         "name": "Sunrise Medical Plaza",
-        "address": "654 Maple Rd, Eastside, NY 10005",
-        "phone": "(555) 567-8901"
+        "address": {
+          "street": "654 Maple Rd",
+          "city": "Eastside",
+          "state": "NY",
+          "zipCode": "10005"
+        },
+        "phone": "(555) 567-8901",
+        "website": "https://sunrisemedical.net",
+        "acceptedInsurance": ["Aetna", "Humana", "Blue Cross Blue Shield", "Medicaid"],
+        "doctorIds": [2, 6, 12, 13, 15, 16, 20]
       }
     ],
     "yearsOfExperience": 12,
@@ -57,16 +85,22 @@
     "id": 3,
     "firstName": "Emily",
     "lastName": "Rodriguez",
-    "specialties": [
-      { "name": "Pediatrics" }
-    ],
+    "specialties": ["Pediatrics"],
     "clinicIds": [3],
     "clinics": [
       {
         "id": 3,
         "name": "Children's Hospital",
-        "address": "789 Pine St, Midtown, NY 10003",
-        "phone": "(555) 345-6789"
+        "address": {
+          "street": "789 Pine St",
+          "city": "Midtown",
+          "state": "NY",
+          "zipCode": "10003"
+        },
+        "phone": "(555) 345-6789",
+        "website": "https://childrenshospital.org",
+        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "Medicaid", "CHIP"],
+        "doctorIds": [3, 10, 15, 18]
       }
     ],
     "yearsOfExperience": 8,
@@ -78,22 +112,36 @@
     "id": 4,
     "firstName": "David",
     "lastName": "Thompson",
-    "specialties": [
-      { "name": "Orthopedic Surgery" }
-    ],
+    "specialties": ["Orthopedic Surgery"],
     "clinicIds": [1, 6],
     "clinics": [
       {
         "id": 1,
         "name": "Central Medical Center",
-        "address": "123 Main St, Downtown, NY 10001",
-        "phone": "(555) 123-4567"
+        "address": {
+          "street": "123 Main St",
+          "city": "Downtown",
+          "state": "NY",
+          "zipCode": "10001"
+        },
+        "phone": "(555) 123-4567",
+        "website": "https://centralmedical.com",
+        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "UnitedHealthcare"],
+        "doctorIds": [1, 4, 5, 8, 9, 11, 14, 17, 19]
       },
       {
         "id": 6,
         "name": "Metro Specialty Center",
-        "address": "987 Cedar Blvd, Southside, NY 10006",
-        "phone": "(555) 678-9012"
+        "address": {
+          "street": "987 Cedar Blvd",
+          "city": "Southside",
+          "state": "NY",
+          "zipCode": "10006"
+        },
+        "phone": "(555) 678-9012",
+        "website": "https://metrospecialty.com",
+        "acceptedInsurance": ["UnitedHealthcare", "Cigna", "Aetna", "Medicare"],
+        "doctorIds": [4, 7, 10, 11, 13, 17, 18]
       }
     ],
     "yearsOfExperience": 22,
@@ -105,22 +153,36 @@
     "id": 5,
     "firstName": "Lisa",
     "lastName": "Williams",
-    "specialties": [
-      { "name": "Neurology" }
-    ],
+    "specialties": ["Neurology"],
     "clinicIds": [1, 2],
     "clinics": [
       {
         "id": 1,
         "name": "Central Medical Center",
-        "address": "123 Main St, Downtown, NY 10001",
-        "phone": "(555) 123-4567"
+        "address": {
+          "street": "123 Main St",
+          "city": "Downtown",
+          "state": "NY",
+          "zipCode": "10001"
+        },
+        "phone": "(555) 123-4567",
+        "website": "https://centralmedical.com",
+        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "UnitedHealthcare"],
+        "doctorIds": [1, 4, 5, 8, 9, 11, 14, 17, 19]
       },
       {
         "id": 2,
         "name": "Westside Health Clinic",
-        "address": "456 Oak Ave, Westside, NY 10002",
-        "phone": "(555) 234-5678"
+        "address": {
+          "street": "456 Oak Ave",
+          "city": "Westside",
+          "state": "NY",
+          "zipCode": "10002"
+        },
+        "phone": "(555) 234-5678",
+        "website": "https://westsidehealth.com",
+        "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Blue Cross Blue Shield", "Kaiser Permanente"],
+        "doctorIds": [2, 5, 6, 10, 13, 16, 19]
       }
     ],
     "yearsOfExperience": 18,
@@ -132,23 +194,36 @@
     "id": 6,
     "firstName": "James",
     "lastName": "Brown",
-    "specialties": [
-      { "name": "Internal Medicine" },
-      { "name": "Family Medicine" }
-    ],
+    "specialties": ["Internal Medicine", "Family Medicine"],
     "clinicIds": [2, 5],
     "clinics": [
       {
         "id": 2,
         "name": "Westside Health Clinic",
-        "address": "456 Oak Ave, Westside, NY 10002",
-        "phone": "(555) 234-5678"
+        "address": {
+          "street": "456 Oak Ave",
+          "city": "Westside",
+          "state": "NY",
+          "zipCode": "10002"
+        },
+        "phone": "(555) 234-5678",
+        "website": "https://westsidehealth.com",
+        "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Blue Cross Blue Shield", "Kaiser Permanente"],
+        "doctorIds": [2, 5, 6, 10, 13, 16, 19]
       },
       {
         "id": 5,
         "name": "Sunrise Medical Plaza",
-        "address": "654 Maple Rd, Eastside, NY 10005",
-        "phone": "(555) 567-8901"
+        "address": {
+          "street": "654 Maple Rd",
+          "city": "Eastside",
+          "state": "NY",
+          "zipCode": "10005"
+        },
+        "phone": "(555) 567-8901",
+        "website": "https://sunrisemedical.net",
+        "acceptedInsurance": ["Aetna", "Humana", "Blue Cross Blue Shield", "Medicaid"],
+        "doctorIds": [2, 6, 12, 13, 15, 16, 20]
       }
     ],
     "yearsOfExperience": 25,
@@ -160,16 +235,22 @@
     "id": 7,
     "firstName": "Amanda",
     "lastName": "Davis",
-    "specialties": [
-      { "name": "Psychiatry" }
-    ],
+    "specialties": ["Psychiatry"],
     "clinicIds": [6],
     "clinics": [
       {
         "id": 6,
         "name": "Metro Specialty Center",
-        "address": "987 Cedar Blvd, Southside, NY 10006",
-        "phone": "(555) 678-9012"
+        "address": {
+          "street": "987 Cedar Blvd",
+          "city": "Southside",
+          "state": "NY",
+          "zipCode": "10006"
+        },
+        "phone": "(555) 678-9012",
+        "website": "https://metrospecialty.com",
+        "acceptedInsurance": ["UnitedHealthcare", "Cigna", "Aetna", "Medicare"],
+        "doctorIds": [4, 7, 10, 11, 13, 17, 18]
       }
     ],
     "yearsOfExperience": 14,
@@ -181,22 +262,36 @@
     "id": 8,
     "firstName": "Robert",
     "lastName": "Miller",
-    "specialties": [
-      { "name": "Oncology" }
-    ],
+    "specialties": ["Oncology"],
     "clinicIds": [1, 4],
     "clinics": [
       {
         "id": 1,
         "name": "Central Medical Center",
-        "address": "123 Main St, Downtown, NY 10001",
-        "phone": "(555) 123-4567"
+        "address": {
+          "street": "123 Main St",
+          "city": "Downtown",
+          "state": "NY",
+          "zipCode": "10001"
+        },
+        "phone": "(555) 123-4567",
+        "website": "https://centralmedical.com",
+        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "UnitedHealthcare"],
+        "doctorIds": [1, 4, 5, 8, 9, 11, 14, 17, 19]
       },
       {
         "id": 4,
         "name": "Heart & Vascular Institute",
-        "address": "321 Elm Dr, Uptown, NY 10004",
-        "phone": "(555) 456-7890"
+        "address": {
+          "street": "321 Elm Dr",
+          "city": "Uptown",
+          "state": "NY",
+          "zipCode": "10004"
+        },
+        "phone": "(555) 456-7890",
+        "website": "https://heartvascular.org",
+        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Medicare", "Humana"],
+        "doctorIds": [1, 8, 11, 14, 20]
       }
     ],
     "yearsOfExperience": 20,
@@ -208,16 +303,22 @@
     "id": 9,
     "firstName": "Jennifer",
     "lastName": "Garcia",
-    "specialties": [
-      { "name": "Emergency Medicine" }
-    ],
+    "specialties": ["Emergency Medicine"],
     "clinicIds": [1],
     "clinics": [
       {
         "id": 1,
         "name": "Central Medical Center",
-        "address": "123 Main St, Downtown, NY 10001",
-        "phone": "(555) 123-4567"
+        "address": {
+          "street": "123 Main St",
+          "city": "Downtown",
+          "state": "NY",
+          "zipCode": "10001"
+        },
+        "phone": "(555) 123-4567",
+        "website": "https://centralmedical.com",
+        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "UnitedHealthcare"],
+        "doctorIds": [1, 4, 5, 8, 9, 11, 14, 17, 19]
       }
     ],
     "yearsOfExperience": 11,
@@ -229,28 +330,50 @@
     "id": 10,
     "firstName": "Christopher",
     "lastName": "Wilson",
-    "specialties": [
-      { "name": "Radiology" }
-    ],
+    "specialties": ["Radiology"],
     "clinicIds": [2, 3, 6],
     "clinics": [
       {
         "id": 2,
         "name": "Westside Health Clinic",
-        "address": "456 Oak Ave, Westside, NY 10002",
-        "phone": "(555) 234-5678"
+        "address": {
+          "street": "456 Oak Ave",
+          "city": "Westside",
+          "state": "NY",
+          "zipCode": "10002"
+        },
+        "phone": "(555) 234-5678",
+        "website": "https://westsidehealth.com",
+        "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Blue Cross Blue Shield", "Kaiser Permanente"],
+        "doctorIds": [2, 5, 6, 10, 13, 16, 19]
       },
       {
         "id": 3,
         "name": "Children's Hospital",
-        "address": "789 Pine St, Midtown, NY 10003",
-        "phone": "(555) 345-6789"
+        "address": {
+          "street": "789 Pine St",
+          "city": "Midtown",
+          "state": "NY",
+          "zipCode": "10003"
+        },
+        "phone": "(555) 345-6789",
+        "website": "https://childrenshospital.org",
+        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "Medicaid", "CHIP"],
+        "doctorIds": [3, 10, 15, 18]
       },
       {
         "id": 6,
         "name": "Metro Specialty Center",
-        "address": "987 Cedar Blvd, Southside, NY 10006",
-        "phone": "(555) 678-9012"
+        "address": {
+          "street": "987 Cedar Blvd",
+          "city": "Southside",
+          "state": "NY",
+          "zipCode": "10006"
+        },
+        "phone": "(555) 678-9012",
+        "website": "https://metrospecialty.com",
+        "acceptedInsurance": ["UnitedHealthcare", "Cigna", "Aetna", "Medicare"],
+        "doctorIds": [4, 7, 10, 11, 13, 17, 18]
       }
     ],
     "yearsOfExperience": 16,
@@ -262,28 +385,50 @@
     "id": 11,
     "firstName": "Maria",
     "lastName": "Martinez",
-    "specialties": [
-      { "name": "Anesthesiology" }
-    ],
+    "specialties": ["Anesthesiology"],
     "clinicIds": [1, 4, 6],
     "clinics": [
       {
         "id": 1,
         "name": "Central Medical Center",
-        "address": "123 Main St, Downtown, NY 10001",
-        "phone": "(555) 123-4567"
+        "address": {
+          "street": "123 Main St",
+          "city": "Downtown",
+          "state": "NY",
+          "zipCode": "10001"
+        },
+        "phone": "(555) 123-4567",
+        "website": "https://centralmedical.com",
+        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "UnitedHealthcare"],
+        "doctorIds": [1, 4, 5, 8, 9, 11, 14, 17, 19]
       },
       {
         "id": 4,
         "name": "Heart & Vascular Institute",
-        "address": "321 Elm Dr, Uptown, NY 10004",
-        "phone": "(555) 456-7890"
+        "address": {
+          "street": "321 Elm Dr",
+          "city": "Uptown",
+          "state": "NY",
+          "zipCode": "10004"
+        },
+        "phone": "(555) 456-7890",
+        "website": "https://heartvascular.org",
+        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Medicare", "Humana"],
+        "doctorIds": [1, 8, 11, 14, 20]
       },
       {
         "id": 6,
         "name": "Metro Specialty Center",
-        "address": "987 Cedar Blvd, Southside, NY 10006",
-        "phone": "(555) 678-9012"
+        "address": {
+          "street": "987 Cedar Blvd",
+          "city": "Southside",
+          "state": "NY",
+          "zipCode": "10006"
+        },
+        "phone": "(555) 678-9012",
+        "website": "https://metrospecialty.com",
+        "acceptedInsurance": ["UnitedHealthcare", "Cigna", "Aetna", "Medicare"],
+        "doctorIds": [4, 7, 10, 11, 13, 17, 18]
       }
     ],
     "yearsOfExperience": 13,
@@ -295,16 +440,22 @@
     "id": 12,
     "firstName": "Kevin",
     "lastName": "Anderson",
-    "specialties": [
-      { "name": "Family Medicine" }
-    ],
+    "specialties": ["Family Medicine"],
     "clinicIds": [5],
     "clinics": [
       {
         "id": 5,
         "name": "Sunrise Medical Plaza",
-        "address": "654 Maple Rd, Eastside, NY 10005",
-        "phone": "(555) 567-8901"
+        "address": {
+          "street": "654 Maple Rd",
+          "city": "Eastside",
+          "state": "NY",
+          "zipCode": "10005"
+        },
+        "phone": "(555) 567-8901",
+        "website": "https://sunrisemedical.net",
+        "acceptedInsurance": ["Aetna", "Humana", "Blue Cross Blue Shield", "Medicaid"],
+        "doctorIds": [2, 6, 12, 13, 15, 16, 20]
       }
     ],
     "yearsOfExperience": 9,
@@ -316,29 +467,50 @@
     "id": 13,
     "firstName": "Rachel",
     "lastName": "Taylor",
-    "specialties": [
-      { "name": "Dermatology" },
-      { "name": "Internal Medicine" }
-    ],
+    "specialties": ["Dermatology", "Internal Medicine"],
     "clinicIds": [2, 5, 6],
     "clinics": [
       {
         "id": 2,
         "name": "Westside Health Clinic",
-        "address": "456 Oak Ave, Westside, NY 10002",
-        "phone": "(555) 234-5678"
+        "address": {
+          "street": "456 Oak Ave",
+          "city": "Westside",
+          "state": "NY",
+          "zipCode": "10002"
+        },
+        "phone": "(555) 234-5678",
+        "website": "https://westsidehealth.com",
+        "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Blue Cross Blue Shield", "Kaiser Permanente"],
+        "doctorIds": [2, 5, 6, 10, 13, 16, 19]
       },
       {
         "id": 5,
         "name": "Sunrise Medical Plaza",
-        "address": "654 Maple Rd, Eastside, NY 10005",
-        "phone": "(555) 567-8901"
+        "address": {
+          "street": "654 Maple Rd",
+          "city": "Eastside",
+          "state": "NY",
+          "zipCode": "10005"
+        },
+        "phone": "(555) 567-8901",
+        "website": "https://sunrisemedical.net",
+        "acceptedInsurance": ["Aetna", "Humana", "Blue Cross Blue Shield", "Medicaid"],
+        "doctorIds": [2, 6, 12, 13, 15, 16, 20]
       },
       {
         "id": 6,
         "name": "Metro Specialty Center",
-        "address": "987 Cedar Blvd, Southside, NY 10006",
-        "phone": "(555) 678-9012"
+        "address": {
+          "street": "987 Cedar Blvd",
+          "city": "Southside",
+          "state": "NY",
+          "zipCode": "10006"
+        },
+        "phone": "(555) 678-9012",
+        "website": "https://metrospecialty.com",
+        "acceptedInsurance": ["UnitedHealthcare", "Cigna", "Aetna", "Medicare"],
+        "doctorIds": [4, 7, 10, 11, 13, 17, 18]
       }
     ],
     "yearsOfExperience": 17,
@@ -350,23 +522,36 @@
     "id": 14,
     "firstName": "Daniel",
     "lastName": "Lee",
-    "specialties": [
-      { "name": "Cardiology" },
-      { "name": "Internal Medicine" }
-    ],
+    "specialties": ["Cardiology", "Internal Medicine"],
     "clinicIds": [1, 4],
     "clinics": [
       {
         "id": 1,
         "name": "Central Medical Center",
-        "address": "123 Main St, Downtown, NY 10001",
-        "phone": "(555) 123-4567"
+        "address": {
+          "street": "123 Main St",
+          "city": "Downtown",
+          "state": "NY",
+          "zipCode": "10001"
+        },
+        "phone": "(555) 123-4567",
+        "website": "https://centralmedical.com",
+        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "UnitedHealthcare"],
+        "doctorIds": [1, 4, 5, 8, 9, 11, 14, 17, 19]
       },
       {
         "id": 4,
         "name": "Heart & Vascular Institute",
-        "address": "321 Elm Dr, Uptown, NY 10004",
-        "phone": "(555) 456-7890"
+        "address": {
+          "street": "321 Elm Dr",
+          "city": "Uptown",
+          "state": "NY",
+          "zipCode": "10004"
+        },
+        "phone": "(555) 456-7890",
+        "website": "https://heartvascular.org",
+        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Medicare", "Humana"],
+        "doctorIds": [1, 8, 11, 14, 20]
       }
     ],
     "yearsOfExperience": 21,
@@ -378,22 +563,36 @@
     "id": 15,
     "firstName": "Nicole",
     "lastName": "White",
-    "specialties": [
-      { "name": "Pediatrics" }
-    ],
+    "specialties": ["Pediatrics"],
     "clinicIds": [3, 5],
     "clinics": [
       {
         "id": 3,
         "name": "Children's Hospital",
-        "address": "789 Pine St, Midtown, NY 10003",
-        "phone": "(555) 345-6789"
+        "address": {
+          "street": "789 Pine St",
+          "city": "Midtown",
+          "state": "NY",
+          "zipCode": "10003"
+        },
+        "phone": "(555) 345-6789",
+        "website": "https://childrenshospital.org",
+        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "Medicaid", "CHIP"],
+        "doctorIds": [3, 10, 15, 18]
       },
       {
         "id": 5,
         "name": "Sunrise Medical Plaza",
-        "address": "654 Maple Rd, Eastside, NY 10005",
-        "phone": "(555) 567-8901"
+        "address": {
+          "street": "654 Maple Rd",
+          "city": "Eastside",
+          "state": "NY",
+          "zipCode": "10005"
+        },
+        "phone": "(555) 567-8901",
+        "website": "https://sunrisemedical.net",
+        "acceptedInsurance": ["Aetna", "Humana", "Blue Cross Blue Shield", "Medicaid"],
+        "doctorIds": [2, 6, 12, 13, 15, 16, 20]
       }
     ],
     "yearsOfExperience": 6,
@@ -405,22 +604,36 @@
     "id": 16,
     "firstName": "Mark",
     "lastName": "Stevens",
-    "specialties": [
-      { "name": "Obstetrics & Gynecology" }
-    ],
+    "specialties": ["Obstetrics & Gynecology"],
     "clinicIds": [2, 5],
     "clinics": [
       {
         "id": 2,
         "name": "Westside Health Clinic",
-        "address": "456 Oak Ave, Westside, NY 10002",
-        "phone": "(555) 234-5678"
+        "address": {
+          "street": "456 Oak Ave",
+          "city": "Westside",
+          "state": "NY",
+          "zipCode": "10002"
+        },
+        "phone": "(555) 234-5678",
+        "website": "https://westsidehealth.com",
+        "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Blue Cross Blue Shield", "Kaiser Permanente"],
+        "doctorIds": [2, 5, 6, 10, 13, 16, 19]
       },
       {
         "id": 5,
         "name": "Sunrise Medical Plaza",
-        "address": "654 Maple Rd, Eastside, NY 10005",
-        "phone": "(555) 567-8901"
+        "address": {
+          "street": "654 Maple Rd",
+          "city": "Eastside",
+          "state": "NY",
+          "zipCode": "10005"
+        },
+        "phone": "(555) 567-8901",
+        "website": "https://sunrisemedical.net",
+        "acceptedInsurance": ["Aetna", "Humana", "Blue Cross Blue Shield", "Medicaid"],
+        "doctorIds": [2, 6, 12, 13, 15, 16, 20]
       }
     ],
     "yearsOfExperience": 19,
@@ -432,108 +645,41 @@
     "id": 17,
     "firstName": "Sandra",
     "lastName": "Kim",
-    "specialties": [
-      { "name": "Ophthalmology" }
-    ],
+    "specialties": ["Ophthalmology"],
     "clinicIds": [1, 6],
     "clinics": [
       {
         "id": 1,
         "name": "Central Medical Center",
-        "address": "123 Main St, Downtown, NY 10001",
-        "phone": "(555) 123-4567"
+        "address": {
+          "street": "123 Main St",
+          "city": "Downtown",
+          "state": "NY",
+          "zipCode": "10001"
+        },
+        "phone": "(555) 123-4567",
+        "website": "https://centralmedical.com",
+        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "UnitedHealthcare"],
+        "doctorIds": [1, 4, 5, 8, 9, 11, 14, 17, 19]
       },
       {
         "id": 6,
         "name": "Metro Specialty Center",
-        "address": "987 Cedar Blvd, Southside, NY 10006",
-        "phone": "(555) 678-9012"
-      }
-    ],
-    "yearsOfExperience": 16,
-    "profileImage": "https://images.unsplash.com/photo-1594824475317-cede2bfca86d?w=400&h=400&fit=crop&crop=face",
-    "averageRating": 4.8,
-    "totalReviews": 143
-  },
-  {
-    "id": 18,
-    "firstName": "Thomas",
-    "lastName": "Parker",
-    "specialties": [
-      { "name": "Otolaryngology (ENT)" }
-    ],
-    "clinicIds": [3, 6],
-    "clinics": [
-      {
-        "id": 3,
-        "name": "Children's Hospital",
-        "address": "789 Pine St, Midtown, NY 10003",
-        "phone": "(555) 345-6789"
-      },
-      {
-        "id": 6,
-        "name": "Metro Specialty Center",
-        "address": "987 Cedar Blvd, Southside, NY 10006",
-        "phone": "(555) 678-9012"
-      }
-    ],
-    "yearsOfExperience": 14,
-    "profileImage": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop&crop=face",
-    "averageRating": 4.7,
-    "totalReviews": 98
-  },
-  {
-    "id": 19,
-    "firstName": "Angela",
-    "lastName": "Foster",
-    "specialties": [
-      { "name": "Gastroenterology" }
-    ],
-    "clinicIds": [1, 2],
-    "clinics": [
-      {
-        "id": 1,
-        "name": "Central Medical Center",
-        "address": "123 Main St, Downtown, NY 10001",
-        "phone": "(555) 123-4567"
-      },
-      {
-        "id": 2,
-        "name": "Westside Health Clinic",
-        "address": "456 Oak Ave, Westside, NY 10002",
-        "phone": "(555) 234-5678"
+        "address": {
+          "street": "987 Cedar Blvd",
+          "city": "Southside",
+          "state": "NY",
+          "zipCode": "10006"
+        },
+        "phone": "(555) 678-9012",
+        "website": "https://metrospecialty.com",
+        "acceptedInsurance": ["UnitedHealthcare", "Cigna", "Aetna", "Medicare"],
+        "doctorIds": [4, 7, 10, 11, 13, 17, 18]
       }
     ],
     "yearsOfExperience": 12,
-    "profileImage": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop&crop=face",
-    "averageRating": 4.5,
+    "profileImage": "https://images.unsplash.com/photo-1594824475317-cede2bfca86d?w=400&h=400&fit=crop&crop=face",
+    "averageRating": 4.7,
     "totalReviews": 134
-  },
-  {
-    "id": 20,
-    "firstName": "Brian",
-    "lastName": "Cooper",
-    "specialties": [
-      { "name": "Endocrinology" }
-    ],
-    "clinicIds": [4, 5],
-    "clinics": [
-      {
-        "id": 4,
-        "name": "Heart & Vascular Institute",
-        "address": "321 Elm Dr, Uptown, NY 10004",
-        "phone": "(555) 456-7890"
-      },
-      {
-        "id": 5,
-        "name": "Sunrise Medical Plaza",
-        "address": "654 Maple Rd, Eastside, NY 10005",
-        "phone": "(555) 567-8901"
-      }
-    ],
-    "yearsOfExperience": 18,
-    "profileImage": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=400&h=400&fit=crop&crop=face",
-    "averageRating": 4.6,
-    "totalReviews": 167
   }
 ]
