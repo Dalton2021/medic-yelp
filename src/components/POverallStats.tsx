@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 export default function POverallStats() {
   return (
-    <Card className="max-w-md mx-auto bg-white border-0 ">
+    <Card className="max-w-md mx-auto ">
       <CardHeader className="pb-4">
         <div className="flex items-start justify-between">
           <div>
@@ -27,12 +27,12 @@ export default function POverallStats() {
           </h2>
           <p className="text-gray-600 text-sm">
             {" "}
-            <span className="underline cursor-pointer hover:text-blue-600">
-              Professor of Medicine
+            <span className="underline cursor-pointer font-bold hover:text-blue-600">
+              Cardiologist
             </span>{" "}
             at{" "}
-            <span className="underline cursor-pointer hover:text-blue-600">
-              Stanford University
+            <span className="underline cursor-pointer font-bold hover:text-blue-600">
+              Stanford Hospital
             </span>
           </p>
         </div>
@@ -55,15 +55,15 @@ export default function POverallStats() {
           </div>
         </div>
 
-        <div className="flex gap-3">
-          <Button className="flex-1 bg-blue-600 hover:bg-blue-700 text-white rounded-full py-3">
+        <div className="justify-between flex gap-4">
+          <Button className="flex-1 w-1/3 bg-blue-600 hover:bg-blue-700 text-white rounded-full py-6">
             Rate
             {/* <ArrowRight className="w-4 h-4 ml-2" /> */}
           </Button>
 
           <Button
             variant="outline"
-            className="flex-1 border-2 border-gray-300 hover:bg-gray-50 text-gray-700 rounded-full py-3"
+            className="flex-1 border-2 w-1/3 border-gray-300 hover:bg-gray-50 text-gray-700 rounded-full py-6"
           >
             Compare
           </Button>
