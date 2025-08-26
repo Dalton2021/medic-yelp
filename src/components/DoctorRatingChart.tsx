@@ -1,8 +1,7 @@
 "use client";
-
-import { TrendingUp } from "lucide-react";
-import { Bar, BarChart, Label, Cell, LabelList, XAxis, YAxis } from "recharts";
-
+import doctor from "@/data/doctors.json";
+import { Bar, BarChart, Cell, LabelList, XAxis, YAxis } from "recharts";
+import { Doctor } from "@/types/index";
 import {
   Card,
   CardContent,
@@ -11,12 +10,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import {
-  ChartConfig,
-  ChartContainer,
-  ChartTooltip,
-  ChartTooltipContent,
-} from "@/components/ui/chart";
+import { ChartConfig, ChartContainer } from "@/components/ui/chart";
 
 export const description = "A horizontal bar chart";
 
