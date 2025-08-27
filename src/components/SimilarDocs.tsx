@@ -1,4 +1,6 @@
-export default function SimilarDocs() {
+import { Doctor } from "@/types";
+
+export default function SimilarDocs({ doctor }: { doctor: Doctor }) {
   return (
     <div className=" mt-10 bg-[#d9e8ff9c] p-4">
       <h3 className="font-bold text-lg">Similar Physicians</h3>
