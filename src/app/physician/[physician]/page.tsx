@@ -17,23 +17,25 @@ export default async function Page({
   const dr = doctors.find((doctor) => {
     return doctor.id === Number(physician);
   });
-  
-  const reviewList: Review[] = dr ? reviews.filter((review) => {
-    return dr.id === review.doctorId;
-  }) : [];
-  
+
+  const reviewList: Review[] = dr
+    ? reviews.filter((review) => {
+        return dr.id === review.doctorId;
+      })
+    : [];
+
   if (dr) {
     console.log(dr);
   }
   return dr ? (
     <div className="flex flex-col items-center gap-9">
-      <div className="grid w-3/5 sm:grid-cols-1 lg:grid-cols-2 gap-x-12">
-        <div>
+      <div className="grid w-3/5 sm:grid-cols-1 lg:grid-cols-2 gap-x-12 h-full">
+        <div className="flex flex-col">
           <POverallStats doctor={dr} reviews={reviewList} />
+          <SimilarDocs doctor={dr} />
         </div>
         <div className="flex flex-col">
           <DoctorRatingChart reviews={reviewList} />
-          <SimilarDocs doctor={dr} />
         </div>
       </div>
       <div className="flex flex-col w-full justify-center items-center mt-10">

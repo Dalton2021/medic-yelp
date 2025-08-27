@@ -55,7 +55,7 @@ export default function DoctorRatingChart({ reviews }: { reviews: Review[] }) {
     },
   } satisfies ChartConfig;
   return (
-    <Card className="bg-gray-50">
+    <Card className="bg-gray-100 size-full ">
       <CardHeader>
         <CardTitle className="text-3xl">Rating Distribution</CardTitle>
         <CardDescription>January - June 2024</CardDescription>

@@ -49,8 +49,9 @@ const ReviewCard = ({
     <Card className="w-1/2 bg-blue-50  mb-10">
       <CardHeader className="pb-4">
         <div className="flex items-center justify-between">
-          <CardTitle className="text-lg font-semibold text-gray-900">
+          <CardTitle className="text-lg flex gap-2 font-semibold text-gray-900">
             <CircleUser className="w-7 h-7" />
+            <h1>{formatDate(review.visitDate)}</h1>
           </CardTitle>
           <div className="flex items-center text-yellow-500">
             <Star className="w-7 h-7 fill-current mr-1" />
@@ -67,15 +68,10 @@ const ReviewCard = ({
           <div className="flex items-center">
             <span>Patient Age: {review.patientAge}</span>
           </div>
-          <div className="flex items-center">
-            <Clock className="w-4 h-4 mr-2" />
-            <span>{formatDate(review.visitDate)}</span>
-          </div>
         </div>
 
         {/* Doctor & Clinic IDs */}
         <div className="flex items-center justify-between text-sm text-gray-600">
-          <span>Dr. {doctor}</span>
           <div className="flex items-center">
             <Building className="w-4 h-4 mr-1" />
             <span>{clinicSeen?.name || "Unknown Clinic"}</span>
