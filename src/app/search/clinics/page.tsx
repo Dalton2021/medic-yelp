@@ -1,7 +1,7 @@
 import clinicsData from '@/data/clinics.json';
 import { Clinic } from '@/types';
 
-const clinics: Clinic[] = clinicsData as Clinic[];
+const clinics: Clinic[] = clinicsData;
 /*
 TO-DO:
 -------
