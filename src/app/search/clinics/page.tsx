@@ -2,8 +2,8 @@ import ClinicCard from '@/components/ClinicCard';
 import clinicsData from '@/data/clinics.json';
 import { Clinic, ClinicAndReviews, ReviewBundle } from '@/types';
 import reviewsData from '@/data/reviews.json';
-import { Rat } from 'lucide-react';
 import RatBanner from '@/components/RatBanner';
+import PaginationBar from '@/components/PaginationBar';
 
 /*
 TO-DO:
@@ -21,11 +21,12 @@ TO-DO:
 const allClinics: Clinic[] = clinicsData;
 
 interface PageProps {
-  searchParams: { name?: string };
+  searchParams: { name?: string; page: string };
 }
 
 export default async function Page({ searchParams }: PageProps) {
-  const { name } = await searchParams;
+  const { name, page } = await searchParams;
+  const currentPage = parseInt(page || '1', 10);
   const clinics = name
     ? allClinics.filter((c) => c.name.toLowerCase().includes(name.toLowerCase()))
     : allClinics;
@@ -64,13 +65,27 @@ export default async function Page({ searchParams }: PageProps) {
     },
   }));
 
+  const itemsPerPage = 4;
+  const pages = Math.ceil(clinicAndReviews.length / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const paginatedClinics = clinicAndReviews.slice(startIndex, startIndex + itemsPerPage);
+
   return (
-    <div className="px-24 pt-32">
-      <div className="grid grid-flow-col grid-cols-7">
+    <div className="px-24 pb-32 pt-10 relative z-40">
+      <div className="grid grid-flow-col grid-cols-8">
         {clinicAndReviews.length > 1 ? (
-          clinicAndReviews.map((c) => <ClinicCard key={c.Clinic.id} Clinic={c.Clinic} Ratings={c.Ratings} />)
+          <>
+            {paginatedClinics.map((c) => (
+              <ClinicCard key={c.Clinic.id} Clinic={c.Clinic} Ratings={c.Ratings} />
+            ))}
+            {pages > 1 && (
+              <div className="col-span-full">
+                <PaginationBar currentPage={currentPage} pages={pages} searchParams={{ name }} />{' '}
+              </div>
+            )}
+          </>
         ) : (
-          <div className="col-start-3 col-span-3">
+          <div className="col-start-4 col-span-4">
             <RatBanner />
           </div>
         )}

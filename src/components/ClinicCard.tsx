@@ -5,8 +5,8 @@ const ClinicCard = ({ Clinic, Ratings }: ClinicAndReviews) => {
   return (
     <Link
       href={`/clinic/${Clinic.id}`}
-      className="col-start-3 col-span-6 bg-neutral-100 p-5 mb-4 hover:no-underline">
-      <div className="grid grid-cols-8 gap-8">
+      className="col-start-3 col-span-4 bg-neutral-100 p-5 mb-4 hover:no-underline">
+      <div className="grid grid-cols-6 gap-8">
         <div className="col-span-1">
           <p className="text-sm font-medium uppercase tracking-wide text-center">Quality</p>
           <div className="flex justify-center">
