@@ -1,7 +1,8 @@
+import ClinicCard from '@/components/ClinicCard';
 import clinicsData from '@/data/clinics.json';
-import { Clinic } from '@/types';
+import { Clinic, ClinicAndReviews, ReviewBundle } from '@/types';
+import reviewsData from '@/data/reviews.json';
 
-const clinics: Clinic[] = clinicsData;
 /*
 TO-DO:
 -------
@@ -15,37 +16,58 @@ TO-DO:
  - Do this page https://www.ratemyprofessors.com/search/schools?q=stanford
 */
 
-export default function Page() {
+const allClinics: Clinic[] = clinicsData;
+
+interface PageProps {
+  searchParams: { name?: string };
+}
+
+export default async function Page({ searchParams }: PageProps) {
+  const { name } = await searchParams;
+  const clinics = name
+    ? allClinics.filter((c) => c.name.toLowerCase().includes(name.toLowerCase()))
+    : allClinics;
+  const clinicIds: number[] = clinics.map((c) => c.id);
+
+  const ratings = reviewsData
+    .filter((r) => clinicIds.includes(r.clinicId))
+    .reduce((acc: { [key: number]: ReviewBundle }, review) => {
+      if (!acc[review.clinicId]) {
+        acc[review.clinicId] = {
+          id: review.clinicId,
+          total: 0,
+          ratings: [],
+          overall: 0,
+        };
+      }
+
+      acc[review.clinicId].id = review.clinicId;
+      acc[review.clinicId].total += 1;
+      acc[review.clinicId].ratings.push(review.ratings.overall);
+      return acc;
+    }, {});
+
+  Object.values(ratings).forEach((bundle) => {
+    bundle.overall =
+      Math.floor((bundle.ratings.reduce((sum, rating) => sum + rating, 0) / bundle.ratings.length) * 10) / 10;
+  });
+
+  const clinicAndReviews: ClinicAndReviews[] = clinics.map((clinic) => ({
+    Clinic: clinic,
+    Ratings: ratings[clinic.id] || {
+      id: clinic.id,
+      total: 0,
+      ratings: [],
+      overall: 0,
+    },
+  }));
+
   return (
-    <div className="px-20 pt-32">
-      {/* {clinics.map((clinic) => (
-        <div key={clinic.id}>{clinic.name}</div>
-      ))} */}
-      <div className="grid grid-flow-col grid-cols-10 gap-10">
-        <div className="col-start-3 col-span-6 bg-neutral-100 p-5">
-          <div className="grid grid-cols-12 gap-10">
-            <div className="col-span-2">
-              <p className="text-sm font-medium uppercase tracking-wide text-center">Quality</p>
-              <div className="flex justify-center">
-                <div className="mt-2 w-3/4 bg-emerald-300 p-2 align-middle">
-                  <p className="text-4xl font-extrabold tracking-tight text-center">4.7</p>
-                </div>
-              </div>
-              <p className="mt-1 text-sm text-muted-foreground text-center">120 ratings</p>
-            </div>
-            <div className="col-span-4 flex items-center">
-              <p className="text-5xl font-extrabold">My Clinic</p>
-            </div>
-            <div className="col-span-3 col-end-13">
-              <p className="text-muted-foreground text-sm">
-                <span>Street address</span>
-                <br />
-                <span>City,</span> <span className='uppercase'>State,</span> <span>ZIP Code</span>
-                <br />
-              </p>
-            </div>
-          </div>
-        </div>
+    <div className="px-24 pt-32">
+      <div className="grid grid-flow-col grid-cols-10">
+        {clinicAndReviews.map((c) => (
+          <ClinicCard key={c.Clinic.id} Clinic={c.Clinic} Ratings={c.Ratings} />
+        ))}
       </div>
     </div>
   );

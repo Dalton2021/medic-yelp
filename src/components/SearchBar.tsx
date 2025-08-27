@@ -27,7 +27,7 @@ const SearchBar = () => {
           <Apple className="absolute left-5 top-1/2 -translate-y-1/2 h-6 w-6" />
         )}
         <Input
-          name={isClinic ? 'clinic' : 'doctor'}
+          name="name"
           className="bg-white h-14 !text-lg px-5 pl-14 mt-12 rounded-full"
           placeholder={`Your ${isClinic ? 'clinic' : 'doctor'}`}
           aria-label={isClinic ? 'Clinic' : 'Doctor'}

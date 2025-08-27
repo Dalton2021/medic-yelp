@@ -42,6 +42,18 @@ export interface Review {
   };
 }
 
+export interface ReviewBundle {
+  id: number;
+  total: number;
+  ratings: number[];
+  overall: number;
+}
+
+export interface ClinicAndReviews {
+  Clinic: Clinic;
+  Ratings: ReviewBundle;
+}
+
 // Helper types you might find useful
 
 export type SearchFilters = {
@@ -50,46 +62,46 @@ export type SearchFilters = {
 };
 export enum Specialty {
   // Primary Care
-  FAMILY_MEDICINE = "Family Medicine",
-  INTERNAL_MEDICINE = "Internal Medicine",
-  PEDIATRICS = "Pediatrics",
+  FAMILY_MEDICINE = 'Family Medicine',
+  INTERNAL_MEDICINE = 'Internal Medicine',
+  PEDIATRICS = 'Pediatrics',
 
   // Common Specialists
-  CARDIOLOGY = "Cardiology",
-  DERMATOLOGY = "Dermatology",
-  ORTHOPEDIC_SURGERY = "Orthopedic Surgery",
-  OBSTETRICS_GYNECOLOGY = "Obstetrics & Gynecology",
-  PSYCHIATRY = "Psychiatry",
-  OPHTHALMOLOGY = "Ophthalmology",
-  OTOLARYNGOLOGY = "Otolaryngology (ENT)",
-  UROLOGY = "Urology",
-  GASTROENTEROLOGY = "Gastroenterology",
-  PULMONOLOGY = "Pulmonology",
-  ENDOCRINOLOGY = "Endocrinology",
-  RHEUMATOLOGY = "Rheumatology",
-  NEUROLOGY = "Neurology",
-  ONCOLOGY = "Oncology",
+  CARDIOLOGY = 'Cardiology',
+  DERMATOLOGY = 'Dermatology',
+  ORTHOPEDIC_SURGERY = 'Orthopedic Surgery',
+  OBSTETRICS_GYNECOLOGY = 'Obstetrics & Gynecology',
+  PSYCHIATRY = 'Psychiatry',
+  OPHTHALMOLOGY = 'Ophthalmology',
+  OTOLARYNGOLOGY = 'Otolaryngology (ENT)',
+  UROLOGY = 'Urology',
+  GASTROENTEROLOGY = 'Gastroenterology',
+  PULMONOLOGY = 'Pulmonology',
+  ENDOCRINOLOGY = 'Endocrinology',
+  RHEUMATOLOGY = 'Rheumatology',
+  NEUROLOGY = 'Neurology',
+  ONCOLOGY = 'Oncology',
 
   // Surgery Specialties
-  GENERAL_SURGERY = "General Surgery",
-  PLASTIC_SURGERY = "Plastic Surgery",
-  NEUROSURGERY = "Neurosurgery",
+  GENERAL_SURGERY = 'General Surgery',
+  PLASTIC_SURGERY = 'Plastic Surgery',
+  NEUROSURGERY = 'Neurosurgery',
 
   // Emergency & Critical Care
-  EMERGENCY_MEDICINE = "Emergency Medicine",
-  ANESTHESIOLOGY = "Anesthesiology",
-  CRITICAL_CARE = "Critical Care",
+  EMERGENCY_MEDICINE = 'Emergency Medicine',
+  ANESTHESIOLOGY = 'Anesthesiology',
+  CRITICAL_CARE = 'Critical Care',
 
   // Radiology & Pathology
-  RADIOLOGY = "Radiology",
-  PATHOLOGY = "Pathology",
+  RADIOLOGY = 'Radiology',
+  PATHOLOGY = 'Pathology',
 
   // Mental Health
-  PSYCHOLOGY = "Psychology",
+  PSYCHOLOGY = 'Psychology',
 
   // Other Common Specialties
-  PHYSICAL_MEDICINE_REHABILITATION = "Physical Medicine & Rehabilitation",
-  ALLERGY_IMMUNOLOGY = "Allergy & Immunology",
+  PHYSICAL_MEDICINE_REHABILITATION = 'Physical Medicine & Rehabilitation',
+  ALLERGY_IMMUNOLOGY = 'Allergy & Immunology',
 }
 export enum Rating {
   EXCELLENT = 5,

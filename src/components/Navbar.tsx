@@ -13,6 +13,7 @@ const Navbar = () => {
               alt="blob"
               width={250}
               height={100}
+              priority
               className="absolute z-0 object-contain"
             />
             <div className="z-10 px-5">
