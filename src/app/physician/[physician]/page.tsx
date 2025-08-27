@@ -24,15 +24,26 @@ export default async function Page({
       })
     : [];
 
+  let similarDoctors: Doctor[] = [];
+  
   if (dr) {
     console.log(dr);
+    
+    // Find doctors with matching specialties (excluding the current doctor)
+    similarDoctors = doctors
+      .filter(doctor => doctor.id !== dr.id) // Exclude current doctor
+      .filter(doctor => 
+        // Check if any of the doctor's specialties match the current doctor's specialties
+        doctor.specialties.some(specialty => dr.specialties.includes(specialty))
+      )
+      .slice(0, 3); // Get first 3 matches
   }
   return dr ? (
     <div className="flex flex-col items-center gap-9">
       <div className="grid w-3/5 sm:grid-cols-1 lg:grid-cols-2 gap-x-12 h-full">
         <div className="flex flex-col">
           <POverallStats doctor={dr} reviews={reviewList} />
-          <SimilarDocs doctor={dr} />
+          <SimilarDocs doctor={dr} similarDoctors={similarDoctors} />
         </div>
         <div className="flex flex-col">
           <DoctorRatingChart reviews={reviewList} />
