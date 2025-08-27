@@ -1,7 +1,7 @@
 "use client";
 import doctor from "@/data/doctors.json";
 import { Bar, BarChart, Cell, LabelList, XAxis, YAxis } from "recharts";
-import { Doctor } from "@/types/index";
+import { Doctor, Review } from "@/types/index";
 import {
   Card,
   CardContent,
@@ -14,22 +14,46 @@ import { ChartConfig, ChartContainer } from "@/components/ui/chart";
 
 export const description = "A horizontal bar chart";
 
-const chartData = [
-  { review: "Awesome", desktop: 11 },
-  { review: "Great", desktop: 7 },
-  { review: "Good", desktop: 8 },
-  { review: "Okay", desktop: 2 },
-  { review: "Awful", desktop: 8 },
-];
-
-const chartConfig = {
-  desktop: {
-    label: "Desktop",
-    color: "var(--chart-3)",
-  },
-} satisfies ChartConfig;
-
-export default function DoctorRatingChart() {
+export default function DoctorRatingChart({ reviews }: { reviews: Review[] }) {
+  const ratingStats = {
+    awesome: 0,
+    great: 0,
+    good: 0,
+    okay: 0,
+    bad: 0,
+  };
+  reviews.forEach((review) => {
+    switch (review.ratings.overall) {
+      case 1:
+        ratingStats.bad++;
+        break;
+      case 2:
+        ratingStats.okay++;
+        break;
+      case 3:
+        ratingStats.good++;
+        break;
+      case 4:
+        ratingStats.great++;
+        break;
+      case 5:
+        ratingStats.awesome++;
+        break;
+    }
+  });
+  const chartData = [
+    { review: "Awesome", desktop: ratingStats.awesome },
+    { review: "Great", desktop: ratingStats.great },
+    { review: "Good", desktop: ratingStats.good },
+    { review: "Okay", desktop: ratingStats.okay },
+    { review: "Awful", desktop: ratingStats.bad },
+  ];
+  const chartConfig = {
+    desktop: {
+      label: "Desktop",
+      color: "var(--chart-3)",
+    },
+  } satisfies ChartConfig;
   return (
     <Card className="bg-gray-50">
       <CardHeader>

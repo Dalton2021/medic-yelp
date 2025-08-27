@@ -1,20 +1,29 @@
 import { Bookmark } from "lucide-react";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-export default function POverallStats() {
+import { Doctor, Review } from "@/types";
+
+export default function POverallStats({
+  doctor,
+  reviews,
+}: {
+  doctor: Doctor;
+  reviews: Review[];
+}) {
+  console.log(reviews);
   return (
     <Card className="bg-[#d9e8ff9c] mx-auto ">
       <CardHeader className="pb-4">
         <div className="flex items-start justify-between">
           <div>
             <div className="text-6xl font-black text-gray-900 mb-1">
-              3.4
+              {doctor.averageRating}
               <span className="text-lg font-bold text-gray-500 ml-1">/ 5</span>
             </div>
             <div className="text-sm text-gray-600">
               Overall Quality Based on{" "}
               <span className="underline cursor-pointer hover:text-blue-600">
-                5 ratings
+                {reviews.length} ratings
               </span>
             </div>
           </div>
@@ -23,17 +32,27 @@ export default function POverallStats() {
 
         <div className="mt-4">
           <h2 className="text-4xl font-bold text-gray-900 mb-2">
-            Brian Johnson
+            {doctor.firstName} {doctor.lastName}
           </h2>
           <p className="text-gray-600 text-sm">
-            {" "}
-            <span className="underline cursor-pointer font-bold hover:text-blue-600">
-              Cardiologist
-            </span>{" "}
+            Specializes in:{" "}
+            {doctor.specialties.map((sp, index) => (
+              <span
+                key={index}
+                className="underline cursor-pointer font-bold hover:text-blue-600"
+              >
+                {sp}{" "}
+              </span>
+            ))}
             at{" "}
-            <span className="underline cursor-pointer font-bold hover:text-blue-600">
-              Stanford Hospital
-            </span>
+            {doctor.clinics.map((clinic, index) => (
+              <span
+                key={index}
+                className="underline cursor-pointer font-bold hover:text-blue-600"
+              >
+                {clinic.name}{" "}
+              </span>
+            ))}
           </p>
         </div>
       </CardHeader>

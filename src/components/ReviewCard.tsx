@@ -2,21 +2,16 @@ import React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Star, Clock, Building, User } from "lucide-react";
 import { CircleUser } from "lucide-react";
+import { Review, Clinic } from "@/types";
 import dayjs from "dayjs";
 const ReviewCard = ({
-  reviewData = {
-    id: "rev-080",
-    doctorId: "14",
-    clinicId: "1",
-    patientAge: 61,
-    visitDate: "2024-04-04T15:30:00Z",
-    ratings: {
-      overall: 5,
-      bedside_manner: 5,
-      waitTime: 4,
-      officeEnvironment: 4,
-    },
-  },
+  review,
+  doctor,
+  clinicsEmployed,
+}: {
+  review: Review;
+  doctor: string;
+  clinicsEmployed: Clinic[];
 }) => {
   const formatDate = (dateString: string): string => {
     return dayjs(dateString).format("MMM DD, YYYY");
@@ -26,7 +21,9 @@ const ReviewCard = ({
     rating: number;
     label: string;
   };
-
+  const clinicSeen = clinicsEmployed.find((clinic) => {
+    return clinic.id === review.clinicId;
+  });
   const StarRating = ({ rating, label }: StarRatingProps) => (
     <div className="flex items-center justify-between">
       <span className="text-sm text-gray-600 capitalize">
@@ -58,7 +55,7 @@ const ReviewCard = ({
           <div className="flex items-center text-yellow-500">
             <Star className="w-7 h-7 fill-current mr-1" />
             <span className="font-semibold text-lg">
-              {reviewData.ratings.overall}
+              {review.ratings.overall}
             </span>
           </div>
         </div>
@@ -68,35 +65,34 @@ const ReviewCard = ({
         {/* Patient Info */}
         <div className="flex items-center justify-between text-sm text-gray-600">
           <div className="flex items-center">
-            <User className="w-4 h-4 mr-2" />
-            <span>Age {reviewData.patientAge}</span>
+            <span>Patient Age: {review.patientAge}</span>
           </div>
           <div className="flex items-center">
             <Clock className="w-4 h-4 mr-2" />
-            <span>{formatDate(reviewData.visitDate)}</span>
+            <span>{formatDate(review.visitDate)}</span>
           </div>
         </div>
 
         {/* Doctor & Clinic IDs */}
         <div className="flex items-center justify-between text-sm text-gray-600">
-          <span>Doctor ID: {reviewData.doctorId}</span>
+          <span>Dr. {doctor}</span>
           <div className="flex items-center">
             <Building className="w-4 h-4 mr-1" />
-            <span>Clinic {reviewData.clinicId}</span>
+            <span>{clinicSeen?.name || "Unknown Clinic"}</span>
           </div>
         </div>
 
         {/* Ratings Breakdown */}
         <div className="border-t pt-4 space-y-3">
           <h4 className="font-medium text-gray-900 mb-3">Rating Breakdown</h4>
-          <StarRating rating={reviewData.ratings.overall} label="overall" />
+          <StarRating rating={review.ratings.overall} label="overall" />
           <StarRating
-            rating={reviewData.ratings.bedside_manner}
+            rating={review.ratings.bedside_manner}
             label="bedside_manner"
           />
-          <StarRating rating={reviewData.ratings.waitTime} label="waitTime" />
+          <StarRating rating={review.ratings.waitTime} label="waitTime" />
           <StarRating
-            rating={reviewData.ratings.officeEnvironment}
+            rating={review.ratings.officeEnvironment}
             label="officeEnvironment"
           />
         </div>

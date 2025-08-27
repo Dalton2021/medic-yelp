@@ -3,8 +3,13 @@
     "id": 1,
     "firstName": "Sarah",
     "lastName": "Johnson",
-    "specialties": ["Cardiology"],
-    "clinicIds": [1, 4],
+    "specialties": [
+      "Cardiology"
+    ],
+    "clinicIds": [
+      1,
+      4
+    ],
     "clinics": [
       {
         "id": 1,
@@ -17,8 +22,23 @@
         },
         "phone": "(555) 123-4567",
         "website": "https://centralmedical.com",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "UnitedHealthcare"],
-        "doctorIds": [1, 4, 5, 8, 9, 11, 14, 17, 19]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Cigna",
+          "UnitedHealthcare"
+        ],
+        "doctorIds": [
+          1,
+          4,
+          5,
+          8,
+          9,
+          11,
+          14,
+          17,
+          19
+        ]
       },
       {
         "id": 4,
@@ -31,8 +51,19 @@
         },
         "phone": "(555) 456-7890",
         "website": "https://heartvascular.org",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Medicare", "Humana"],
-        "doctorIds": [1, 8, 11, 14, 20]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Medicare",
+          "Humana"
+        ],
+        "doctorIds": [
+          1,
+          8,
+          11,
+          14,
+          20
+        ]
       }
     ],
     "yearsOfExperience": 15,
@@ -44,8 +75,13 @@
     "id": 2,
     "firstName": "Michael",
     "lastName": "Chen",
-    "specialties": ["Dermatology"],
-    "clinicIds": [2, 5],
+    "specialties": [
+      "Dermatology"
+    ],
+    "clinicIds": [
+      2,
+      5
+    ],
     "clinics": [
       {
         "id": 2,
@@ -58,8 +94,21 @@
         },
         "phone": "(555) 234-5678",
         "website": "https://westsidehealth.com",
-        "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Blue Cross Blue Shield", "Kaiser Permanente"],
-        "doctorIds": [2, 5, 6, 10, 13, 16, 19]
+        "acceptedInsurance": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Blue Cross Blue Shield",
+          "Kaiser Permanente"
+        ],
+        "doctorIds": [
+          2,
+          5,
+          6,
+          10,
+          13,
+          16,
+          19
+        ]
       },
       {
         "id": 5,
@@ -72,8 +121,21 @@
         },
         "phone": "(555) 567-8901",
         "website": "https://sunrisemedical.net",
-        "acceptedInsurance": ["Aetna", "Humana", "Blue Cross Blue Shield", "Medicaid"],
-        "doctorIds": [2, 6, 12, 13, 15, 16, 20]
+        "acceptedInsurance": [
+          "Aetna",
+          "Humana",
+          "Blue Cross Blue Shield",
+          "Medicaid"
+        ],
+        "doctorIds": [
+          2,
+          6,
+          12,
+          13,
+          15,
+          16,
+          20
+        ]
       }
     ],
     "yearsOfExperience": 12,
@@ -85,8 +147,12 @@
     "id": 3,
     "firstName": "Emily",
     "lastName": "Rodriguez",
-    "specialties": ["Pediatrics"],
-    "clinicIds": [3],
+    "specialties": [
+      "Pediatrics"
+    ],
+    "clinicIds": [
+      3
+    ],
     "clinics": [
       {
         "id": 3,
@@ -99,8 +165,19 @@
         },
         "phone": "(555) 345-6789",
         "website": "https://childrenshospital.org",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "Medicaid", "CHIP"],
-        "doctorIds": [3, 10, 15, 18]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Cigna",
+          "Medicaid",
+          "CHIP"
+        ],
+        "doctorIds": [
+          3,
+          10,
+          15,
+          18
+        ]
       }
     ],
     "yearsOfExperience": 8,
@@ -112,8 +189,13 @@
     "id": 4,
     "firstName": "David",
     "lastName": "Thompson",
-    "specialties": ["Orthopedic Surgery"],
-    "clinicIds": [1, 6],
+    "specialties": [
+      "Orthopedic Surgery"
+    ],
+    "clinicIds": [
+      1,
+      6
+    ],
     "clinics": [
       {
         "id": 1,
@@ -126,8 +208,23 @@
         },
         "phone": "(555) 123-4567",
         "website": "https://centralmedical.com",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "UnitedHealthcare"],
-        "doctorIds": [1, 4, 5, 8, 9, 11, 14, 17, 19]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Cigna",
+          "UnitedHealthcare"
+        ],
+        "doctorIds": [
+          1,
+          4,
+          5,
+          8,
+          9,
+          11,
+          14,
+          17,
+          19
+        ]
       },
       {
         "id": 6,
@@ -140,8 +237,21 @@
         },
         "phone": "(555) 678-9012",
         "website": "https://metrospecialty.com",
-        "acceptedInsurance": ["UnitedHealthcare", "Cigna", "Aetna", "Medicare"],
-        "doctorIds": [4, 7, 10, 11, 13, 17, 18]
+        "acceptedInsurance": [
+          "UnitedHealthcare",
+          "Cigna",
+          "Aetna",
+          "Medicare"
+        ],
+        "doctorIds": [
+          4,
+          7,
+          10,
+          11,
+          13,
+          17,
+          18
+        ]
       }
     ],
     "yearsOfExperience": 22,
@@ -153,8 +263,13 @@
     "id": 5,
     "firstName": "Lisa",
     "lastName": "Williams",
-    "specialties": ["Neurology"],
-    "clinicIds": [1, 2],
+    "specialties": [
+      "Neurology"
+    ],
+    "clinicIds": [
+      1,
+      2
+    ],
     "clinics": [
       {
         "id": 1,
@@ -167,8 +282,23 @@
         },
         "phone": "(555) 123-4567",
         "website": "https://centralmedical.com",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "UnitedHealthcare"],
-        "doctorIds": [1, 4, 5, 8, 9, 11, 14, 17, 19]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Cigna",
+          "UnitedHealthcare"
+        ],
+        "doctorIds": [
+          1,
+          4,
+          5,
+          8,
+          9,
+          11,
+          14,
+          17,
+          19
+        ]
       },
       {
         "id": 2,
@@ -181,8 +311,21 @@
         },
         "phone": "(555) 234-5678",
         "website": "https://westsidehealth.com",
-        "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Blue Cross Blue Shield", "Kaiser Permanente"],
-        "doctorIds": [2, 5, 6, 10, 13, 16, 19]
+        "acceptedInsurance": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Blue Cross Blue Shield",
+          "Kaiser Permanente"
+        ],
+        "doctorIds": [
+          2,
+          5,
+          6,
+          10,
+          13,
+          16,
+          19
+        ]
       }
     ],
     "yearsOfExperience": 18,
@@ -194,8 +337,14 @@
     "id": 6,
     "firstName": "James",
     "lastName": "Brown",
-    "specialties": ["Internal Medicine", "Family Medicine"],
-    "clinicIds": [2, 5],
+    "specialties": [
+      "Internal Medicine",
+      "Family Medicine"
+    ],
+    "clinicIds": [
+      2,
+      5
+    ],
     "clinics": [
       {
         "id": 2,
@@ -208,8 +357,21 @@
         },
         "phone": "(555) 234-5678",
         "website": "https://westsidehealth.com",
-        "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Blue Cross Blue Shield", "Kaiser Permanente"],
-        "doctorIds": [2, 5, 6, 10, 13, 16, 19]
+        "acceptedInsurance": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Blue Cross Blue Shield",
+          "Kaiser Permanente"
+        ],
+        "doctorIds": [
+          2,
+          5,
+          6,
+          10,
+          13,
+          16,
+          19
+        ]
       },
       {
         "id": 5,
@@ -222,8 +384,21 @@
         },
         "phone": "(555) 567-8901",
         "website": "https://sunrisemedical.net",
-        "acceptedInsurance": ["Aetna", "Humana", "Blue Cross Blue Shield", "Medicaid"],
-        "doctorIds": [2, 6, 12, 13, 15, 16, 20]
+        "acceptedInsurance": [
+          "Aetna",
+          "Humana",
+          "Blue Cross Blue Shield",
+          "Medicaid"
+        ],
+        "doctorIds": [
+          2,
+          6,
+          12,
+          13,
+          15,
+          16,
+          20
+        ]
       }
     ],
     "yearsOfExperience": 25,
@@ -235,8 +410,12 @@
     "id": 7,
     "firstName": "Amanda",
     "lastName": "Davis",
-    "specialties": ["Psychiatry"],
-    "clinicIds": [6],
+    "specialties": [
+      "Psychiatry"
+    ],
+    "clinicIds": [
+      6
+    ],
     "clinics": [
       {
         "id": 6,
@@ -249,8 +428,21 @@
         },
         "phone": "(555) 678-9012",
         "website": "https://metrospecialty.com",
-        "acceptedInsurance": ["UnitedHealthcare", "Cigna", "Aetna", "Medicare"],
-        "doctorIds": [4, 7, 10, 11, 13, 17, 18]
+        "acceptedInsurance": [
+          "UnitedHealthcare",
+          "Cigna",
+          "Aetna",
+          "Medicare"
+        ],
+        "doctorIds": [
+          4,
+          7,
+          10,
+          11,
+          13,
+          17,
+          18
+        ]
       }
     ],
     "yearsOfExperience": 14,
@@ -262,8 +454,13 @@
     "id": 8,
     "firstName": "Robert",
     "lastName": "Miller",
-    "specialties": ["Oncology"],
-    "clinicIds": [1, 4],
+    "specialties": [
+      "Oncology"
+    ],
+    "clinicIds": [
+      1,
+      4
+    ],
     "clinics": [
       {
         "id": 1,
@@ -276,8 +473,23 @@
         },
         "phone": "(555) 123-4567",
         "website": "https://centralmedical.com",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "UnitedHealthcare"],
-        "doctorIds": [1, 4, 5, 8, 9, 11, 14, 17, 19]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Cigna",
+          "UnitedHealthcare"
+        ],
+        "doctorIds": [
+          1,
+          4,
+          5,
+          8,
+          9,
+          11,
+          14,
+          17,
+          19
+        ]
       },
       {
         "id": 4,
@@ -290,8 +502,19 @@
         },
         "phone": "(555) 456-7890",
         "website": "https://heartvascular.org",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Medicare", "Humana"],
-        "doctorIds": [1, 8, 11, 14, 20]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Medicare",
+          "Humana"
+        ],
+        "doctorIds": [
+          1,
+          8,
+          11,
+          14,
+          20
+        ]
       }
     ],
     "yearsOfExperience": 20,
@@ -303,8 +526,12 @@
     "id": 9,
     "firstName": "Jennifer",
     "lastName": "Garcia",
-    "specialties": ["Emergency Medicine"],
-    "clinicIds": [1],
+    "specialties": [
+      "Emergency Medicine"
+    ],
+    "clinicIds": [
+      1
+    ],
     "clinics": [
       {
         "id": 1,
@@ -317,8 +544,23 @@
         },
         "phone": "(555) 123-4567",
         "website": "https://centralmedical.com",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "UnitedHealthcare"],
-        "doctorIds": [1, 4, 5, 8, 9, 11, 14, 17, 19]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Cigna",
+          "UnitedHealthcare"
+        ],
+        "doctorIds": [
+          1,
+          4,
+          5,
+          8,
+          9,
+          11,
+          14,
+          17,
+          19
+        ]
       }
     ],
     "yearsOfExperience": 11,
@@ -330,8 +572,14 @@
     "id": 10,
     "firstName": "Christopher",
     "lastName": "Wilson",
-    "specialties": ["Radiology"],
-    "clinicIds": [2, 3, 6],
+    "specialties": [
+      "Radiology"
+    ],
+    "clinicIds": [
+      2,
+      3,
+      6
+    ],
     "clinics": [
       {
         "id": 2,
@@ -344,8 +592,21 @@
         },
         "phone": "(555) 234-5678",
         "website": "https://westsidehealth.com",
-        "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Blue Cross Blue Shield", "Kaiser Permanente"],
-        "doctorIds": [2, 5, 6, 10, 13, 16, 19]
+        "acceptedInsurance": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Blue Cross Blue Shield",
+          "Kaiser Permanente"
+        ],
+        "doctorIds": [
+          2,
+          5,
+          6,
+          10,
+          13,
+          16,
+          19
+        ]
       },
       {
         "id": 3,
@@ -358,8 +619,19 @@
         },
         "phone": "(555) 345-6789",
         "website": "https://childrenshospital.org",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "Medicaid", "CHIP"],
-        "doctorIds": [3, 10, 15, 18]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Cigna",
+          "Medicaid",
+          "CHIP"
+        ],
+        "doctorIds": [
+          3,
+          10,
+          15,
+          18
+        ]
       },
       {
         "id": 6,
@@ -372,8 +644,21 @@
         },
         "phone": "(555) 678-9012",
         "website": "https://metrospecialty.com",
-        "acceptedInsurance": ["UnitedHealthcare", "Cigna", "Aetna", "Medicare"],
-        "doctorIds": [4, 7, 10, 11, 13, 17, 18]
+        "acceptedInsurance": [
+          "UnitedHealthcare",
+          "Cigna",
+          "Aetna",
+          "Medicare"
+        ],
+        "doctorIds": [
+          4,
+          7,
+          10,
+          11,
+          13,
+          17,
+          18
+        ]
       }
     ],
     "yearsOfExperience": 16,
@@ -385,8 +670,14 @@
     "id": 11,
     "firstName": "Maria",
     "lastName": "Martinez",
-    "specialties": ["Anesthesiology"],
-    "clinicIds": [1, 4, 6],
+    "specialties": [
+      "Anesthesiology"
+    ],
+    "clinicIds": [
+      1,
+      4,
+      6
+    ],
     "clinics": [
       {
         "id": 1,
@@ -399,8 +690,23 @@
         },
         "phone": "(555) 123-4567",
         "website": "https://centralmedical.com",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "UnitedHealthcare"],
-        "doctorIds": [1, 4, 5, 8, 9, 11, 14, 17, 19]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Cigna",
+          "UnitedHealthcare"
+        ],
+        "doctorIds": [
+          1,
+          4,
+          5,
+          8,
+          9,
+          11,
+          14,
+          17,
+          19
+        ]
       },
       {
         "id": 4,
@@ -413,8 +719,19 @@
         },
         "phone": "(555) 456-7890",
         "website": "https://heartvascular.org",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Medicare", "Humana"],
-        "doctorIds": [1, 8, 11, 14, 20]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Medicare",
+          "Humana"
+        ],
+        "doctorIds": [
+          1,
+          8,
+          11,
+          14,
+          20
+        ]
       },
       {
         "id": 6,
@@ -427,8 +744,21 @@
         },
         "phone": "(555) 678-9012",
         "website": "https://metrospecialty.com",
-        "acceptedInsurance": ["UnitedHealthcare", "Cigna", "Aetna", "Medicare"],
-        "doctorIds": [4, 7, 10, 11, 13, 17, 18]
+        "acceptedInsurance": [
+          "UnitedHealthcare",
+          "Cigna",
+          "Aetna",
+          "Medicare"
+        ],
+        "doctorIds": [
+          4,
+          7,
+          10,
+          11,
+          13,
+          17,
+          18
+        ]
       }
     ],
     "yearsOfExperience": 13,
@@ -440,8 +770,12 @@
     "id": 12,
     "firstName": "Kevin",
     "lastName": "Anderson",
-    "specialties": ["Family Medicine"],
-    "clinicIds": [5],
+    "specialties": [
+      "Family Medicine"
+    ],
+    "clinicIds": [
+      5
+    ],
     "clinics": [
       {
         "id": 5,
@@ -454,8 +788,21 @@
         },
         "phone": "(555) 567-8901",
         "website": "https://sunrisemedical.net",
-        "acceptedInsurance": ["Aetna", "Humana", "Blue Cross Blue Shield", "Medicaid"],
-        "doctorIds": [2, 6, 12, 13, 15, 16, 20]
+        "acceptedInsurance": [
+          "Aetna",
+          "Humana",
+          "Blue Cross Blue Shield",
+          "Medicaid"
+        ],
+        "doctorIds": [
+          2,
+          6,
+          12,
+          13,
+          15,
+          16,
+          20
+        ]
       }
     ],
     "yearsOfExperience": 9,
@@ -467,8 +814,15 @@
     "id": 13,
     "firstName": "Rachel",
     "lastName": "Taylor",
-    "specialties": ["Dermatology", "Internal Medicine"],
-    "clinicIds": [2, 5, 6],
+    "specialties": [
+      "Dermatology",
+      "Internal Medicine"
+    ],
+    "clinicIds": [
+      2,
+      5,
+      6
+    ],
     "clinics": [
       {
         "id": 2,
@@ -481,8 +835,21 @@
         },
         "phone": "(555) 234-5678",
         "website": "https://westsidehealth.com",
-        "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Blue Cross Blue Shield", "Kaiser Permanente"],
-        "doctorIds": [2, 5, 6, 10, 13, 16, 19]
+        "acceptedInsurance": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Blue Cross Blue Shield",
+          "Kaiser Permanente"
+        ],
+        "doctorIds": [
+          2,
+          5,
+          6,
+          10,
+          13,
+          16,
+          19
+        ]
       },
       {
         "id": 5,
@@ -495,8 +862,21 @@
         },
         "phone": "(555) 567-8901",
         "website": "https://sunrisemedical.net",
-        "acceptedInsurance": ["Aetna", "Humana", "Blue Cross Blue Shield", "Medicaid"],
-        "doctorIds": [2, 6, 12, 13, 15, 16, 20]
+        "acceptedInsurance": [
+          "Aetna",
+          "Humana",
+          "Blue Cross Blue Shield",
+          "Medicaid"
+        ],
+        "doctorIds": [
+          2,
+          6,
+          12,
+          13,
+          15,
+          16,
+          20
+        ]
       },
       {
         "id": 6,
@@ -509,8 +889,21 @@
         },
         "phone": "(555) 678-9012",
         "website": "https://metrospecialty.com",
-        "acceptedInsurance": ["UnitedHealthcare", "Cigna", "Aetna", "Medicare"],
-        "doctorIds": [4, 7, 10, 11, 13, 17, 18]
+        "acceptedInsurance": [
+          "UnitedHealthcare",
+          "Cigna",
+          "Aetna",
+          "Medicare"
+        ],
+        "doctorIds": [
+          4,
+          7,
+          10,
+          11,
+          13,
+          17,
+          18
+        ]
       }
     ],
     "yearsOfExperience": 17,
@@ -522,8 +915,14 @@
     "id": 14,
     "firstName": "Daniel",
     "lastName": "Lee",
-    "specialties": ["Cardiology", "Internal Medicine"],
-    "clinicIds": [1, 4],
+    "specialties": [
+      "Cardiology",
+      "Internal Medicine"
+    ],
+    "clinicIds": [
+      1,
+      4
+    ],
     "clinics": [
       {
         "id": 1,
@@ -536,8 +935,23 @@
         },
         "phone": "(555) 123-4567",
         "website": "https://centralmedical.com",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "UnitedHealthcare"],
-        "doctorIds": [1, 4, 5, 8, 9, 11, 14, 17, 19]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Cigna",
+          "UnitedHealthcare"
+        ],
+        "doctorIds": [
+          1,
+          4,
+          5,
+          8,
+          9,
+          11,
+          14,
+          17,
+          19
+        ]
       },
       {
         "id": 4,
@@ -550,8 +964,19 @@
         },
         "phone": "(555) 456-7890",
         "website": "https://heartvascular.org",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Medicare", "Humana"],
-        "doctorIds": [1, 8, 11, 14, 20]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Medicare",
+          "Humana"
+        ],
+        "doctorIds": [
+          1,
+          8,
+          11,
+          14,
+          20
+        ]
       }
     ],
     "yearsOfExperience": 21,
@@ -563,8 +988,13 @@
     "id": 15,
     "firstName": "Nicole",
     "lastName": "White",
-    "specialties": ["Pediatrics"],
-    "clinicIds": [3, 5],
+    "specialties": [
+      "Pediatrics"
+    ],
+    "clinicIds": [
+      3,
+      5
+    ],
     "clinics": [
       {
         "id": 3,
@@ -577,8 +1007,19 @@
         },
         "phone": "(555) 345-6789",
         "website": "https://childrenshospital.org",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "Medicaid", "CHIP"],
-        "doctorIds": [3, 10, 15, 18]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Cigna",
+          "Medicaid",
+          "CHIP"
+        ],
+        "doctorIds": [
+          3,
+          10,
+          15,
+          18
+        ]
       },
       {
         "id": 5,
@@ -591,8 +1032,21 @@
         },
         "phone": "(555) 567-8901",
         "website": "https://sunrisemedical.net",
-        "acceptedInsurance": ["Aetna", "Humana", "Blue Cross Blue Shield", "Medicaid"],
-        "doctorIds": [2, 6, 12, 13, 15, 16, 20]
+        "acceptedInsurance": [
+          "Aetna",
+          "Humana",
+          "Blue Cross Blue Shield",
+          "Medicaid"
+        ],
+        "doctorIds": [
+          2,
+          6,
+          12,
+          13,
+          15,
+          16,
+          20
+        ]
       }
     ],
     "yearsOfExperience": 6,
@@ -604,8 +1058,13 @@
     "id": 16,
     "firstName": "Mark",
     "lastName": "Stevens",
-    "specialties": ["Obstetrics & Gynecology"],
-    "clinicIds": [2, 5],
+    "specialties": [
+      "Obstetrics & Gynecology"
+    ],
+    "clinicIds": [
+      2,
+      5
+    ],
     "clinics": [
       {
         "id": 2,
@@ -618,8 +1077,21 @@
         },
         "phone": "(555) 234-5678",
         "website": "https://westsidehealth.com",
-        "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Blue Cross Blue Shield", "Kaiser Permanente"],
-        "doctorIds": [2, 5, 6, 10, 13, 16, 19]
+        "acceptedInsurance": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Blue Cross Blue Shield",
+          "Kaiser Permanente"
+        ],
+        "doctorIds": [
+          2,
+          5,
+          6,
+          10,
+          13,
+          16,
+          19
+        ]
       },
       {
         "id": 5,
@@ -632,8 +1104,21 @@
         },
         "phone": "(555) 567-8901",
         "website": "https://sunrisemedical.net",
-        "acceptedInsurance": ["Aetna", "Humana", "Blue Cross Blue Shield", "Medicaid"],
-        "doctorIds": [2, 6, 12, 13, 15, 16, 20]
+        "acceptedInsurance": [
+          "Aetna",
+          "Humana",
+          "Blue Cross Blue Shield",
+          "Medicaid"
+        ],
+        "doctorIds": [
+          2,
+          6,
+          12,
+          13,
+          15,
+          16,
+          20
+        ]
       }
     ],
     "yearsOfExperience": 19,
@@ -645,8 +1130,13 @@
     "id": 17,
     "firstName": "Sandra",
     "lastName": "Kim",
-    "specialties": ["Ophthalmology"],
-    "clinicIds": [1, 6],
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "clinicIds": [
+      1,
+      6
+    ],
     "clinics": [
       {
         "id": 1,
@@ -659,8 +1149,23 @@
         },
         "phone": "(555) 123-4567",
         "website": "https://centralmedical.com",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "UnitedHealthcare"],
-        "doctorIds": [1, 4, 5, 8, 9, 11, 14, 17, 19]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Cigna",
+          "UnitedHealthcare"
+        ],
+        "doctorIds": [
+          1,
+          4,
+          5,
+          8,
+          9,
+          11,
+          14,
+          17,
+          19
+        ]
       },
       {
         "id": 6,
@@ -673,8 +1178,21 @@
         },
         "phone": "(555) 678-9012",
         "website": "https://metrospecialty.com",
-        "acceptedInsurance": ["UnitedHealthcare", "Cigna", "Aetna", "Medicare"],
-        "doctorIds": [4, 7, 10, 11, 13, 17, 18]
+        "acceptedInsurance": [
+          "UnitedHealthcare",
+          "Cigna",
+          "Aetna",
+          "Medicare"
+        ],
+        "doctorIds": [
+          4,
+          7,
+          10,
+          11,
+          13,
+          17,
+          18
+        ]
       }
     ],
     "yearsOfExperience": 12,
@@ -687,9 +1205,12 @@
     "firstName": "Alexandra",
     "lastName": "Mitchell",
     "specialties": [
-      { "name": "General Surgery" }
+      "General Surgery"
     ],
-    "clinicIds": [7, 8],
+    "clinicIds": [
+      7,
+      8
+    ],
     "clinics": [
       {
         "id": 7,
@@ -702,8 +1223,19 @@
         },
         "phone": "(555) 789-0123",
         "website": "https://regionalsurgical.com",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Cigna", "UnitedHealthcare", "Aetna"],
-        "doctorIds": [21, 24, 27, 31, 35]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Cigna",
+          "UnitedHealthcare",
+          "Aetna"
+        ],
+        "doctorIds": [
+          21,
+          24,
+          27,
+          31,
+          35
+        ]
       },
       {
         "id": 8,
@@ -716,8 +1248,22 @@
         },
         "phone": "(555) 890-1234",
         "website": "https://universitymedical.edu",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Medicare", "Medicaid", "Student Health"],
-        "doctorIds": [21, 22, 25, 28, 32, 36, 39]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Medicare",
+          "Medicaid",
+          "Student Health"
+        ],
+        "doctorIds": [
+          21,
+          22,
+          25,
+          28,
+          32,
+          36,
+          39
+        ]
       }
     ],
     "yearsOfExperience": 13,
@@ -730,9 +1276,12 @@
     "firstName": "Benjamin",
     "lastName": "Torres",
     "specialties": [
-      { "name": "Pulmonology" }
+      "Pulmonology"
     ],
-    "clinicIds": [8, 9],
+    "clinicIds": [
+      8,
+      9
+    ],
     "clinics": [
       {
         "id": 8,
@@ -745,8 +1294,22 @@
         },
         "phone": "(555) 890-1234",
         "website": "https://universitymedical.edu",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Medicare", "Medicaid", "Student Health"],
-        "doctorIds": [21, 22, 25, 28, 32, 36, 39]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Medicare",
+          "Medicaid",
+          "Student Health"
+        ],
+        "doctorIds": [
+          21,
+          22,
+          25,
+          28,
+          32,
+          36,
+          39
+        ]
       },
       {
         "id": 9,
@@ -759,8 +1322,18 @@
         },
         "phone": "(555) 901-2345",
         "website": "https://respiratorycare.org",
-        "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Humana", "Blue Cross Blue Shield"],
-        "doctorIds": [22, 26, 30, 33]
+        "acceptedInsurance": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Humana",
+          "Blue Cross Blue Shield"
+        ],
+        "doctorIds": [
+          22,
+          26,
+          30,
+          33
+        ]
       }
     ],
     "yearsOfExperience": 16,
@@ -773,9 +1346,11 @@
     "firstName": "Catherine",
     "lastName": "Walsh",
     "specialties": [
-      { "name": "Rheumatology" }
+      "Rheumatology"
     ],
-    "clinicIds": [10],
+    "clinicIds": [
+      10
+    ],
     "clinics": [
       {
         "id": 10,
@@ -788,8 +1363,17 @@
         },
         "phone": "(555) 012-3456",
         "website": "https://arthritiscenter.net",
-        "acceptedInsurance": ["UnitedHealthcare", "Aetna", "Blue Cross Blue Shield", "Medicare"],
-        "doctorIds": [23, 29, 34]
+        "acceptedInsurance": [
+          "UnitedHealthcare",
+          "Aetna",
+          "Blue Cross Blue Shield",
+          "Medicare"
+        ],
+        "doctorIds": [
+          23,
+          29,
+          34
+        ]
       }
     ],
     "yearsOfExperience": 19,
@@ -802,9 +1386,12 @@
     "firstName": "Derek",
     "lastName": "Campbell",
     "specialties": [
-      { "name": "Plastic Surgery" }
+      "Plastic Surgery"
     ],
-    "clinicIds": [7, 11],
+    "clinicIds": [
+      7,
+      11
+    ],
     "clinics": [
       {
         "id": 7,
@@ -817,8 +1404,19 @@
         },
         "phone": "(555) 789-0123",
         "website": "https://regionalsurgical.com",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Cigna", "UnitedHealthcare", "Aetna"],
-        "doctorIds": [21, 24, 27, 31, 35]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Cigna",
+          "UnitedHealthcare",
+          "Aetna"
+        ],
+        "doctorIds": [
+          21,
+          24,
+          27,
+          31,
+          35
+        ]
       },
       {
         "id": 11,
@@ -831,8 +1429,15 @@
         },
         "phone": "(555) 123-4567",
         "website": "https://aestheticmedspa.com",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna"],
-        "doctorIds": [24, 37]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Cigna"
+        ],
+        "doctorIds": [
+          24,
+          37
+        ]
       }
     ],
     "yearsOfExperience": 14,
@@ -845,9 +1450,12 @@
     "firstName": "Elena",
     "lastName": "Rodriguez",
     "specialties": [
-      { "name": "Psychology" }
+      "Psychology"
     ],
-    "clinicIds": [8, 12],
+    "clinicIds": [
+      8,
+      12
+    ],
     "clinics": [
       {
         "id": 8,
@@ -860,8 +1468,22 @@
         },
         "phone": "(555) 890-1234",
         "website": "https://universitymedical.edu",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Medicare", "Medicaid", "Student Health"],
-        "doctorIds": [21, 22, 25, 28, 32, 36, 39]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Medicare",
+          "Medicaid",
+          "Student Health"
+        ],
+        "doctorIds": [
+          21,
+          22,
+          25,
+          28,
+          32,
+          36,
+          39
+        ]
       },
       {
         "id": 12,
@@ -874,8 +1496,17 @@
         },
         "phone": "(555) 234-5678",
         "website": "https://mindfulhealth.org",
-        "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Blue Cross Blue Shield", "Aetna"],
-        "doctorIds": [25, 38, 40]
+        "acceptedInsurance": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Blue Cross Blue Shield",
+          "Aetna"
+        ],
+        "doctorIds": [
+          25,
+          38,
+          40
+        ]
       }
     ],
     "yearsOfExperience": 11,
@@ -888,10 +1519,12 @@
     "firstName": "Francis",
     "lastName": "O'Connor",
     "specialties": [
-      { "name": "Pulmonology" },
-      { "name": "Critical Care" }
+      "Pulmonology",
+      "Critical Care"
     ],
-    "clinicIds": [9],
+    "clinicIds": [
+      9
+    ],
     "clinics": [
       {
         "id": 9,
@@ -904,8 +1537,18 @@
         },
         "phone": "(555) 901-2345",
         "website": "https://respiratorycare.org",
-        "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Humana", "Blue Cross Blue Shield"],
-        "doctorIds": [22, 26, 30, 33]
+        "acceptedInsurance": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Humana",
+          "Blue Cross Blue Shield"
+        ],
+        "doctorIds": [
+          22,
+          26,
+          30,
+          33
+        ]
       }
     ],
     "yearsOfExperience": 22,
@@ -918,9 +1561,12 @@
     "firstName": "Grace",
     "lastName": "Patel",
     "specialties": [
-      { "name": "Neurosurgery" }
+      "Neurosurgery"
     ],
-    "clinicIds": [7, 8],
+    "clinicIds": [
+      7,
+      8
+    ],
     "clinics": [
       {
         "id": 7,
@@ -933,8 +1579,19 @@
         },
         "phone": "(555) 789-0123",
         "website": "https://regionalsurgical.com",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Cigna", "UnitedHealthcare", "Aetna"],
-        "doctorIds": [21, 24, 27, 31, 35]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Cigna",
+          "UnitedHealthcare",
+          "Aetna"
+        ],
+        "doctorIds": [
+          21,
+          24,
+          27,
+          31,
+          35
+        ]
       },
       {
         "id": 8,
@@ -947,8 +1604,22 @@
         },
         "phone": "(555) 890-1234",
         "website": "https://universitymedical.edu",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Medicare", "Medicaid", "Student Health"],
-        "doctorIds": [21, 22, 25, 28, 32, 36, 39]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Medicare",
+          "Medicaid",
+          "Student Health"
+        ],
+        "doctorIds": [
+          21,
+          22,
+          25,
+          28,
+          32,
+          36,
+          39
+        ]
       }
     ],
     "yearsOfExperience": 18,
@@ -961,9 +1632,11 @@
     "firstName": "Harold",
     "lastName": "Kim",
     "specialties": [
-      { "name": "Urology" }
+      "Urology"
     ],
-    "clinicIds": [8],
+    "clinicIds": [
+      8
+    ],
     "clinics": [
       {
         "id": 8,
@@ -976,8 +1649,22 @@
         },
         "phone": "(555) 890-1234",
         "website": "https://universitymedical.edu",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Medicare", "Medicaid", "Student Health"],
-        "doctorIds": [21, 22, 25, 28, 32, 36, 39]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Medicare",
+          "Medicaid",
+          "Student Health"
+        ],
+        "doctorIds": [
+          21,
+          22,
+          25,
+          28,
+          32,
+          36,
+          39
+        ]
       }
     ],
     "yearsOfExperience": 15,
@@ -990,9 +1677,11 @@
     "firstName": "Isabel",
     "lastName": "Chen",
     "specialties": [
-      { "name": "Physical Medicine & Rehabilitation" }
+      "Physical Medicine & Rehabilitation"
     ],
-    "clinicIds": [10],
+    "clinicIds": [
+      10
+    ],
     "clinics": [
       {
         "id": 10,
@@ -1005,8 +1694,17 @@
         },
         "phone": "(555) 012-3456",
         "website": "https://arthritiscenter.net",
-        "acceptedInsurance": ["UnitedHealthcare", "Aetna", "Blue Cross Blue Shield", "Medicare"],
-        "doctorIds": [23, 29, 34]
+        "acceptedInsurance": [
+          "UnitedHealthcare",
+          "Aetna",
+          "Blue Cross Blue Shield",
+          "Medicare"
+        ],
+        "doctorIds": [
+          23,
+          29,
+          34
+        ]
       }
     ],
     "yearsOfExperience": 12,
@@ -1019,9 +1717,11 @@
     "firstName": "Jacob",
     "lastName": "Wilson",
     "specialties": [
-      { "name": "Allergy & Immunology" }
+      "Allergy & Immunology"
     ],
-    "clinicIds": [9],
+    "clinicIds": [
+      9
+    ],
     "clinics": [
       {
         "id": 9,
@@ -1034,8 +1734,18 @@
         },
         "phone": "(555) 901-2345",
         "website": "https://respiratorycare.org",
-        "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Humana", "Blue Cross Blue Shield"],
-        "doctorIds": [22, 26, 30, 33]
+        "acceptedInsurance": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Humana",
+          "Blue Cross Blue Shield"
+        ],
+        "doctorIds": [
+          22,
+          26,
+          30,
+          33
+        ]
       }
     ],
     "yearsOfExperience": 10,
@@ -1048,9 +1758,11 @@
     "firstName": "Katherine",
     "lastName": "Adams",
     "specialties": [
-      { "name": "Anesthesiology" }
+      "Anesthesiology"
     ],
-    "clinicIds": [7],
+    "clinicIds": [
+      7
+    ],
     "clinics": [
       {
         "id": 7,
@@ -1063,8 +1775,19 @@
         },
         "phone": "(555) 789-0123",
         "website": "https://regionalsurgical.com",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Cigna", "UnitedHealthcare", "Aetna"],
-        "doctorIds": [21, 24, 27, 31, 35]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Cigna",
+          "UnitedHealthcare",
+          "Aetna"
+        ],
+        "doctorIds": [
+          21,
+          24,
+          27,
+          31,
+          35
+        ]
       }
     ],
     "yearsOfExperience": 17,
@@ -1077,9 +1800,11 @@
     "firstName": "Leonardo",
     "lastName": "Garcia",
     "specialties": [
-      { "name": "Pathology" }
+      "Pathology"
     ],
-    "clinicIds": [8],
+    "clinicIds": [
+      8
+    ],
     "clinics": [
       {
         "id": 8,
@@ -1092,8 +1817,22 @@
         },
         "phone": "(555) 890-1234",
         "website": "https://universitymedical.edu",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Medicare", "Medicaid", "Student Health"],
-        "doctorIds": [21, 22, 25, 28, 32, 36, 39]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Medicare",
+          "Medicaid",
+          "Student Health"
+        ],
+        "doctorIds": [
+          21,
+          22,
+          25,
+          28,
+          32,
+          36,
+          39
+        ]
       }
     ],
     "yearsOfExperience": 20,
@@ -1106,10 +1845,12 @@
     "firstName": "Maya",
     "lastName": "Singh",
     "specialties": [
-      { "name": "Allergy & Immunology" },
-      { "name": "Pulmonology" }
+      "Allergy & Immunology",
+      "Pulmonology"
     ],
-    "clinicIds": [9],
+    "clinicIds": [
+      9
+    ],
     "clinics": [
       {
         "id": 9,
@@ -1122,8 +1863,18 @@
         },
         "phone": "(555) 901-2345",
         "website": "https://respiratorycare.org",
-        "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Humana", "Blue Cross Blue Shield"],
-        "doctorIds": [22, 26, 30, 33]
+        "acceptedInsurance": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Humana",
+          "Blue Cross Blue Shield"
+        ],
+        "doctorIds": [
+          22,
+          26,
+          30,
+          33
+        ]
       }
     ],
     "yearsOfExperience": 14,
@@ -1136,10 +1887,12 @@
     "firstName": "Nathan",
     "lastName": "Brown",
     "specialties": [
-      { "name": "Rheumatology" },
-      { "name": "Internal Medicine" }
+      "Rheumatology",
+      "Internal Medicine"
     ],
-    "clinicIds": [10],
+    "clinicIds": [
+      10
+    ],
     "clinics": [
       {
         "id": 10,
@@ -1152,8 +1905,17 @@
         },
         "phone": "(555) 012-3456",
         "website": "https://arthritiscenter.net",
-        "acceptedInsurance": ["UnitedHealthcare", "Aetna", "Blue Cross Blue Shield", "Medicare"],
-        "doctorIds": [23, 29, 34]
+        "acceptedInsurance": [
+          "UnitedHealthcare",
+          "Aetna",
+          "Blue Cross Blue Shield",
+          "Medicare"
+        ],
+        "doctorIds": [
+          23,
+          29,
+          34
+        ]
       }
     ],
     "yearsOfExperience": 21,
@@ -1166,10 +1928,12 @@
     "firstName": "Olivia",
     "lastName": "Taylor",
     "specialties": [
-      { "name": "General Surgery" },
-      { "name": "Oncology" }
+      "General Surgery",
+      "Oncology"
     ],
-    "clinicIds": [7],
+    "clinicIds": [
+      7
+    ],
     "clinics": [
       {
         "id": 7,
@@ -1182,8 +1946,19 @@
         },
         "phone": "(555) 789-0123",
         "website": "https://regionalsurgical.com",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Cigna", "UnitedHealthcare", "Aetna"],
-        "doctorIds": [21, 24, 27, 31, 35]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Cigna",
+          "UnitedHealthcare",
+          "Aetna"
+        ],
+        "doctorIds": [
+          21,
+          24,
+          27,
+          31,
+          35
+        ]
       }
     ],
     "yearsOfExperience": 16,
@@ -1196,9 +1971,11 @@
     "firstName": "Patrick",
     "lastName": "Murphy",
     "specialties": [
-      { "name": "Family Medicine" }
+      "Family Medicine"
     ],
-    "clinicIds": [8],
+    "clinicIds": [
+      8
+    ],
     "clinics": [
       {
         "id": 8,
@@ -1211,8 +1988,22 @@
         },
         "phone": "(555) 890-1234",
         "website": "https://universitymedical.edu",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Medicare", "Medicaid", "Student Health"],
-        "doctorIds": [21, 22, 25, 28, 32, 36, 39]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Medicare",
+          "Medicaid",
+          "Student Health"
+        ],
+        "doctorIds": [
+          21,
+          22,
+          25,
+          28,
+          32,
+          36,
+          39
+        ]
       }
     ],
     "yearsOfExperience": 8,
@@ -1225,10 +2016,12 @@
     "firstName": "Quinn",
     "lastName": "Lee",
     "specialties": [
-      { "name": "Dermatology" },
-      { "name": "Plastic Surgery" }
+      "Dermatology",
+      "Plastic Surgery"
     ],
-    "clinicIds": [11],
+    "clinicIds": [
+      11
+    ],
     "clinics": [
       {
         "id": 11,
@@ -1241,8 +2034,15 @@
         },
         "phone": "(555) 123-4567",
         "website": "https://aestheticmedspa.com",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna"],
-        "doctorIds": [24, 37]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Cigna"
+        ],
+        "doctorIds": [
+          24,
+          37
+        ]
       }
     ],
     "yearsOfExperience": 12,
@@ -1255,10 +2055,12 @@
     "firstName": "Rebecca",
     "lastName": "White",
     "specialties": [
-      { "name": "Psychiatry" },
-      { "name": "Psychology" }
+      "Psychiatry",
+      "Psychology"
     ],
-    "clinicIds": [12],
+    "clinicIds": [
+      12
+    ],
     "clinics": [
       {
         "id": 12,
@@ -1271,8 +2073,17 @@
         },
         "phone": "(555) 234-5678",
         "website": "https://mindfulhealth.org",
-        "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Blue Cross Blue Shield", "Aetna"],
-        "doctorIds": [25, 38, 40]
+        "acceptedInsurance": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Blue Cross Blue Shield",
+          "Aetna"
+        ],
+        "doctorIds": [
+          25,
+          38,
+          40
+        ]
       }
     ],
     "yearsOfExperience": 15,
@@ -1285,10 +2096,12 @@
     "firstName": "Samuel",
     "lastName": "Davis",
     "specialties": [
-      { "name": "Emergency Medicine" },
-      { "name": "Critical Care" }
+      "Emergency Medicine",
+      "Critical Care"
     ],
-    "clinicIds": [8],
+    "clinicIds": [
+      8
+    ],
     "clinics": [
       {
         "id": 8,
@@ -1301,8 +2114,22 @@
         },
         "phone": "(555) 890-1234",
         "website": "https://universitymedical.edu",
-        "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Medicare", "Medicaid", "Student Health"],
-        "doctorIds": [21, 22, 25, 28, 32, 36, 39]
+        "acceptedInsurance": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Medicare",
+          "Medicaid",
+          "Student Health"
+        ],
+        "doctorIds": [
+          21,
+          22,
+          25,
+          28,
+          32,
+          36,
+          39
+        ]
       }
     ],
     "yearsOfExperience": 13,
@@ -1315,9 +2142,11 @@
     "firstName": "Tara",
     "lastName": "Johnson",
     "specialties": [
-      { "name": "Psychiatry" }
+      "Psychiatry"
     ],
-    "clinicIds": [12],
+    "clinicIds": [
+      12
+    ],
     "clinics": [
       {
         "id": 12,
@@ -1330,8 +2159,17 @@
         },
         "phone": "(555) 234-5678",
         "website": "https://mindfulhealth.org",
-        "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Blue Cross Blue Shield", "Aetna"],
-        "doctorIds": [25, 38, 40]
+        "acceptedInsurance": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Blue Cross Blue Shield",
+          "Aetna"
+        ],
+        "doctorIds": [
+          25,
+          38,
+          40
+        ]
       }
     ],
     "yearsOfExperience": 9,
