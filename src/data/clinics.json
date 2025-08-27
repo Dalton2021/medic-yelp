@@ -1,0 +1,744 @@
+[
+  {
+    "id": 1,
+    "name": "Central Medical Center",
+    "address": {
+      "street": "123 Main St",
+      "city": "Downtown",
+      "state": "NY",
+      "zipCode": "10001"
+    },
+    "phone": "(555) 123-4567",
+    "website": "https://centralmedical.com",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "UnitedHealthcare"],
+    "doctorIds": [1, 4, 5, 8, 9, 11, 14, 17, 19]
+  },
+  {
+    "id": 2,
+    "name": "Westside Health Clinic",
+    "address": {
+      "street": "456 Oak Ave",
+      "city": "Westside",
+      "state": "NY",
+      "zipCode": "10002"
+    },
+    "phone": "(555) 234-5678",
+    "website": "https://westsidehealth.com",
+    "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Blue Cross Blue Shield", "Kaiser Permanente"],
+    "doctorIds": [2, 5, 6, 10, 13, 16, 19]
+  },
+  {
+    "id": 3,
+    "name": "Children's Hospital",
+    "address": {
+      "street": "789 Pine St",
+      "city": "Midtown",
+      "state": "NY",
+      "zipCode": "10003"
+    },
+    "phone": "(555) 345-6789",
+    "website": "https://childrenshospital.org",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "Medicaid", "CHIP"],
+    "doctorIds": [3, 10, 15, 18]
+  },
+  {
+    "id": 4,
+    "name": "Heart & Vascular Institute",
+    "address": {
+      "street": "321 Elm Dr",
+      "city": "Uptown",
+      "state": "NY",
+      "zipCode": "10004"
+    },
+    "phone": "(555) 456-7890",
+    "website": "https://heartvascular.org",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Medicare", "Humana"],
+    "doctorIds": [1, 8, 11, 14, 20]
+  },
+  {
+    "id": 5,
+    "name": "Sunrise Medical Plaza",
+    "address": {
+      "street": "654 Maple Rd",
+      "city": "Eastside",
+      "state": "NY",
+      "zipCode": "10005"
+    },
+    "phone": "(555) 567-8901",
+    "website": "https://sunrisemedical.net",
+    "acceptedInsurance": ["Aetna", "Humana", "Blue Cross Blue Shield", "Medicaid"],
+    "doctorIds": [2, 6, 12, 13, 15, 16, 20]
+  },
+  {
+    "id": 6,
+    "name": "Metro Specialty Center",
+    "address": {
+      "street": "987 Cedar Blvd",
+      "city": "Southside",
+      "state": "NY",
+      "zipCode": "10006"
+    },
+    "phone": "(555) 678-9012",
+    "website": "https://metrospecialty.com",
+    "acceptedInsurance": ["UnitedHealthcare", "Cigna", "Aetna", "Medicare"],
+    "doctorIds": [4, 7, 10, 11, 13, 17, 18]
+  },
+  {
+    "id": 7,
+    "name": "Regional Surgical Center",
+    "address": {
+      "street": "555 Broadway Ave",
+      "city": "Northside",
+      "state": "NY",
+      "zipCode": "10007"
+    },
+    "phone": "(555) 789-0123",
+    "website": "https://regionalsurgical.com",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Cigna", "UnitedHealthcare", "Aetna"],
+    "doctorIds": [21, 24, 27, 31, 35]
+  },
+  {
+    "id": 8,
+    "name": "University Medical Center",
+    "address": {
+      "street": "200 College Rd",
+      "city": "University District",
+      "state": "NY",
+      "zipCode": "10008"
+    },
+    "phone": "(555) 890-1234",
+    "website": "https://universitymedical.edu",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Medicare", "Medicaid", "Student Health"],
+    "doctorIds": [21, 22, 25, 28, 32, 36, 39]
+  },
+  {
+    "id": 9,
+    "name": "Respiratory Care Institute",
+    "address": {
+      "street": "777 Wellness Blvd",
+      "city": "Medview",
+      "state": "NY",
+      "zipCode": "10009"
+    },
+    "phone": "(555) 901-2345",
+    "website": "https://respiratorycare.org",
+    "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Humana", "Blue Cross Blue Shield"],
+    "doctorIds": [22, 26, 30, 33]
+  },
+  {
+    "id": 10,
+    "name": "Arthritis & Joint Center",
+    "address": {
+      "street": "333 Mobility Way",
+      "city": "Westbrook",
+      "state": "NY",
+      "zipCode": "10010"
+    },
+    "phone": "(555) 012-3456",
+    "website": "https://arthritiscenter.net",
+    "acceptedInsurance": ["UnitedHealthcare", "Aetna", "Blue Cross Blue Shield", "Medicare"],
+    "doctorIds": [23, 29, 34]
+  },
+  {
+    "id": 11,
+    "name": "Aesthetic Medical Spa",
+    "address": {
+      "street": "888 Beauty Lane",
+      "city": "Riverside",
+      "state": "NY",
+      "zipCode": "10011"
+    },
+    "phone": "(555) 123-4567",
+    "website": "https://aestheticmedspa.com",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna"],
+    "doctorIds": [24, 37]
+  },
+  {
+    "id": 12,
+    "name": "Mindful Health Clinic",
+    "address": {
+      "street": "444 Serenity St",
+      "city": "Peaceful Valley",
+      "state": "NY",
+      "zipCode": "10012"
+    },
+    "phone": "(555) 234-5678",
+    "website": "https://mindfulhealth.org",
+    "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Blue Cross Blue Shield", "Aetna"],
+    "doctorIds": [25, 38, 40]
+  },
+  {
+    "id": 13,
+    "name": "Brooklyn Family Care Center",
+    "address": {
+      "street": "1022 Atlantic Ave",
+      "city": "Brooklyn",
+      "state": "NY",
+      "zipCode": "11238"
+    },
+    "phone": "(718) 555-0101",
+    "website": "https://brooklynfamilycare.com",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Medicaid", "Cigna", "UnitedHealthcare"],
+    "doctorIds": [6, 12, 36]
+  },
+  {
+    "id": 14,
+    "name": "Queens Specialty Hospital",
+    "address": {
+      "street": "456 Northern Blvd",
+      "city": "Queens",
+      "state": "NY",
+      "zipCode": "11354"
+    },
+    "phone": "(718) 555-0202",
+    "website": "https://queensspecialty.org",
+    "acceptedInsurance": ["Aetna", "UnitedHealthcare", "Medicare", "Humana"],
+    "doctorIds": [1, 8, 14, 17]
+  },
+  {
+    "id": 15,
+    "name": "Manhattan Emergency Center",
+    "address": {
+      "street": "789 E 42nd St",
+      "city": "Manhattan",
+      "state": "NY",
+      "zipCode": "10017"
+    },
+    "phone": "(212) 555-0303",
+    "website": "https://manhattanemergency.com",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "UnitedHealthcare"],
+    "doctorIds": [9, 39]
+  },
+  {
+    "id": 16,
+    "name": "Bronx Community Health",
+    "address": {
+      "street": "1234 Grand Concourse",
+      "city": "Bronx",
+      "state": "NY",
+      "zipCode": "10451"
+    },
+    "phone": "(718) 555-0404",
+    "website": "https://bronxcommunityhealth.org",
+    "acceptedInsurance": ["Medicaid", "CHIP", "Blue Cross Blue Shield", "Cigna"],
+    "doctorIds": [3, 15, 6]
+  },
+  {
+    "id": 17,
+    "name": "Staten Island Medical Plaza",
+    "address": {
+      "street": "567 Richmond Ave",
+      "city": "Staten Island",
+      "state": "NY",
+      "zipCode": "10314"
+    },
+    "phone": "(718) 555-0505",
+    "website": "https://statenislandmedical.com",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "UnitedHealthcare", "Medicare"],
+    "doctorIds": [2, 13, 16]
+  },
+  {
+    "id": 18,
+    "name": "Long Island Cardiac Care",
+    "address": {
+      "street": "890 Hempstead Tpke",
+      "city": "West Hempstead",
+      "state": "NY",
+      "zipCode": "11552"
+    },
+    "phone": "(516) 555-0606",
+    "website": "https://licardiaccare.com",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Medicare", "Humana"],
+    "doctorIds": [1, 14]
+  },
+  {
+    "id": 19,
+    "name": "Albany Regional Medical Center",
+    "address": {
+      "street": "123 New Scotland Ave",
+      "city": "Albany",
+      "state": "NY",
+      "zipCode": "12208"
+    },
+    "phone": "(518) 555-0707",
+    "website": "https://albanyregional.org",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Cigna", "UnitedHealthcare", "Medicare"],
+    "doctorIds": [4, 5, 8, 11]
+  },
+  {
+    "id": 20,
+    "name": "Buffalo General Hospital",
+    "address": {
+      "street": "456 Elmwood Ave",
+      "city": "Buffalo",
+      "state": "NY",
+      "zipCode": "14222"
+    },
+    "phone": "(716) 555-0808",
+    "website": "https://buffalogeneral.com",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "Medicare", "Medicaid"],
+    "doctorIds": [7, 10, 18, 32]
+  },
+  {
+    "id": 21,
+    "name": "Rochester Women's Health Center",
+    "address": {
+      "street": "789 East Ave",
+      "city": "Rochester",
+      "state": "NY",
+      "zipCode": "14607"
+    },
+    "phone": "(585) 555-0909",
+    "website": "https://rochesterwomenshealth.com",
+    "acceptedInsurance": ["Aetna", "Blue Cross Blue Shield", "Cigna", "UnitedHealthcare"],
+    "doctorIds": [16]
+  },
+  {
+    "id": 22,
+    "name": "Syracuse Neuroscience Institute",
+    "address": {
+      "street": "321 Harrison St",
+      "city": "Syracuse",
+      "state": "NY",
+      "zipCode": "13202"
+    },
+    "phone": "(315) 555-1010",
+    "website": "https://syracuseneuroscience.org",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "UnitedHealthcare", "Aetna", "Medicare"],
+    "doctorIds": [5, 27]
+  },
+  {
+    "id": 23,
+    "name": "Westchester Pediatric Associates",
+    "address": {
+      "street": "654 Central Ave",
+      "city": "White Plains",
+      "state": "NY",
+      "zipCode": "10606"
+    },
+    "phone": "(914) 555-1111",
+    "website": "https://westchesterpediatrics.com",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Cigna", "CHIP", "Medicaid"],
+    "doctorIds": [3, 15]
+  },
+  {
+    "id": 24,
+    "name": "Hudson Valley Orthopedic Center",
+    "address": {
+      "street": "987 Route 9W",
+      "city": "Newburgh",
+      "state": "NY",
+      "zipCode": "12550"
+    },
+    "phone": "(845) 555-1212",
+    "website": "https://hvorthopedic.com",
+    "acceptedInsurance": ["UnitedHealthcare", "Cigna", "Blue Cross Blue Shield", "Medicare"],
+    "doctorIds": [4]
+  },
+  {
+    "id": 25,
+    "name": "Capital District Mental Health",
+    "address": {
+      "street": "111 Washington Ave",
+      "city": "Albany",
+      "state": "NY",
+      "zipCode": "12210"
+    },
+    "phone": "(518) 555-1313",
+    "website": "https://capitalmentalhealth.org",
+    "acceptedInsurance": ["Cigna", "UnitedHealthcare", "Blue Cross Blue Shield", "Medicaid"],
+    "doctorIds": [7, 25, 38]
+  },
+  {
+    "id": 26,
+    "name": "Finger Lakes Family Medicine",
+    "address": {
+      "street": "222 Main St",
+      "city": "Geneva",
+      "state": "NY",
+      "zipCode": "14456"
+    },
+    "phone": "(315) 555-1414",
+    "website": "https://fingerlakesfamily.com",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Humana", "Medicare"],
+    "doctorIds": [6, 12]
+  },
+  {
+    "id": 27,
+    "name": "North Country Medical Center",
+    "address": {
+      "street": "333 Hospital Dr",
+      "city": "Plattsburgh",
+      "state": "NY",
+      "zipCode": "12901"
+    },
+    "phone": "(518) 555-1515",
+    "website": "https://northcountrymedical.org",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Medicare", "Medicaid", "UnitedHealthcare"],
+    "doctorIds": [9, 36, 39]
+  },
+  {
+    "id": 28,
+    "name": "Central New York Eye Care",
+    "address": {
+      "street": "444 James St",
+      "city": "Syracuse",
+      "state": "NY",
+      "zipCode": "13203"
+    },
+    "phone": "(315) 555-1616",
+    "website": "https://cnyeyecare.com",
+    "acceptedInsurance": ["Aetna", "Blue Cross Blue Shield", "Cigna", "UnitedHealthcare"],
+    "doctorIds": [17]
+  },
+  {
+    "id": 29,
+    "name": "Southern Tier Oncology",
+    "address": {
+      "street": "555 Riverside Dr",
+      "city": "Binghamton",
+      "state": "NY",
+      "zipCode": "13905"
+    },
+    "phone": "(607) 555-1717",
+    "website": "https://southerntieroncology.org",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Medicare", "UnitedHealthcare", "Aetna"],
+    "doctorIds": [8, 35]
+  },
+  {
+    "id": 30,
+    "name": "Mohawk Valley Health System",
+    "address": {
+      "street": "666 Oriskany Blvd",
+      "city": "Utica",
+      "state": "NY",
+      "zipCode": "13501"
+    },
+    "phone": "(315) 555-1818",
+    "website": "https://mvhs.org",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Cigna", "UnitedHealthcare", "Medicare", "Medicaid"],
+    "doctorIds": [11, 31]
+  },
+  {
+    "id": 31,
+    "name": "Adirondack Regional Medical Center",
+    "address": {
+      "street": "777 Glen St",
+      "city": "Glens Falls",
+      "state": "NY",
+      "zipCode": "12801"
+    },
+    "phone": "(518) 555-1919",
+    "website": "https://adirondackregional.com",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Aetna", "Medicare", "UnitedHealthcare"],
+    "doctorIds": [10, 32]
+  },
+  {
+    "id": 32,
+    "name": "Catskills Health Network",
+    "address": {
+      "street": "888 Mountain Ave",
+      "city": "Kingston",
+      "state": "NY",
+      "zipCode": "12401"
+    },
+    "phone": "(845) 555-2020",
+    "website": "https://catskillshealth.org",
+    "acceptedInsurance": ["Cigna", "Blue Cross Blue Shield", "Humana", "Medicare"],
+    "doctorIds": [13, 29]
+  },
+  {
+    "id": 33,
+    "name": "Thousand Islands Medical Group",
+    "address": {
+      "street": "999 Seaway Dr",
+      "city": "Alexandria Bay",
+      "state": "NY",
+      "zipCode": "13607"
+    },
+    "phone": "(315) 555-2121",
+    "website": "https://thousandislandsmedical.com",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "UnitedHealthcare", "Medicare", "Medicaid"],
+    "doctorIds": [22, 33]
+  },
+  {
+    "id": 34,
+    "name": "Genesee Valley Medical Center",
+    "address": {
+      "street": "101 Valley View Dr",
+      "city": "Dansville",
+      "state": "NY",
+      "zipCode": "14437"
+    },
+    "phone": "(585) 555-2222",
+    "website": "https://geneseevalleymedical.org",
+    "acceptedInsurance": ["Aetna", "Blue Cross Blue Shield", "Cigna", "Medicare"],
+    "doctorIds": [26, 30]
+  },
+  {
+    "id": 35,
+    "name": "Champlain Valley Physicians",
+    "address": {
+      "street": "202 Champlain St",
+      "city": "Ticonderoga",
+      "state": "NY",
+      "zipCode": "12883"
+    },
+    "phone": "(518) 555-2323",
+    "website": "https://champlainvalleyphysicians.com",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "UnitedHealthcare", "Medicare", "Humana"],
+    "doctorIds": [23, 34]
+  },
+  {
+    "id": 36,
+    "name": "Erie County Dermatology",
+    "address": {
+      "street": "303 Delaware Ave",
+      "city": "Buffalo",
+      "state": "NY",
+      "zipCode": "14202"
+    },
+    "phone": "(716) 555-2424",
+    "website": "https://eriecountydermatology.com",
+    "acceptedInsurance": ["Cigna", "Aetna", "Blue Cross Blue Shield", "UnitedHealthcare"],
+    "doctorIds": [2, 37]
+  },
+  {
+    "id": 37,
+    "name": "Niagara Falls Medical Plaza",
+    "address": {
+      "street": "404 Rainbow Blvd",
+      "city": "Niagara Falls",
+      "state": "NY",
+      "zipCode": "14301"
+    },
+    "phone": "(716) 555-2525",
+    "website": "https://niagarafallsmedical.com",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Medicare", "Medicaid", "UnitedHealthcare"],
+    "doctorIds": [28]
+  },
+  {
+    "id": 38,
+    "name": "Cooperstown Medical Associates",
+    "address": {
+      "street": "505 Main St",
+      "city": "Cooperstown",
+      "state": "NY",
+      "zipCode": "13326"
+    },
+    "phone": "(607) 555-2626",
+    "website": "https://cooperstownmedical.org",
+    "acceptedInsurance": ["Aetna", "Blue Cross Blue Shield", "Cigna", "Medicare"],
+    "doctorIds": [40]
+  },
+  {
+    "id": 39,
+    "name": "Lake George Health Center",
+    "address": {
+      "street": "606 Canada St",
+      "city": "Lake George",
+      "state": "NY",
+      "zipCode": "12845"
+    },
+    "phone": "(518) 555-2727",
+    "website": "https://lakegeorgehealth.com",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "UnitedHealthcare", "Humana", "Medicare"],
+    "doctorIds": [24]
+  },
+  {
+    "id": 40,
+    "name": "Saratoga Springs Wellness Center",
+    "address": {
+      "street": "707 Broadway",
+      "city": "Saratoga Springs",
+      "state": "NY",
+      "zipCode": "12866"
+    },
+    "phone": "(518) 555-2828",
+    "website": "https://saratogawellness.org",
+    "acceptedInsurance": ["Cigna", "Blue Cross Blue Shield", "Aetna", "UnitedHealthcare"],
+    "doctorIds": [21]
+  },
+  {
+    "id": 41,
+    "name": "Orange County Family Health",
+    "address": {
+      "street": "808 Route 17M",
+      "city": "Middletown",
+      "state": "NY",
+      "zipCode": "10940"
+    },
+    "phone": "(845) 555-2929",
+    "website": "https://orangecountyfamily.com",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Medicaid", "CHIP", "UnitedHealthcare"],
+    "doctorIds": [3, 6, 36]
+  },
+  {
+    "id": 42,
+    "name": "Sullivan County Medical Group",
+    "address": {
+      "street": "909 Liberty St",
+      "city": "Monticello",
+      "state": "NY",
+      "zipCode": "12701"
+    },
+    "phone": "(845) 555-3030",
+    "website": "https://sullivancountymedical.org",
+    "acceptedInsurance": ["Aetna", "Blue Cross Blue Shield", "Cigna", "Medicare"],
+    "doctorIds": [12, 15]
+  },
+  {
+    "id": 43,
+    "name": "Delaware County Hospital",
+    "address": {
+      "street": "1010 Main St",
+      "city": "Delhi",
+      "state": "NY",
+      "zipCode": "13753"
+    },
+    "phone": "(607) 555-3131",
+    "website": "https://delawarecountyhospital.com",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Medicare", "Medicaid", "UnitedHealthcare"],
+    "doctorIds": [16, 19]
+  },
+  {
+    "id": 44,
+    "name": "Chenango Memorial Hospital",
+    "address": {
+      "street": "1111 State Hwy 12",
+      "city": "Norwich",
+      "state": "NY",
+      "zipCode": "13815"
+    },
+    "phone": "(607) 555-3232",
+    "website": "https://chenangomemorial.org",
+    "acceptedInsurance": ["Cigna", "Blue Cross Blue Shield", "Aetna", "Medicare"],
+    "doctorIds": [18, 20]
+  },
+  {
+    "id": 45,
+    "name": "Jefferson County Health System",
+    "address": {
+      "street": "1212 Arsenal St",
+      "city": "Watertown",
+      "state": "NY",
+      "zipCode": "13601"
+    },
+    "phone": "(315) 555-3333",
+    "website": "https://jeffersoncountyhealth.org",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "UnitedHealthcare", "Medicare", "Tricare"],
+    "doctorIds": [1, 14, 17]
+  },
+  {
+    "id": 46,
+    "name": "St. Lawrence Health Network",
+    "address": {
+      "street": "1313 Riverside Dr",
+      "city": "Potsdam",
+      "state": "NY",
+      "zipCode": "13676"
+    },
+    "phone": "(315) 555-3434",
+    "website": "https://stlawrencehealth.org",
+    "acceptedInsurance": ["Aetna", "Blue Cross Blue Shield", "Cigna", "Medicare"],
+    "doctorIds": [2, 13]
+  },
+  {
+    "id": 47,
+    "name": "Franklin County Medical Center",
+    "address": {
+      "street": "1414 Park St",
+      "city": "Malone",
+      "state": "NY",
+      "zipCode": "12953"
+    },
+    "phone": "(518) 555-3535",
+    "website": "https://franklincountymedical.com",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Medicare", "Medicaid", "UnitedHealthcare"],
+    "doctorIds": [4, 11]
+  },
+  {
+    "id": 48,
+    "name": "Clinton County Health Services",
+    "address": {
+      "street": "1515 Court St",
+      "city": "Plattsburgh",
+      "state": "NY",
+      "zipCode": "12901"
+    },
+    "phone": "(518) 555-3636",
+    "website": "https://clintoncountyhealth.org",
+    "acceptedInsurance": ["Cigna", "Blue Cross Blue Shield", "Aetna", "Medicare"],
+    "doctorIds": [5, 27]
+  },
+  {
+    "id": 49,
+    "name": "Essex County Medical Associates",
+    "address": {
+      "street": "1616 Main St",
+      "city": "Elizabethtown",
+      "state": "NY",
+      "zipCode": "12932"
+    },
+    "phone": "(518) 555-3737",
+    "website": "https://essexcountymedical.com",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "UnitedHealthcare", "Medicare", "Humana"],
+    "doctorIds": [7, 25]
+  },
+  {
+    "id": 50,
+    "name": "Hamilton County Health Center",
+    "address": {
+      "street": "1717 Route 28",
+      "city": "Indian Lake",
+      "state": "NY",
+      "zipCode": "12842"
+    },
+    "phone": "(518) 555-3838",
+    "website": "https://hamiltoncountyhealth.org",
+    "acceptedInsurance": ["Aetna", "Blue Cross Blue Shield", "Cigna", "Medicare"],
+    "doctorIds": [8, 35]
+  },
+  {
+    "id": 51,
+    "name": "Herkimer County Medical Group",
+    "address": {
+      "street": "1818 German St",
+      "city": "Herkimer",
+      "state": "NY",
+      "zipCode": "13350"
+    },
+    "phone": "(315) 555-3939",
+    "website": "https://herkimercountymedical.com",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "Cigna", "UnitedHealthcare", "Medicare"],
+    "doctorIds": [9, 39]
+  },
+  {
+    "id": 52,
+    "name": "Lewis County General Hospital",
+    "address": {
+      "street": "1919 Outer Stowe St",
+      "city": "Lowville",
+      "state": "NY",
+      "zipCode": "13367"
+    },
+    "phone": "(315) 555-4040",
+    "website": "https://lewiscountygeneral.org",
+    "acceptedInsurance": ["Cigna", "Blue Cross Blue Shield", "Aetna", "Medicare"],
+    "doctorIds": [10, 32]
+  },
+  {
+    "id": 53,
+    "name": "Fulton County Health Network",
+    "address": {
+      "street": "2020 N Main St",
+      "city": "Gloversville",
+      "state": "NY",
+      "zipCode": "12078"
+    },
+    "phone": "(518) 555-4141",
+    "website": "https://fultoncountyhealth.org",
+    "acceptedInsurance": ["Blue Cross Blue Shield", "UnitedHealthcare", "Medicare", "Medicaid"],
+    "doctorIds": [22, 26]
+  }
+]
