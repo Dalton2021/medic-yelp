@@ -1,11 +1,10 @@
 "use client";
-import doctor from "@/data/doctors.json";
+
 import { Bar, BarChart, Cell, LabelList, XAxis, YAxis } from "recharts";
-import { Doctor, Review } from "@/types/index";
+import { Review } from "@/types/index";
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
@@ -22,6 +21,7 @@ export default function DoctorRatingChart({ reviews }: { reviews: Review[] }) {
     okay: 0,
     bad: 0,
   };
+  let approval = 0;
   reviews.forEach((review) => {
     switch (review.ratings.overall) {
       case 1:
@@ -32,12 +32,15 @@ export default function DoctorRatingChart({ reviews }: { reviews: Review[] }) {
         break;
       case 3:
         ratingStats.good++;
+        approval++;
         break;
       case 4:
         ratingStats.great++;
+        approval++;
         break;
       case 5:
         ratingStats.awesome++;
+        approval++;
         break;
     }
   });
@@ -55,10 +58,9 @@ export default function DoctorRatingChart({ reviews }: { reviews: Review[] }) {
     },
   } satisfies ChartConfig;
   return (
-    <Card className="bg-gray-50">
+    <Card className="bg-gray-100 size-full ">
       <CardHeader>
         <CardTitle className="text-3xl">Rating Distribution</CardTitle>
-        <CardDescription>January - June 2024</CardDescription>
       </CardHeader>
       <CardContent>
         <ChartContainer config={chartConfig}>
@@ -97,7 +99,18 @@ export default function DoctorRatingChart({ reviews }: { reviews: Review[] }) {
         </ChartContainer>
       </CardContent>
       <CardFooter className="flex-col items-start gap-2 text-sm">
-        Approval rating goes here
+        <div className="flex flex-col items-center w-full">
+          <div className="text-3xl font-bold text-blue-600">
+            {reviews.length > 0
+              ? Math.round((approval / reviews.length) * 100)
+              : 0}
+            %
+          </div>
+          <div className="text-gray-600">
+            Approval Rate ({approval} out of {reviews.length} patients recommend
+            this doctor)
+          </div>
+        </div>
       </CardFooter>
     </Card>
   );
