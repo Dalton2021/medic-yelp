@@ -2,6 +2,8 @@ import ClinicCard from '@/components/ClinicCard';
 import clinicsData from '@/data/clinics.json';
 import { Clinic, ClinicAndReviews, ReviewBundle } from '@/types';
 import reviewsData from '@/data/reviews.json';
+import { Rat } from 'lucide-react';
+import RatBanner from '@/components/RatBanner';
 
 /*
 TO-DO:
@@ -64,10 +66,14 @@ export default async function Page({ searchParams }: PageProps) {
 
   return (
     <div className="px-24 pt-32">
-      <div className="grid grid-flow-col grid-cols-10">
-        {clinicAndReviews.map((c) => (
-          <ClinicCard key={c.Clinic.id} Clinic={c.Clinic} Ratings={c.Ratings} />
-        ))}
+      <div className="grid grid-flow-col grid-cols-7">
+        {clinicAndReviews.length > 1 ? (
+          clinicAndReviews.map((c) => <ClinicCard key={c.Clinic.id} Clinic={c.Clinic} Ratings={c.Ratings} />)
+        ) : (
+          <div className="col-start-3 col-span-3">
+            <RatBanner />
+          </div>
+        )}
       </div>
     </div>
   );
