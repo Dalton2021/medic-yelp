@@ -1,7 +1,6 @@
 import DoctorRatingChart from "@/components/DoctorRatingChart";
 import POverallStats from "@/components/POverallStats";
 import SimilarDocs from "@/components/SimilarDocs";
-import ReviewCard from "@/components/ReviewCard";
 import doctorsData from "@/data/doctors.json";
 import reviewsData from "@/data/reviews.json";
 import { Doctor, Review } from "@/types";
