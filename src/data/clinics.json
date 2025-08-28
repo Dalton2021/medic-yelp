@@ -314,7 +314,11 @@
       "Cigna",
       "UnitedHealthcare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      6,
+      12,
+      36
+    ]
   },
   {
     "id": 14,
@@ -333,7 +337,12 @@
       "Medicare",
       "Humana"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      1,
+      8,
+      14,
+      17
+    ]
   },
   {
     "id": 15,
@@ -352,7 +361,10 @@
       "Cigna",
       "UnitedHealthcare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      9,
+      39
+    ]
   },
   {
     "id": 16,
@@ -371,7 +383,11 @@
       "Blue Cross Blue Shield",
       "Cigna"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      3,
+      15,
+      6
+    ]
   },
   {
     "id": 17,
@@ -390,7 +406,11 @@
       "UnitedHealthcare",
       "Medicare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      2,
+      13,
+      16
+    ]
   },
   {
     "id": 18,
@@ -409,7 +429,10 @@
       "Medicare",
       "Humana"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      1,
+      14
+    ]
   },
   {
     "id": 19,
@@ -428,7 +451,12 @@
       "UnitedHealthcare",
       "Medicare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      4,
+      5,
+      8,
+      11
+    ]
   },
   {
     "id": 20,
@@ -467,7 +495,9 @@
       "Cigna",
       "UnitedHealthcare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      16
+    ]
   },
   {
     "id": 22,
@@ -506,7 +536,10 @@
       "CHIP",
       "Medicaid"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      3,
+      15
+    ]
   },
   {
     "id": 24,
@@ -544,7 +577,11 @@
       "Blue Cross Blue Shield",
       "Medicaid"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      7,
+      25,
+      38
+    ]
   },
   {
     "id": 26,
@@ -601,7 +638,9 @@
       "Cigna",
       "UnitedHealthcare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      17
+    ]
   },
   {
     "id": 29,
@@ -620,7 +659,10 @@
       "UnitedHealthcare",
       "Aetna"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      8,
+      35
+    ]
   },
   {
     "id": 30,
@@ -659,7 +701,10 @@
       "Medicare",
       "UnitedHealthcare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      10,
+      32
+    ]
   },
   {
     "id": 32,
@@ -678,7 +723,10 @@
       "Humana",
       "Medicare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      13,
+      29
+    ]
   },
   {
     "id": 33,
@@ -697,7 +745,10 @@
       "Medicare",
       "Medicaid"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      22,
+      33
+    ]
   },
   {
     "id": 34,
@@ -716,7 +767,10 @@
       "Cigna",
       "Medicare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      26,
+      30
+    ]
   },
   {
     "id": 35,
@@ -754,7 +808,10 @@
       "Blue Cross Blue Shield",
       "UnitedHealthcare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      2,
+      37
+    ]
   },
   {
     "id": 37,
@@ -773,7 +830,9 @@
       "Medicaid",
       "UnitedHealthcare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      28
+    ]
   },
   {
     "id": 38,
@@ -811,7 +870,9 @@
       "Humana",
       "Medicare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      24
+    ]
   },
   {
     "id": 40,
@@ -830,7 +891,9 @@
       "Aetna",
       "UnitedHealthcare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      21
+    ]
   },
   {
     "id": 41,
@@ -868,7 +931,10 @@
       "Cigna",
       "Medicare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      12,
+      15
+    ]
   },
   {
     "id": 43,
@@ -887,7 +953,10 @@
       "Medicaid",
       "UnitedHealthcare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      16,
+      19
+    ]
   },
   {
     "id": 44,
@@ -906,7 +975,10 @@
       "Aetna",
       "Medicare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      18,
+      20
+    ]
   },
   {
     "id": 45,
@@ -925,7 +997,11 @@
       "Medicare",
       "Tricare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      1,
+      14,
+      17
+    ]
   },
   {
     "id": 46,
@@ -944,7 +1020,10 @@
       "Cigna",
       "Medicare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      2,
+      13
+    ]
   },
   {
     "id": 47,
@@ -1020,7 +1099,10 @@
       "Cigna",
       "Medicare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      8,
+      35
+    ]
   },
   {
     "id": 51,

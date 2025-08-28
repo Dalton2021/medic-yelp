@@ -6502,5 +6502,2410 @@
     "doctorClinics": [
       9
     ]
+  },
+  {
+    "id": "rev-386",
+    "doctorId": 36,
+    "clinicId": 13,
+    "patientAge": 22,
+    "visitDate": "2024-03-07T08:15:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 3,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-387",
+    "doctorId": 36,
+    "clinicId": 13,
+    "patientAge": 70,
+    "visitDate": "2024-07-16T08:30:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-388",
+    "doctorId": 6,
+    "clinicId": 13,
+    "patientAge": 4,
+    "visitDate": "2024-08-22T17:30:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 5,
+      "waitTime": 3,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-389",
+    "doctorId": 12,
+    "clinicId": 13,
+    "patientAge": 14,
+    "visitDate": "2024-02-01T08:30:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 3,
+      "waitTime": 5,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-390",
+    "doctorId": 12,
+    "clinicId": 13,
+    "patientAge": 15,
+    "visitDate": "2024-03-17T14:45:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 5,
+      "waitTime": 1,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-391",
+    "doctorId": 36,
+    "clinicId": 13,
+    "patientAge": 46,
+    "visitDate": "2024-01-22T18:45:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-392",
+    "doctorId": 36,
+    "clinicId": 13,
+    "patientAge": 36,
+    "visitDate": "2024-08-22T07:00:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 2,
+      "waitTime": 3,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-393",
+    "doctorId": 36,
+    "clinicId": 13,
+    "patientAge": 38,
+    "visitDate": "2023-11-26T08:45:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 4,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-394",
+    "doctorId": 6,
+    "clinicId": 13,
+    "patientAge": 66,
+    "visitDate": "2023-09-29T08:00:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 1
+    }
+  },
+  {
+    "id": "rev-395",
+    "doctorId": 6,
+    "clinicId": 13,
+    "patientAge": 20,
+    "visitDate": "2024-04-11T08:30:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 4,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-396",
+    "doctorId": 8,
+    "clinicId": 14,
+    "patientAge": 13,
+    "visitDate": "2024-07-05T16:00:00Z",
+    "ratings": {
+      "overall": 1,
+      "bedside_manner": 4,
+      "waitTime": 1,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-397",
+    "doctorId": 14,
+    "clinicId": 14,
+    "patientAge": 9,
+    "visitDate": "2023-12-21T11:15:00Z",
+    "ratings": {
+      "overall": 2,
+      "bedside_manner": 5,
+      "waitTime": 4,
+      "officeEnvironment": 2
+    }
+  },
+  {
+    "id": "rev-398",
+    "doctorId": 39,
+    "clinicId": 15,
+    "patientAge": 42,
+    "visitDate": "2023-11-27T17:45:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 5,
+      "waitTime": 4,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-399",
+    "doctorId": 39,
+    "clinicId": 15,
+    "patientAge": 32,
+    "visitDate": "2023-09-17T07:30:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 1,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-400",
+    "doctorId": 9,
+    "clinicId": 15,
+    "patientAge": 60,
+    "visitDate": "2024-08-13T16:45:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 2,
+      "waitTime": 1,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-401",
+    "doctorId": 9,
+    "clinicId": 15,
+    "patientAge": 31,
+    "visitDate": "2023-09-10T14:15:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 5,
+      "waitTime": 3,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-402",
+    "doctorId": 39,
+    "clinicId": 15,
+    "patientAge": 40,
+    "visitDate": "2023-09-18T14:15:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-403",
+    "doctorId": 9,
+    "clinicId": 15,
+    "patientAge": 76,
+    "visitDate": "2023-12-31T08:15:00Z",
+    "ratings": {
+      "overall": 2,
+      "bedside_manner": 5,
+      "waitTime": 4,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-404",
+    "doctorId": 15,
+    "clinicId": 16,
+    "patientAge": 56,
+    "visitDate": "2024-07-20T11:45:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 1,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-405",
+    "doctorId": 15,
+    "clinicId": 16,
+    "patientAge": 58,
+    "visitDate": "2024-03-12T11:30:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 3,
+      "waitTime": 2,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-406",
+    "doctorId": 6,
+    "clinicId": 16,
+    "patientAge": 34,
+    "visitDate": "2023-11-08T14:00:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 4,
+      "waitTime": 4,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-407",
+    "doctorId": 13,
+    "clinicId": 17,
+    "patientAge": 36,
+    "visitDate": "2024-03-30T15:00:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 2,
+      "officeEnvironment": 2
+    }
+  },
+  {
+    "id": "rev-408",
+    "doctorId": 13,
+    "clinicId": 17,
+    "patientAge": 48,
+    "visitDate": "2024-02-14T12:45:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 5,
+      "waitTime": 3,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-409",
+    "doctorId": 1,
+    "clinicId": 18,
+    "patientAge": 50,
+    "visitDate": "2024-04-25T17:45:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 4,
+      "waitTime": 4,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-410",
+    "doctorId": 14,
+    "clinicId": 18,
+    "patientAge": 22,
+    "visitDate": "2024-07-21T09:00:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 4,
+      "waitTime": 2,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-411",
+    "doctorId": 14,
+    "clinicId": 18,
+    "patientAge": 32,
+    "visitDate": "2024-03-16T08:30:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-412",
+    "doctorId": 1,
+    "clinicId": 18,
+    "patientAge": 56,
+    "visitDate": "2024-03-15T18:45:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 4,
+      "waitTime": 3,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-413",
+    "doctorId": 14,
+    "clinicId": 18,
+    "patientAge": 68,
+    "visitDate": "2024-05-13T13:30:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 3,
+      "waitTime": 5,
+      "officeEnvironment": 2
+    }
+  },
+  {
+    "id": "rev-414",
+    "doctorId": 14,
+    "clinicId": 18,
+    "patientAge": 34,
+    "visitDate": "2023-12-20T16:00:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 3,
+      "waitTime": 5,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-415",
+    "doctorId": 1,
+    "clinicId": 18,
+    "patientAge": 38,
+    "visitDate": "2023-12-24T07:15:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 5,
+      "waitTime": 4,
+      "officeEnvironment": 2
+    }
+  },
+  {
+    "id": "rev-416",
+    "doctorId": 1,
+    "clinicId": 18,
+    "patientAge": 8,
+    "visitDate": "2024-02-23T11:00:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 3,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-417",
+    "doctorId": 14,
+    "clinicId": 18,
+    "patientAge": 20,
+    "visitDate": "2024-04-09T09:30:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 1,
+      "waitTime": 3,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-418",
+    "doctorId": 1,
+    "clinicId": 18,
+    "patientAge": 80,
+    "visitDate": "2024-02-29T14:00:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-419",
+    "doctorId": 14,
+    "clinicId": 18,
+    "patientAge": 37,
+    "visitDate": "2023-10-28T18:15:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 5,
+      "waitTime": 2,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-420",
+    "doctorId": 1,
+    "clinicId": 18,
+    "patientAge": 13,
+    "visitDate": "2024-08-16T10:30:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 4,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-421",
+    "doctorId": 11,
+    "clinicId": 19,
+    "patientAge": 73,
+    "visitDate": "2024-07-04T08:00:00Z",
+    "ratings": {
+      "overall": 1,
+      "bedside_manner": 4,
+      "waitTime": 2,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-422",
+    "doctorId": 5,
+    "clinicId": 19,
+    "patientAge": 22,
+    "visitDate": "2023-09-01T12:45:00Z",
+    "ratings": {
+      "overall": 2,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-423",
+    "doctorId": 16,
+    "clinicId": 21,
+    "patientAge": 59,
+    "visitDate": "2024-02-19T10:30:00Z",
+    "ratings": {
+      "overall": 1,
+      "bedside_manner": 4,
+      "waitTime": 3,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-424",
+    "doctorId": 16,
+    "clinicId": 21,
+    "patientAge": 65,
+    "visitDate": "2024-01-15T09:00:00Z",
+    "ratings": {
+      "overall": 2,
+      "bedside_manner": 4,
+      "waitTime": 4,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-425",
+    "doctorId": 16,
+    "clinicId": 21,
+    "patientAge": 43,
+    "visitDate": "2024-03-14T13:00:00Z",
+    "ratings": {
+      "overall": 1,
+      "bedside_manner": 4,
+      "waitTime": 4,
+      "officeEnvironment": 1
+    }
+  },
+  {
+    "id": "rev-426",
+    "doctorId": 16,
+    "clinicId": 21,
+    "patientAge": 26,
+    "visitDate": "2024-04-28T15:45:00Z",
+    "ratings": {
+      "overall": 1,
+      "bedside_manner": 4,
+      "waitTime": 3,
+      "officeEnvironment": 2
+    }
+  },
+  {
+    "id": "rev-427",
+    "doctorId": 16,
+    "clinicId": 21,
+    "patientAge": 31,
+    "visitDate": "2023-10-02T18:00:00Z",
+    "ratings": {
+      "overall": 1,
+      "bedside_manner": 5,
+      "waitTime": 3,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-428",
+    "doctorId": 16,
+    "clinicId": 21,
+    "patientAge": 40,
+    "visitDate": "2023-11-15T11:00:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-429",
+    "doctorId": 16,
+    "clinicId": 21,
+    "patientAge": 11,
+    "visitDate": "2023-10-08T08:30:00Z",
+    "ratings": {
+      "overall": 1,
+      "bedside_manner": 2,
+      "waitTime": 4,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-430",
+    "doctorId": 3,
+    "clinicId": 23,
+    "patientAge": 69,
+    "visitDate": "2023-10-30T17:00:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-431",
+    "doctorId": 15,
+    "clinicId": 23,
+    "patientAge": 35,
+    "visitDate": "2024-01-09T17:45:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 1
+    }
+  },
+  {
+    "id": "rev-432",
+    "doctorId": 3,
+    "clinicId": 23,
+    "patientAge": 26,
+    "visitDate": "2023-11-05T14:00:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 3,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-433",
+    "doctorId": 15,
+    "clinicId": 23,
+    "patientAge": 14,
+    "visitDate": "2023-12-28T17:15:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 4,
+      "waitTime": 4,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-434",
+    "doctorId": 38,
+    "clinicId": 25,
+    "patientAge": 12,
+    "visitDate": "2024-05-22T08:15:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 5,
+      "waitTime": 3,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-435",
+    "doctorId": 25,
+    "clinicId": 25,
+    "patientAge": 23,
+    "visitDate": "2024-05-06T12:00:00Z",
+    "ratings": {
+      "overall": 2,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-436",
+    "doctorId": 7,
+    "clinicId": 25,
+    "patientAge": 52,
+    "visitDate": "2024-03-17T09:45:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 3,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-437",
+    "doctorId": 38,
+    "clinicId": 25,
+    "patientAge": 50,
+    "visitDate": "2023-11-15T08:45:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 4,
+      "waitTime": 4,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-438",
+    "doctorId": 17,
+    "clinicId": 28,
+    "patientAge": 36,
+    "visitDate": "2024-07-29T08:30:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-439",
+    "doctorId": 17,
+    "clinicId": 28,
+    "patientAge": 16,
+    "visitDate": "2023-12-28T14:00:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 3,
+      "waitTime": 4,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-440",
+    "doctorId": 17,
+    "clinicId": 28,
+    "patientAge": 41,
+    "visitDate": "2023-10-10T14:00:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 4,
+      "waitTime": 3,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-441",
+    "doctorId": 17,
+    "clinicId": 28,
+    "patientAge": 44,
+    "visitDate": "2023-11-20T17:00:00Z",
+    "ratings": {
+      "overall": 2,
+      "bedside_manner": 5,
+      "waitTime": 3,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-442",
+    "doctorId": 17,
+    "clinicId": 28,
+    "patientAge": 35,
+    "visitDate": "2024-04-16T08:30:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 4,
+      "waitTime": 3,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-443",
+    "doctorId": 17,
+    "clinicId": 28,
+    "patientAge": 73,
+    "visitDate": "2024-04-15T17:00:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 5,
+      "waitTime": 3,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-444",
+    "doctorId": 17,
+    "clinicId": 28,
+    "patientAge": 50,
+    "visitDate": "2024-03-21T08:30:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-445",
+    "doctorId": 17,
+    "clinicId": 28,
+    "patientAge": 28,
+    "visitDate": "2023-09-16T17:00:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 1,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-446",
+    "doctorId": 17,
+    "clinicId": 28,
+    "patientAge": 23,
+    "visitDate": "2023-11-29T14:15:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 2,
+      "waitTime": 4,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-447",
+    "doctorId": 17,
+    "clinicId": 28,
+    "patientAge": 35,
+    "visitDate": "2023-10-24T12:15:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-448",
+    "doctorId": 17,
+    "clinicId": 28,
+    "patientAge": 76,
+    "visitDate": "2024-07-31T15:15:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-449",
+    "doctorId": 8,
+    "clinicId": 29,
+    "patientAge": 33,
+    "visitDate": "2023-11-01T18:30:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 3,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-450",
+    "doctorId": 35,
+    "clinicId": 29,
+    "patientAge": 52,
+    "visitDate": "2024-04-29T15:00:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 1,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-451",
+    "doctorId": 8,
+    "clinicId": 29,
+    "patientAge": 49,
+    "visitDate": "2024-07-09T13:00:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 4,
+      "waitTime": 4,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-452",
+    "doctorId": 35,
+    "clinicId": 29,
+    "patientAge": 12,
+    "visitDate": "2023-12-28T18:00:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 4,
+      "waitTime": 4,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-453",
+    "doctorId": 8,
+    "clinicId": 29,
+    "patientAge": 28,
+    "visitDate": "2023-11-30T17:45:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-454",
+    "doctorId": 35,
+    "clinicId": 29,
+    "patientAge": 32,
+    "visitDate": "2024-03-13T13:30:00Z",
+    "ratings": {
+      "overall": 2,
+      "bedside_manner": 3,
+      "waitTime": 4,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-455",
+    "doctorId": 35,
+    "clinicId": 29,
+    "patientAge": 57,
+    "visitDate": "2024-05-10T10:00:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 5,
+      "waitTime": 1,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-456",
+    "doctorId": 8,
+    "clinicId": 29,
+    "patientAge": 27,
+    "visitDate": "2023-12-18T13:00:00Z",
+    "ratings": {
+      "overall": 1,
+      "bedside_manner": 3,
+      "waitTime": 3,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-457",
+    "doctorId": 8,
+    "clinicId": 29,
+    "patientAge": 32,
+    "visitDate": "2024-05-23T16:30:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-458",
+    "doctorId": 35,
+    "clinicId": 29,
+    "patientAge": 69,
+    "visitDate": "2024-08-16T14:00:00Z",
+    "ratings": {
+      "overall": 2,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-459",
+    "doctorId": 32,
+    "clinicId": 31,
+    "patientAge": 24,
+    "visitDate": "2024-08-18T08:45:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 4,
+      "waitTime": 4,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-460",
+    "doctorId": 10,
+    "clinicId": 31,
+    "patientAge": 35,
+    "visitDate": "2024-08-19T18:00:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 2,
+      "waitTime": 3,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-461",
+    "doctorId": 32,
+    "clinicId": 31,
+    "patientAge": 11,
+    "visitDate": "2024-05-30T07:45:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 4,
+      "waitTime": 4,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-462",
+    "doctorId": 10,
+    "clinicId": 31,
+    "patientAge": 35,
+    "visitDate": "2024-04-02T10:45:00Z",
+    "ratings": {
+      "overall": 2,
+      "bedside_manner": 4,
+      "waitTime": 3,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-463",
+    "doctorId": 32,
+    "clinicId": 31,
+    "patientAge": 30,
+    "visitDate": "2024-08-20T13:45:00Z",
+    "ratings": {
+      "overall": 1,
+      "bedside_manner": 4,
+      "waitTime": 4,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-464",
+    "doctorId": 32,
+    "clinicId": 31,
+    "patientAge": 76,
+    "visitDate": "2023-09-01T12:00:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 2,
+      "waitTime": 4,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-465",
+    "doctorId": 32,
+    "clinicId": 31,
+    "patientAge": 28,
+    "visitDate": "2024-04-29T15:15:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 3,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-466",
+    "doctorId": 32,
+    "clinicId": 31,
+    "patientAge": 45,
+    "visitDate": "2023-12-18T11:00:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 2,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-467",
+    "doctorId": 32,
+    "clinicId": 31,
+    "patientAge": 11,
+    "visitDate": "2023-10-04T07:15:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 3,
+      "waitTime": 4,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-468",
+    "doctorId": 10,
+    "clinicId": 31,
+    "patientAge": 32,
+    "visitDate": "2024-05-26T13:00:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-469",
+    "doctorId": 10,
+    "clinicId": 31,
+    "patientAge": 35,
+    "visitDate": "2024-04-28T07:45:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 5,
+      "waitTime": 2,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-470",
+    "doctorId": 32,
+    "clinicId": 31,
+    "patientAge": 34,
+    "visitDate": "2023-08-28T11:00:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-471",
+    "doctorId": 32,
+    "clinicId": 31,
+    "patientAge": 18,
+    "visitDate": "2023-11-10T17:15:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 4,
+      "waitTime": 4,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-472",
+    "doctorId": 32,
+    "clinicId": 31,
+    "patientAge": 31,
+    "visitDate": "2024-04-27T16:15:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-473",
+    "doctorId": 10,
+    "clinicId": 31,
+    "patientAge": 66,
+    "visitDate": "2024-05-16T12:00:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 3,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-474",
+    "doctorId": 13,
+    "clinicId": 32,
+    "patientAge": 62,
+    "visitDate": "2024-02-26T12:15:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 2,
+      "waitTime": 3,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-475",
+    "doctorId": 13,
+    "clinicId": 32,
+    "patientAge": 18,
+    "visitDate": "2023-12-08T14:30:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 4,
+      "waitTime": 4,
+      "officeEnvironment": 2
+    }
+  },
+  {
+    "id": "rev-476",
+    "doctorId": 13,
+    "clinicId": 32,
+    "patientAge": 14,
+    "visitDate": "2023-12-22T11:45:00Z",
+    "ratings": {
+      "overall": 2,
+      "bedside_manner": 3,
+      "waitTime": 4,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-477",
+    "doctorId": 13,
+    "clinicId": 32,
+    "patientAge": 9,
+    "visitDate": "2024-04-20T18:15:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-478",
+    "doctorId": 13,
+    "clinicId": 32,
+    "patientAge": 60,
+    "visitDate": "2024-07-21T15:45:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 5,
+      "waitTime": 3,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-479",
+    "doctorId": 29,
+    "clinicId": 32,
+    "patientAge": 52,
+    "visitDate": "2024-01-30T11:30:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 5,
+      "waitTime": 1,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-480",
+    "doctorId": 29,
+    "clinicId": 32,
+    "patientAge": 18,
+    "visitDate": "2024-05-30T14:45:00Z",
+    "ratings": {
+      "overall": 2,
+      "bedside_manner": 3,
+      "waitTime": 4,
+      "officeEnvironment": 1
+    }
+  },
+  {
+    "id": "rev-481",
+    "doctorId": 29,
+    "clinicId": 32,
+    "patientAge": 29,
+    "visitDate": "2023-09-18T08:00:00Z",
+    "ratings": {
+      "overall": 2,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-482",
+    "doctorId": 13,
+    "clinicId": 32,
+    "patientAge": 26,
+    "visitDate": "2024-08-17T09:30:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 3,
+      "waitTime": 4,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-483",
+    "doctorId": 13,
+    "clinicId": 32,
+    "patientAge": 20,
+    "visitDate": "2024-08-20T11:30:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 4,
+      "waitTime": 3,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-484",
+    "doctorId": 29,
+    "clinicId": 32,
+    "patientAge": 56,
+    "visitDate": "2024-08-21T15:15:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 2,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-485",
+    "doctorId": 29,
+    "clinicId": 32,
+    "patientAge": 50,
+    "visitDate": "2024-03-15T13:30:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 5,
+      "waitTime": 4,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-486",
+    "doctorId": 29,
+    "clinicId": 32,
+    "patientAge": 64,
+    "visitDate": "2024-05-09T17:45:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 1,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-487",
+    "doctorId": 13,
+    "clinicId": 32,
+    "patientAge": 50,
+    "visitDate": "2024-04-23T18:00:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 4,
+      "waitTime": 2,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-488",
+    "doctorId": 33,
+    "clinicId": 33,
+    "patientAge": 53,
+    "visitDate": "2024-02-18T17:00:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 3,
+      "waitTime": 3,
+      "officeEnvironment": 1
+    }
+  },
+  {
+    "id": "rev-489",
+    "doctorId": 22,
+    "clinicId": 33,
+    "patientAge": 46,
+    "visitDate": "2024-07-01T12:30:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-490",
+    "doctorId": 33,
+    "clinicId": 33,
+    "patientAge": 19,
+    "visitDate": "2024-07-25T09:15:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 3,
+      "waitTime": 4,
+      "officeEnvironment": 1
+    }
+  },
+  {
+    "id": "rev-491",
+    "doctorId": 22,
+    "clinicId": 33,
+    "patientAge": 63,
+    "visitDate": "2023-11-18T16:15:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-492",
+    "doctorId": 22,
+    "clinicId": 33,
+    "patientAge": 30,
+    "visitDate": "2024-01-26T14:00:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 1,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-493",
+    "doctorId": 22,
+    "clinicId": 33,
+    "patientAge": 43,
+    "visitDate": "2024-03-13T12:00:00Z",
+    "ratings": {
+      "overall": 1,
+      "bedside_manner": 5,
+      "waitTime": 4,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-494",
+    "doctorId": 33,
+    "clinicId": 33,
+    "patientAge": 47,
+    "visitDate": "2023-11-09T18:00:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-495",
+    "doctorId": 22,
+    "clinicId": 33,
+    "patientAge": 61,
+    "visitDate": "2023-12-08T14:15:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 1
+    }
+  },
+  {
+    "id": "rev-496",
+    "doctorId": 33,
+    "clinicId": 33,
+    "patientAge": 21,
+    "visitDate": "2024-04-07T17:45:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 2
+    }
+  },
+  {
+    "id": "rev-497",
+    "doctorId": 33,
+    "clinicId": 33,
+    "patientAge": 7,
+    "visitDate": "2023-09-01T11:00:00Z",
+    "ratings": {
+      "overall": 2,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-498",
+    "doctorId": 33,
+    "clinicId": 33,
+    "patientAge": 29,
+    "visitDate": "2024-07-10T07:00:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 3,
+      "waitTime": 2,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-499",
+    "doctorId": 33,
+    "clinicId": 33,
+    "patientAge": 59,
+    "visitDate": "2023-12-27T07:15:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 5,
+      "waitTime": 4,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-500",
+    "doctorId": 22,
+    "clinicId": 33,
+    "patientAge": 24,
+    "visitDate": "2023-12-22T09:30:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-501",
+    "doctorId": 22,
+    "clinicId": 33,
+    "patientAge": 30,
+    "visitDate": "2024-08-17T07:15:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 3,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-502",
+    "doctorId": 33,
+    "clinicId": 33,
+    "patientAge": 33,
+    "visitDate": "2024-06-28T18:45:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 1
+    }
+  },
+  {
+    "id": "rev-503",
+    "doctorId": 26,
+    "clinicId": 34,
+    "patientAge": 62,
+    "visitDate": "2024-05-19T14:15:00Z",
+    "ratings": {
+      "overall": 1,
+      "bedside_manner": 2,
+      "waitTime": 2,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-504",
+    "doctorId": 30,
+    "clinicId": 34,
+    "patientAge": 23,
+    "visitDate": "2024-04-11T13:45:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 2,
+      "waitTime": 4,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-505",
+    "doctorId": 30,
+    "clinicId": 34,
+    "patientAge": 20,
+    "visitDate": "2023-09-29T09:15:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 2,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-506",
+    "doctorId": 30,
+    "clinicId": 34,
+    "patientAge": 48,
+    "visitDate": "2023-09-03T11:00:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 4,
+      "waitTime": 4,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-507",
+    "doctorId": 30,
+    "clinicId": 34,
+    "patientAge": 75,
+    "visitDate": "2023-11-15T17:00:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 5,
+      "waitTime": 4,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-508",
+    "doctorId": 30,
+    "clinicId": 34,
+    "patientAge": 64,
+    "visitDate": "2024-07-06T16:00:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 4,
+      "waitTime": 2,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-509",
+    "doctorId": 30,
+    "clinicId": 34,
+    "patientAge": 17,
+    "visitDate": "2024-07-10T11:15:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-510",
+    "doctorId": 2,
+    "clinicId": 36,
+    "patientAge": 78,
+    "visitDate": "2024-05-12T09:30:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-511",
+    "doctorId": 37,
+    "clinicId": 36,
+    "patientAge": 37,
+    "visitDate": "2023-12-21T14:30:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 4,
+      "waitTime": 4,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-512",
+    "doctorId": 2,
+    "clinicId": 36,
+    "patientAge": 29,
+    "visitDate": "2024-07-19T13:45:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 4,
+      "waitTime": 2,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-513",
+    "doctorId": 28,
+    "clinicId": 37,
+    "patientAge": 23,
+    "visitDate": "2023-10-23T17:00:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 2,
+      "waitTime": 4,
+      "officeEnvironment": 2
+    }
+  },
+  {
+    "id": "rev-514",
+    "doctorId": 28,
+    "clinicId": 37,
+    "patientAge": 27,
+    "visitDate": "2024-03-11T07:15:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 2
+    }
+  },
+  {
+    "id": "rev-515",
+    "doctorId": 28,
+    "clinicId": 37,
+    "patientAge": 24,
+    "visitDate": "2024-07-28T17:30:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 2,
+      "waitTime": 4,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-516",
+    "doctorId": 28,
+    "clinicId": 37,
+    "patientAge": 61,
+    "visitDate": "2023-09-24T09:00:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 1,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-517",
+    "doctorId": 28,
+    "clinicId": 37,
+    "patientAge": 40,
+    "visitDate": "2024-08-13T08:15:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 4,
+      "waitTime": 3,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-518",
+    "doctorId": 24,
+    "clinicId": 39,
+    "patientAge": 6,
+    "visitDate": "2024-02-09T13:45:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 2,
+      "waitTime": 1,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-519",
+    "doctorId": 24,
+    "clinicId": 39,
+    "patientAge": 42,
+    "visitDate": "2023-11-18T07:15:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 3,
+      "waitTime": 4,
+      "officeEnvironment": 1
+    }
+  },
+  {
+    "id": "rev-520",
+    "doctorId": 24,
+    "clinicId": 39,
+    "patientAge": 46,
+    "visitDate": "2023-09-06T18:30:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-521",
+    "doctorId": 24,
+    "clinicId": 39,
+    "patientAge": 12,
+    "visitDate": "2023-10-08T17:45:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 5,
+      "waitTime": 3,
+      "officeEnvironment": 1
+    }
+  },
+  {
+    "id": "rev-522",
+    "doctorId": 24,
+    "clinicId": 39,
+    "patientAge": 25,
+    "visitDate": "2024-06-28T08:00:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 3,
+      "waitTime": 4,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-523",
+    "doctorId": 24,
+    "clinicId": 39,
+    "patientAge": 60,
+    "visitDate": "2024-05-26T14:15:00Z",
+    "ratings": {
+      "overall": 1,
+      "bedside_manner": 5,
+      "waitTime": 2,
+      "officeEnvironment": 2
+    }
+  },
+  {
+    "id": "rev-524",
+    "doctorId": 21,
+    "clinicId": 40,
+    "patientAge": 71,
+    "visitDate": "2024-07-03T18:45:00Z",
+    "ratings": {
+      "overall": 2,
+      "bedside_manner": 5,
+      "waitTime": 2,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-525",
+    "doctorId": 21,
+    "clinicId": 40,
+    "patientAge": 50,
+    "visitDate": "2024-04-17T16:45:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-526",
+    "doctorId": 21,
+    "clinicId": 40,
+    "patientAge": 62,
+    "visitDate": "2024-06-25T11:15:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 1,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-527",
+    "doctorId": 21,
+    "clinicId": 40,
+    "patientAge": 58,
+    "visitDate": "2024-04-13T16:00:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 4,
+      "waitTime": 4,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-528",
+    "doctorId": 21,
+    "clinicId": 40,
+    "patientAge": 77,
+    "visitDate": "2023-10-31T09:15:00Z",
+    "ratings": {
+      "overall": 2,
+      "bedside_manner": 4,
+      "waitTime": 3,
+      "officeEnvironment": 2
+    }
+  },
+  {
+    "id": "rev-529",
+    "doctorId": 21,
+    "clinicId": 40,
+    "patientAge": 25,
+    "visitDate": "2024-05-19T08:45:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 4,
+      "waitTime": 3,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-530",
+    "doctorId": 21,
+    "clinicId": 40,
+    "patientAge": 52,
+    "visitDate": "2024-04-17T09:30:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-531",
+    "doctorId": 15,
+    "clinicId": 42,
+    "patientAge": 22,
+    "visitDate": "2024-01-18T09:15:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 2,
+      "waitTime": 2,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-532",
+    "doctorId": 15,
+    "clinicId": 42,
+    "patientAge": 78,
+    "visitDate": "2023-09-29T15:15:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-533",
+    "doctorId": 15,
+    "clinicId": 42,
+    "patientAge": 71,
+    "visitDate": "2023-12-05T17:15:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 2,
+      "waitTime": 5,
+      "officeEnvironment": 2
+    }
+  },
+  {
+    "id": "rev-534",
+    "doctorId": 12,
+    "clinicId": 42,
+    "patientAge": 11,
+    "visitDate": "2024-02-04T07:15:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 4,
+      "waitTime": 4,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-535",
+    "doctorId": 12,
+    "clinicId": 42,
+    "patientAge": 48,
+    "visitDate": "2024-08-07T09:15:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 4,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-536",
+    "doctorId": 12,
+    "clinicId": 42,
+    "patientAge": 51,
+    "visitDate": "2024-06-08T10:15:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 4,
+      "waitTime": 4,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-537",
+    "doctorId": 15,
+    "clinicId": 42,
+    "patientAge": 34,
+    "visitDate": "2024-03-15T16:45:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 2
+    }
+  },
+  {
+    "id": "rev-538",
+    "doctorId": 12,
+    "clinicId": 42,
+    "patientAge": 28,
+    "visitDate": "2024-01-17T18:45:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 2
+    }
+  },
+  {
+    "id": "rev-539",
+    "doctorId": 12,
+    "clinicId": 42,
+    "patientAge": 21,
+    "visitDate": "2024-06-23T18:30:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 1,
+      "waitTime": 2,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-540",
+    "doctorId": 12,
+    "clinicId": 42,
+    "patientAge": 78,
+    "visitDate": "2023-10-12T18:30:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 4,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-541",
+    "doctorId": 12,
+    "clinicId": 42,
+    "patientAge": 38,
+    "visitDate": "2024-04-27T10:30:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 3,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-542",
+    "doctorId": 12,
+    "clinicId": 42,
+    "patientAge": 27,
+    "visitDate": "2024-04-14T10:30:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 2,
+      "waitTime": 3,
+      "officeEnvironment": 2
+    }
+  },
+  {
+    "id": "rev-543",
+    "doctorId": 19,
+    "clinicId": 43,
+    "patientAge": 26,
+    "visitDate": "2024-06-02T11:15:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-544",
+    "doctorId": 16,
+    "clinicId": 43,
+    "patientAge": 62,
+    "visitDate": "2023-12-23T10:15:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 4,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-545",
+    "doctorId": 18,
+    "clinicId": 44,
+    "patientAge": 56,
+    "visitDate": "2024-01-18T08:30:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 3,
+      "waitTime": 4,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-546",
+    "doctorId": 18,
+    "clinicId": 44,
+    "patientAge": 49,
+    "visitDate": "2023-12-14T08:00:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 1
+    }
+  },
+  {
+    "id": "rev-547",
+    "doctorId": 18,
+    "clinicId": 44,
+    "patientAge": 41,
+    "visitDate": "2023-12-27T12:30:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 4,
+      "waitTime": 4,
+      "officeEnvironment": 1
+    }
+  },
+  {
+    "id": "rev-548",
+    "doctorId": 20,
+    "clinicId": 44,
+    "patientAge": 33,
+    "visitDate": "2023-10-02T18:00:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 3,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-549",
+    "doctorId": 18,
+    "clinicId": 44,
+    "patientAge": 54,
+    "visitDate": "2023-11-21T11:00:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 5,
+      "waitTime": 1,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-550",
+    "doctorId": 18,
+    "clinicId": 44,
+    "patientAge": 59,
+    "visitDate": "2023-11-06T15:15:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 3,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-551",
+    "doctorId": 14,
+    "clinicId": 45,
+    "patientAge": 15,
+    "visitDate": "2023-12-26T08:00:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-552",
+    "doctorId": 1,
+    "clinicId": 45,
+    "patientAge": 18,
+    "visitDate": "2024-04-11T12:45:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 2,
+      "waitTime": 2,
+      "officeEnvironment": 2
+    }
+  },
+  {
+    "id": "rev-553",
+    "doctorId": 17,
+    "clinicId": 45,
+    "patientAge": 64,
+    "visitDate": "2024-04-03T18:45:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 3
+    }
+  },
+  {
+    "id": "rev-554",
+    "doctorId": 17,
+    "clinicId": 45,
+    "patientAge": 21,
+    "visitDate": "2024-06-29T14:45:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 3,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-555",
+    "doctorId": 14,
+    "clinicId": 45,
+    "patientAge": 74,
+    "visitDate": "2023-12-29T09:00:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 4,
+      "waitTime": 4,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-556",
+    "doctorId": 1,
+    "clinicId": 45,
+    "patientAge": 71,
+    "visitDate": "2024-04-16T14:45:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 1,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-557",
+    "doctorId": 1,
+    "clinicId": 45,
+    "patientAge": 58,
+    "visitDate": "2024-01-23T17:30:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-558",
+    "doctorId": 14,
+    "clinicId": 45,
+    "patientAge": 39,
+    "visitDate": "2024-08-01T09:00:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 4,
+      "waitTime": 2,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-559",
+    "doctorId": 17,
+    "clinicId": 45,
+    "patientAge": 3,
+    "visitDate": "2024-06-06T10:45:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-560",
+    "doctorId": 17,
+    "clinicId": 45,
+    "patientAge": 23,
+    "visitDate": "2024-05-22T09:00:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 4,
+      "waitTime": 3,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-561",
+    "doctorId": 14,
+    "clinicId": 45,
+    "patientAge": 58,
+    "visitDate": "2024-07-26T11:45:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-562",
+    "doctorId": 14,
+    "clinicId": 45,
+    "patientAge": 54,
+    "visitDate": "2024-04-15T09:30:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 4
+    }
+  },
+  {
+    "id": "rev-563",
+    "doctorId": 2,
+    "clinicId": 46,
+    "patientAge": 35,
+    "visitDate": "2024-03-07T18:15:00Z",
+    "ratings": {
+      "overall": 1,
+      "bedside_manner": 4,
+      "waitTime": 2,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-564",
+    "doctorId": 13,
+    "clinicId": 46,
+    "patientAge": 52,
+    "visitDate": "2023-11-16T14:00:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 3,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-565",
+    "doctorId": 13,
+    "clinicId": 46,
+    "patientAge": 70,
+    "visitDate": "2024-01-06T13:45:00Z",
+    "ratings": {
+      "overall": 4,
+      "bedside_manner": 5,
+      "waitTime": 3,
+      "officeEnvironment": 1
+    }
+  },
+  {
+    "id": "rev-566",
+    "doctorId": 8,
+    "clinicId": 50,
+    "patientAge": 28,
+    "visitDate": "2024-01-28T11:00:00Z",
+    "ratings": {
+      "overall": 2,
+      "bedside_manner": 4,
+      "waitTime": 3,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-567",
+    "doctorId": 35,
+    "clinicId": 50,
+    "patientAge": 51,
+    "visitDate": "2024-04-21T14:00:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 4,
+      "waitTime": 2,
+      "officeEnvironment": 1
+    }
+  },
+  {
+    "id": "rev-568",
+    "doctorId": 35,
+    "clinicId": 50,
+    "patientAge": 19,
+    "visitDate": "2023-12-08T08:15:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 4,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-569",
+    "doctorId": 8,
+    "clinicId": 50,
+    "patientAge": 58,
+    "visitDate": "2023-12-15T15:15:00Z",
+    "ratings": {
+      "overall": 5,
+      "bedside_manner": 5,
+      "waitTime": 5,
+      "officeEnvironment": 5
+    }
+  },
+  {
+    "id": "rev-570",
+    "doctorId": 8,
+    "clinicId": 50,
+    "patientAge": 34,
+    "visitDate": "2023-10-28T11:15:00Z",
+    "ratings": {
+      "overall": 3,
+      "bedside_manner": 3,
+      "waitTime": 3,
+      "officeEnvironment": 1
+    }
   }
 ]
