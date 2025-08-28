@@ -5,6 +5,7 @@ import ReviewCard from "@/components/ReviewCard";
 import doctorsData from "@/data/doctors.json";
 import reviewsData from "@/data/reviews.json";
 import { Doctor, Review } from "@/types";
+import { ReviewCarousel } from "@/components/ReviewCarousel";
 const doctors: Doctor[] = doctorsData as Doctor[];
 const reviews: Review[] = reviewsData as Review[];
 
@@ -25,16 +26,18 @@ export default async function Page({
     : [];
 
   let similarDoctors: Doctor[] = [];
-  
+
   if (dr) {
     console.log(dr);
-    
+
     // Find doctors with matching specialties (excluding the current doctor)
     similarDoctors = doctors
-      .filter(doctor => doctor.id !== dr.id) // Exclude current doctor
-      .filter(doctor => 
+      .filter((doctor) => doctor.id !== dr.id) // Exclude current doctor
+      .filter((doctor) =>
         // Check if any of the doctor's specialties match the current doctor's specialties
-        doctor.specialties.some(specialty => dr.specialties.includes(specialty))
+        doctor.specialties.some((specialty) =>
+          dr.specialties.includes(specialty)
+        )
       )
       .slice(0, 3); // Get first 3 matches
   }
@@ -49,15 +52,12 @@ export default async function Page({
           <DoctorRatingChart reviews={reviewList} />
         </div>
       </div>
-      <div className="flex flex-col w-full justify-center items-center mt-10">
-        {reviewList.map((review, index) => (
-          <ReviewCard
-            doctor={dr.firstName + " " + dr.lastName}
-            key={index}
-            review={review}
-            clinicsEmployed={dr.clinics}
-          />
-        ))}
+
+      <div className="w-full flex flex-col justify-center items-center ">
+        <h1 className="text-2xl font-bold">
+          See reviews for Dr. {dr.firstName} {dr.lastName}
+        </h1>
+        <ReviewCarousel doctor={dr} reviewList={reviewList} />
       </div>
     </div>
   ) : (

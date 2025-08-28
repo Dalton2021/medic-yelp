@@ -46,7 +46,7 @@ const ReviewCard = ({
   );
 
   return (
-    <Card className="w-1/2 bg-blue-50  mb-10">
+    <Card className=" bg-blue-50 ">
       <CardHeader className="pb-4">
         <div className="flex items-center justify-between">
           <CardTitle className="text-lg flex gap-2 font-semibold text-gray-900">

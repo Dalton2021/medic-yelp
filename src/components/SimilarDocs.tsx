@@ -18,7 +18,10 @@ export default function SimilarDocs({
           <ul className="flex justify-start gap-5 items-center">
             {similarDoctors.map((similarDoctor) => (
               <li className=" no-underline" key={similarDoctor.id}>
-                <a className="flex items-center hover:text-blue-600">
+                <a
+                  href={`/physician/${similarDoctor.id}`}
+                  className="flex items-center hover:text-blue-600"
+                >
                   <span className="bg-[#0055fd] text-base rounded-lg py-1 px-3 hover:no-underline text-white mr-2 font-black">
                     {similarDoctor.averageRating || "N/A"}
                   </span>
