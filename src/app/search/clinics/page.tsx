@@ -7,6 +7,7 @@ import PaginationBar from '@/components/PaginationBar';
 import ItemsPerPageSelect from '@/components/ItemsPerPageSelect';
 import SortBySelect from '@/components/SortBySelect';
 import ClinicSearchBar from '@/components/ClinicSearchBar';
+import { Metadata } from 'next';
 
 /*
 TO-DO:
@@ -20,6 +21,10 @@ TO-DO:
     - Need a context provider for users being signed in or not. This needs to play a part in the Navbar changes up above. ^^^
  - Do this page https://www.ratemyprofessors.com/search/schools?q=stanford
 */
+
+export const metadata: Metadata = {
+  title: 'Search clinics'
+}
 
 const allClinics: Clinic[] = clinicsData;
 
