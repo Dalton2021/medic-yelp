@@ -101,15 +101,22 @@ export default async function Page({ searchParams }: PageProps) {
             </div>
           </>
         )}
-        {name && (
-          <div className="col-start-3 col-span-3 pt-5">
-            <p className="text-2xl text-black tracking-wide">
-              <span className="font-bold">{clinicAndReviews.length}</span> clinic
-              {clinicAndReviews.length !== 1 && 's'} found with{' '}
-              <span className="font-bold">&quot;{name}&quot;</span> in their name.
-            </p>
-          </div>
-        )}
+
+        <div className="col-start-3 col-span-3 pt-5">
+          <p className="text-2xl text-black tracking-wide">
+            {name ? (
+              <>
+                <span className="font-bold">{clinicAndReviews.length}</span> clinic
+                {clinicAndReviews.length !== 1 && 's'} found with{' '}
+                <span className="font-bold">&quot;{name}&quot;</span> in their name.
+              </>
+            ) : (
+              <>
+                <span className="font-bold">{clinicAndReviews.length}</span> clinics found.
+              </>
+            )}
+          </p>
+        </div>
       </div>
       <div className="grid grid-flow-col grid-cols-8">
         {clinicAndReviews.length >= 1 ? (
