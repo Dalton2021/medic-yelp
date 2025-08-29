@@ -1,11 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
-import { Apple, Hospital } from 'lucide-react';
 import { headers } from 'next/headers';
-import SearchCombobox from './SearchCombobox/SearchCombobox';
 import NavForm from './NavForm';
-// import SearchAutoComplete from './SearchAutoComplete';
 
 const Navbar = async () => {
   const headersList = await headers();
