@@ -20,6 +20,7 @@ export default function DoctorSearchCombobox() {
       city: clinic.address?.city,
       state: clinic.address?.state,
     },
+    doctorIds: clinic.doctorIds,
   }));
 
   const doctorItems = doctors?.map((doctor) => ({
@@ -29,7 +30,13 @@ export default function DoctorSearchCombobox() {
     clinics: doctor.clinics,
   }));
 
-  const doctorAutoCompleteItems = doctorItems.map((item) => ({
+  const filteredDoctorItems = selectedClinicValue
+    ? doctorItems.filter((doctor) =>
+        doctor.clinics.some((clinic) => clinic.id.toString() === selectedClinicValue)
+      )
+    : doctorItems;
+
+  const doctorAutoCompleteItems = filteredDoctorItems.map((item) => ({
     value: item.id.toString(),
     name: item.name,
     label: <DoctorDropdownItem item={item} />,
@@ -60,6 +67,8 @@ export default function DoctorSearchCombobox() {
         items={doctorAutoCompleteItems}
         placeholder="Your doctor"
         emptyMessage="No doctors found."
+        skipMinLength={!!selectedClinicValue}
+        navigationUrl="/physician"
       />
       <AutoComplete
         roundedFull={false}
@@ -71,6 +80,8 @@ export default function DoctorSearchCombobox() {
         items={clinicAutoCompleteItems}
         placeholder="Your clinic"
         emptyMessage="No clinics found."
+        skipMinLength={!!selectedDoctorValue}
+        disableNavigation
       />
     </>
   );

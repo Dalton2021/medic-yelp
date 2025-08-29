@@ -9,7 +9,6 @@ interface DoctorDropdownItem {
 }
 
 const DoctorDropdownItem = ({ item }: DoctorDropdownItem) => {
-  console.log('doctor', item.clinics);
   return (
     <div className="hover:bg-gray-50 transition-colors duration-150 border-b border-gray-100 last:border-b-0">
       <div className="flex items-start justify-between">

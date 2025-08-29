@@ -4,6 +4,7 @@ import { cn } from '@/lib/utils';
 import { Command as CommandPrimitive } from 'cmdk';
 import { Check } from 'lucide-react';
 import { useMemo, useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { Command, CommandEmpty, CommandGroup, CommandItem, CommandList } from '../ui/command';
 import { Input } from '../ui/input';
 import { Popover, PopoverAnchor, PopoverContent } from '../ui/popover';
@@ -20,6 +21,9 @@ type Props<T extends string> = {
   placeholder?: string;
   roundedFull?: boolean;
   inputClassName?: string;
+  skipMinLength?: boolean;
+  navigationUrl?: string;
+  disableNavigation?: boolean;
 };
 
 export function AutoComplete<T extends string>({
@@ -33,8 +37,13 @@ export function AutoComplete<T extends string>({
   placeholder = 'Search...',
   roundedFull = true,
   inputClassName,
+  skipMinLength = false,
+  navigationUrl,
+  disableNavigation = false,
 }: Props<T>) {
   const [open, setOpen] = useState(false);
+  const [highlightedIndex, setHighlightedIndex] = useState(0);
+  const router = useRouter();
 
   const labels = useMemo(
     () =>
@@ -67,13 +76,19 @@ export function AutoComplete<T extends string>({
     } else {
       onSelectedValueChange(inputValue as T);
       onSearchValueChange(labels[inputValue] ?? '');
+      
+      // Handle navigation if enabled - use the newly selected value
+      if (!disableNavigation && navigationUrl) {
+        const finalUrl = `${navigationUrl}/${inputValue}`;
+        router.push(finalUrl);
+      }
     }
     setOpen(false);
   };
 
   return (
     <div className="flex items-center w-full">
-      <Popover open={open && searchValue.length >= 1} onOpenChange={setOpen}>
+      <Popover open={open && (skipMinLength || searchValue.length >= 1)} onOpenChange={setOpen}>
         <Command shouldFilter={false} className={`${roundedFull ? 'rounded-full' : inputClassName}`}>
           <PopoverAnchor asChild className={`${roundedFull ? 'rounded-full' : inputClassName}`}>
             <CommandPrimitive.Input
@@ -81,9 +96,28 @@ export function AutoComplete<T extends string>({
               asChild
               value={searchValue}
               onValueChange={onSearchValueChange}
-              onKeyDown={(e) => setOpen(e.key !== 'Escape' && searchValue.length >= 1)}
-              onMouseDown={() => setOpen((open) => (searchValue.length >= 1 && !!searchValue) || !open)}
-              onFocus={() => setOpen(searchValue.length >= 1)}
+              onKeyDown={(e) => {
+                if (e.key === 'Escape') {
+                  setOpen(false);
+                } else if (e.key === 'ArrowDown') {
+                  e.preventDefault();
+                  setHighlightedIndex(prev => Math.min(prev + 1, filteredItems.length - 1));
+                  setOpen(true);
+                } else if (e.key === 'ArrowUp') {
+                  e.preventDefault();
+                  setHighlightedIndex(prev => Math.max(prev - 1, 0));
+                  setOpen(true);
+                } else if (e.key === 'Enter' && filteredItems.length > 0) {
+                  e.preventDefault();
+                  const selectedItem = filteredItems[highlightedIndex] || filteredItems[0];
+                  onSelectItem(selectedItem.value);
+                } else {
+                  setOpen(skipMinLength || searchValue.length >= 1);
+                  setHighlightedIndex(0);
+                }
+              }}
+              onMouseDown={() => setOpen((open) => (skipMinLength || (searchValue.length >= 1 && !!searchValue)) || !open)}
+              onFocus={() => setOpen((skipMinLength || searchValue.length >= 1) && !selectedValue)}
               onBlur={onInputBlur}>
               <Input
                 placeholder={placeholder}
@@ -111,12 +145,16 @@ export function AutoComplete<T extends string>({
               )}
               {filteredItems.length > 0 && !isLoading ? (
                 <CommandGroup>
-                  {filteredItems.map((option) => (
+                  {filteredItems.map((option, index) => (
                     <CommandItem
                       key={option.value}
                       value={option.value}
                       onMouseDown={(e) => e.preventDefault()}
-                      onSelect={onSelectItem}>
+                      onMouseEnter={() => setHighlightedIndex(index)}
+                      onSelect={onSelectItem}
+                      className={cn(
+                        highlightedIndex === index ? 'bg-gray-100' : ''
+                      )}>
                       <Check
                         className={cn(
                           'mr-2 h-4 w-4',

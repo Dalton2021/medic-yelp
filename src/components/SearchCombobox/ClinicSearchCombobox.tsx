@@ -49,6 +49,7 @@ export default function ClinicSearchCombobox() {
       items={autocompleteItems}
       placeholder="Your clinic"
       emptyMessage="No clinics found."
+      navigationUrl={`/clinic/${selectedValue}`}
     />
   );
 }
