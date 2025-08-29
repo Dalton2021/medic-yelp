@@ -1,25 +1,26 @@
 'use client';
 
 import { Apple, Hospital } from 'lucide-react';
-import SearchCombobox from './SearchCombobox/SearchCombobox';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
 import { useState } from 'react';
+import ClinicSearchCombobox from './SearchCombobox/ClinicSearchCombobox';
+import DoctorSearchCombobox from './SearchCombobox/DoctorSearchCombobox';
 
 interface NavFormProps {
   isClinicRoute: boolean;
 }
 
 const NavForm = ({ isClinicRoute }: NavFormProps) => {
-  const [selectState, setSelectState] = useState<boolean>(isClinicRoute);
+  const [isClinic, setIsClinic] = useState<boolean>(isClinicRoute);
 
   return (
     <>
       <div className="col-auto flex place-items-center">
         <Select
-          value={selectState ? 'clinic' : 'doctor'}
+          value={isClinic ? 'clinic' : 'doctor'}
           defaultValue={isClinicRoute ? 'clinic' : 'doctor'}
           onValueChange={(e: string) => {
-            setSelectState(e === 'clinic');
+            setIsClinic(e === 'clinic');
           }}>
           <SelectTrigger className="bg-transparent border-0 text-xl tracking-wide">
             <SelectValue />
@@ -38,9 +39,15 @@ const NavForm = ({ isClinicRoute }: NavFormProps) => {
           </SelectContent>
         </Select>
       </div>
-      <div className="col-span-2 flex place-items-center text-black">
-        <SearchCombobox isClinic={selectState} />
-      </div>
+      {isClinic ? (
+        <div className="col-span-2 flex place-items-center text-black">
+          <ClinicSearchCombobox />
+        </div>
+      ) : (
+        <div className="col-span-4 flex place-items-center text-black">
+          <DoctorSearchCombobox />
+        </div>
+      )}
     </>
   );
 };
