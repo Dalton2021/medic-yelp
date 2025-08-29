@@ -8,6 +8,7 @@ import ItemsPerPageSelect from '@/components/ItemsPerPageSelect';
 import SortBySelect from '@/components/SortBySelect';
 import ClinicSearchBar from '@/components/ClinicSearchBar';
 import { Metadata } from 'next';
+import Link from 'next/link';
 
 /*
 TO-DO:
@@ -23,8 +24,8 @@ TO-DO:
 */
 
 export const metadata: Metadata = {
-  title: 'Search clinics'
-}
+  title: 'Search clinics',
+};
 
 const allClinics: Clinic[] = clinicsData;
 
@@ -140,6 +141,10 @@ export default async function Page({ searchParams }: PageProps) {
             <RatBanner />
           </div>
         )}
+        <div className="col-start-3 col-span-4 text-center mt-6">
+          <p className="pb-2">Don&apos;t see the clinic you&apos;re looking for?</p>
+          <Link href="/add/clinic" className='font-medium'>Add a clinic</Link>
+        </div>
       </div>
     </div>
   );
