@@ -12,7 +12,7 @@ export default function PCard({
 }) {
   return (
     <Link
-      href={`/physician/${name}`}
+      href={`/physician/${Doctor.id}`}
       className="col-start-3 col-span-4 hover:no-underline"
     >
       <Card className=" mb-3  bg-neutral-100 border-gray-200 shadow-sm">
