@@ -15,7 +15,7 @@ interface SortBySelectProps {
   sort: string;
 }
 
-const SortBySelect = ({ sort = "rating" }: SortBySelectProps) => {
+const SortByPSelect = ({ sort = "rating" }: SortBySelectProps) => {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -31,7 +31,7 @@ const SortBySelect = ({ sort = "rating" }: SortBySelectProps) => {
     params.delete("page");
 
     const query = params.toString();
-    router.push(`/search/clinics${query ? `?${query}` : ""}`);
+    router.push(`/search/physicians${query ? `?${query}` : ""}`);
   };
 
   return (
@@ -51,4 +51,4 @@ const SortBySelect = ({ sort = "rating" }: SortBySelectProps) => {
   );
 };
 
-export default SortBySelect;
+export default SortByPSelect;
