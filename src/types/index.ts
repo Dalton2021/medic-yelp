@@ -53,6 +53,10 @@ export interface ClinicAndReviews {
   Clinic: Clinic;
   Ratings: ReviewBundle;
 }
+export interface DoctorAndReviews {
+  Doctor: Doctor;
+  Ratings: ReviewBundle;
+}
 
 // Helper types you might find useful
 
