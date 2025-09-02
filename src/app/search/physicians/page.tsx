@@ -147,7 +147,7 @@ export default async function Page({
         )}
         <div className="col-start-3 col-span-4 text-center mt-6">
           <p className="pb-2">
-            Don&apos;t see the clinic you&apos;re looking for?
+            Don&apos;t see the physician you&apos;re looking for?
           </p>
         </div>
       </div>

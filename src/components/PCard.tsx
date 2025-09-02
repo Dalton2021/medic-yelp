@@ -10,6 +10,14 @@ export default function PCard({
   Ratings: ReviewBundle;
   Doctor: Doctor;
 }) {
+  const ival = 0;
+  const recommend: number = Ratings.ratings.reduce((approve, ratingScore) => {
+    if (ratingScore > 2) {
+      approve++;
+    }
+    return approve;
+  }, ival);
+  const rPercent = Math.round((recommend / Ratings.total) * 100);
   return (
     <Link
       href={`/physician/${Doctor.id}`}
@@ -30,31 +38,38 @@ export default function PCard({
                     {Doctor.averageRating}
                   </span>
                 </div>
-                <div className="text-sm text-gray-600 mt-1">{} ratings</div>
+                <div className="text-sm text-gray-600 mt-1">
+                  {Ratings.total} ratings
+                </div>
               </div>
 
-              {/* Professor Info */}
               <div className="flex-1">
                 <h2 className="text-2xl font-bold text-gray-900 mb-1">
                   {Doctor.firstName} {Doctor.lastName}
                 </h2>
-                {Doctor.specialties.map((specialty, index) => (
-                  <div key={index} className="text-gray-600 mb-2">
-                    {Doctor.specialties}
-                  </div>
-                ))}
-                {Doctor.clinics.map((clinic, index) => (
-                  <div key={index} className="text-gray-600 mb-4">
-                    {clinic.name}
-                  </div>
-                ))}
+                <div className="mb-2 mt-3">
+                  Specialities:{" "}
+                  {Doctor.specialties.map((specialty, index) => (
+                    <span key={index} className="text-gray-600 mb-2">
+                      {specialty}
+                      {index !== Doctor.specialties.length - 1 && ", "}
+                    </span>
+                  ))}
+                </div>
+                <div className="mb-6">
+                  Clinics:{" "}
+                  {Doctor.clinics.map((clinic, index) => (
+                    <span key={index} className="text-gray-600 mb-4">
+                      {clinic.name}
+                      {index !== Doctor.clinics.length - 1 && ", "}
+                    </span>
+                  ))}
+                </div>
 
                 {/* Stats */}
                 <div className="flex items-center space-x-4 text-sm">
                   <span className="text-gray-900">
-                    <span className="text-2xl font-bold">
-                      {/* {wouldTakeAgain}% */}
-                    </span>{" "}
+                    <span className="text-2xl font-bold">{rPercent}%</span>{" "}
                     Recommend
                   </span>
                   <span className="text-gray-400">|</span>
