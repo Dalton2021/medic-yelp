@@ -114,3 +114,20 @@ export enum Rating {
   POOR = 2,
   TERRIBLE = 1,
 }
+
+export interface ClinicSummary {
+  id: number;
+  summary: string;
+  foundedYear: number;
+  services: string[];
+}
+
+export interface ClinicRating {
+  clinicId: number;
+  waitTimes: number;
+  staff: number;
+  patientCareSatisfaction: number;
+  affordability: number;
+  atmosphere: number;
+  overallRating: number;
+}

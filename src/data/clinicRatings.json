@@ -1,0 +1,479 @@
+[
+  {
+    "clinicId": 1,
+    "waitTimes": 4.2,
+    "staff": 4.5,
+    "patientCareSatisfaction": 4.3,
+    "affordability": 3.8,
+    "atmosphere": 4.1,
+    "overallRating": 4.2
+  },
+  {
+    "clinicId": 2,
+    "waitTimes": 3.9,
+    "staff": 4.2,
+    "patientCareSatisfaction": 4.0,
+    "affordability": 4.1,
+    "atmosphere": 4.0,
+    "overallRating": 4.0
+  },
+  {
+    "clinicId": 3,
+    "waitTimes": 4.0,
+    "staff": 4.6,
+    "patientCareSatisfaction": 4.4,
+    "affordability": 3.5,
+    "atmosphere": 4.3,
+    "overallRating": 4.2
+  },
+  {
+    "clinicId": 4,
+    "waitTimes": 3.7,
+    "staff": 4.3,
+    "patientCareSatisfaction": 4.2,
+    "affordability": 3.2,
+    "atmosphere": 4.0,
+    "overallRating": 3.9
+  },
+  {
+    "clinicId": 5,
+    "waitTimes": 4.1,
+    "staff": 4.4,
+    "patientCareSatisfaction": 4.1,
+    "affordability": 3.9,
+    "atmosphere": 4.2,
+    "overallRating": 4.1
+  },
+  {
+    "clinicId": 6,
+    "waitTimes": 3.8,
+    "staff": 4.1,
+    "patientCareSatisfaction": 3.9,
+    "affordability": 3.6,
+    "atmosphere": 3.8,
+    "overallRating": 3.8
+  },
+  {
+    "clinicId": 7,
+    "waitTimes": 3.6,
+    "staff": 4.5,
+    "patientCareSatisfaction": 4.3,
+    "affordability": 3.3,
+    "atmosphere": 4.1,
+    "overallRating": 4.0
+  },
+  {
+    "clinicId": 8,
+    "waitTimes": 3.5,
+    "staff": 4.4,
+    "patientCareSatisfaction": 4.2,
+    "affordability": 3.7,
+    "atmosphere": 4.0,
+    "overallRating": 4.0
+  },
+  {
+    "clinicId": 9,
+    "waitTimes": 4.3,
+    "staff": 4.2,
+    "patientCareSatisfaction": 4.1,
+    "affordability": 3.8,
+    "atmosphere": 4.0,
+    "overallRating": 4.1
+  },
+  {
+    "clinicId": 10,
+    "waitTimes": 3.9,
+    "staff": 4.3,
+    "patientCareSatisfaction": 4.0,
+    "affordability": 3.9,
+    "atmosphere": 3.9,
+    "overallRating": 4.0
+  },
+  {
+    "clinicId": 11,
+    "waitTimes": 4.4,
+    "staff": 4.6,
+    "patientCareSatisfaction": 4.4,
+    "affordability": 2.8,
+    "atmosphere": 4.5,
+    "overallRating": 4.1
+  },
+  {
+    "clinicId": 12,
+    "waitTimes": 4.0,
+    "staff": 4.5,
+    "patientCareSatisfaction": 4.3,
+    "affordability": 3.4,
+    "atmosphere": 4.4,
+    "overallRating": 4.1
+  },
+  {
+    "clinicId": 13,
+    "waitTimes": 4.2,
+    "staff": 4.1,
+    "patientCareSatisfaction": 4.0,
+    "affordability": 4.3,
+    "atmosphere": 4.0,
+    "overallRating": 4.1
+  },
+  {
+    "clinicId": 14,
+    "waitTimes": 3.8,
+    "staff": 4.2,
+    "patientCareSatisfaction": 4.1,
+    "affordability": 3.5,
+    "atmosphere": 3.9,
+    "overallRating": 3.9
+  },
+  {
+    "clinicId": 15,
+    "waitTimes": 2.8,
+    "staff": 4.0,
+    "patientCareSatisfaction": 3.8,
+    "affordability": 3.6,
+    "atmosphere": 3.5,
+    "overallRating": 3.5
+  },
+  {
+    "clinicId": 16,
+    "waitTimes": 4.1,
+    "staff": 4.3,
+    "patientCareSatisfaction": 4.2,
+    "affordability": 4.5,
+    "atmosphere": 4.1,
+    "overallRating": 4.2
+  },
+  {
+    "clinicId": 17,
+    "waitTimes": 3.9,
+    "staff": 4.2,
+    "patientCareSatisfaction": 4.0,
+    "affordability": 3.7,
+    "atmosphere": 4.0,
+    "overallRating": 4.0
+  },
+  {
+    "clinicId": 18,
+    "waitTimes": 3.7,
+    "staff": 4.4,
+    "patientCareSatisfaction": 4.2,
+    "affordability": 3.3,
+    "atmosphere": 4.0,
+    "overallRating": 3.9
+  },
+  {
+    "clinicId": 19,
+    "waitTimes": 3.6,
+    "staff": 4.3,
+    "patientCareSatisfaction": 4.1,
+    "affordability": 3.4,
+    "atmosphere": 3.9,
+    "overallRating": 3.9
+  },
+  {
+    "clinicId": 20,
+    "waitTimes": 3.8,
+    "staff": 4.0,
+    "patientCareSatisfaction": 3.8,
+    "affordability": 3.8,
+    "atmosphere": 3.7,
+    "overallRating": 3.8
+  },
+  {
+    "clinicId": 21,
+    "waitTimes": 4.0,
+    "staff": 4.4,
+    "patientCareSatisfaction": 4.3,
+    "affordability": 3.6,
+    "atmosphere": 4.2,
+    "overallRating": 4.1
+  },
+  {
+    "clinicId": 22,
+    "waitTimes": 3.9,
+    "staff": 4.3,
+    "patientCareSatisfaction": 4.1,
+    "affordability": 3.5,
+    "atmosphere": 4.0,
+    "overallRating": 4.0
+  },
+  {
+    "clinicId": 23,
+    "waitTimes": 4.2,
+    "staff": 4.5,
+    "patientCareSatisfaction": 4.3,
+    "affordability": 3.8,
+    "atmosphere": 4.3,
+    "overallRating": 4.2
+  },
+  {
+    "clinicId": 24,
+    "waitTimes": 3.7,
+    "staff": 4.2,
+    "patientCareSatisfaction": 4.0,
+    "affordability": 3.4,
+    "atmosphere": 3.9,
+    "overallRating": 3.8
+  },
+  {
+    "clinicId": 25,
+    "waitTimes": 4.0,
+    "staff": 4.4,
+    "patientCareSatisfaction": 4.2,
+    "affordability": 3.6,
+    "atmosphere": 4.2,
+    "overallRating": 4.1
+  },
+  {
+    "clinicId": 26,
+    "waitTimes": 4.1,
+    "staff": 4.1,
+    "patientCareSatisfaction": 3.9,
+    "affordability": 4.2,
+    "atmosphere": 3.9,
+    "overallRating": 4.0
+  },
+  {
+    "clinicId": 27,
+    "waitTimes": 3.8,
+    "staff": 4.0,
+    "patientCareSatisfaction": 3.8,
+    "affordability": 3.9,
+    "atmosphere": 3.8,
+    "overallRating": 3.9
+  },
+  {
+    "clinicId": 28,
+    "waitTimes": 4.0,
+    "staff": 4.3,
+    "patientCareSatisfaction": 4.1,
+    "affordability": 3.7,
+    "atmosphere": 4.0,
+    "overallRating": 4.0
+  },
+  {
+    "clinicId": 29,
+    "waitTimes": 3.5,
+    "staff": 4.2,
+    "patientCareSatisfaction": 4.0,
+    "affordability": 3.3,
+    "atmosphere": 3.8,
+    "overallRating": 3.8
+  },
+  {
+    "clinicId": 30,
+    "waitTimes": 3.9,
+    "staff": 4.1,
+    "patientCareSatisfaction": 3.9,
+    "affordability": 3.8,
+    "atmosphere": 3.9,
+    "overallRating": 3.9
+  },
+  {
+    "clinicId": 31,
+    "waitTimes": 4.1,
+    "staff": 4.0,
+    "patientCareSatisfaction": 3.8,
+    "affordability": 4.0,
+    "atmosphere": 4.1,
+    "overallRating": 4.0
+  },
+  {
+    "clinicId": 32,
+    "waitTimes": 4.0,
+    "staff": 4.2,
+    "patientCareSatisfaction": 4.0,
+    "affordability": 3.9,
+    "atmosphere": 4.0,
+    "overallRating": 4.0
+  },
+  {
+    "clinicId": 33,
+    "waitTimes": 4.2,
+    "staff": 4.1,
+    "patientCareSatisfaction": 3.9,
+    "affordability": 3.8,
+    "atmosphere": 4.0,
+    "overallRating": 4.0
+  },
+  {
+    "clinicId": 34,
+    "waitTimes": 3.8,
+    "staff": 4.3,
+    "patientCareSatisfaction": 4.1,
+    "affordability": 3.7,
+    "atmosphere": 3.9,
+    "overallRating": 4.0
+  },
+  {
+    "clinicId": 35,
+    "waitTimes": 4.0,
+    "staff": 4.0,
+    "patientCareSatisfaction": 3.8,
+    "affordability": 4.1,
+    "atmosphere": 3.9,
+    "overallRating": 4.0
+  },
+  {
+    "clinicId": 36,
+    "waitTimes": 4.3,
+    "staff": 4.4,
+    "patientCareSatisfaction": 4.2,
+    "affordability": 3.2,
+    "atmosphere": 4.3,
+    "overallRating": 4.1
+  },
+  {
+    "clinicId": 37,
+    "waitTimes": 3.9,
+    "staff": 4.1,
+    "patientCareSatisfaction": 3.9,
+    "affordability": 3.8,
+    "atmosphere": 3.9,
+    "overallRating": 3.9
+  },
+  {
+    "clinicId": 38,
+    "waitTimes": 4.1,
+    "staff": 4.0,
+    "patientCareSatisfaction": 3.8,
+    "affordability": 4.0,
+    "atmosphere": 3.9,
+    "overallRating": 4.0
+  },
+  {
+    "clinicId": 39,
+    "waitTimes": 4.2,
+    "staff": 4.3,
+    "patientCareSatisfaction": 4.1,
+    "affordability": 3.1,
+    "atmosphere": 4.2,
+    "overallRating": 4.0
+  },
+  {
+    "clinicId": 40,
+    "waitTimes": 3.8,
+    "staff": 4.2,
+    "patientCareSatisfaction": 4.0,
+    "affordability": 3.6,
+    "atmosphere": 3.9,
+    "overallRating": 3.9
+  },
+  {
+    "clinicId": 41,
+    "waitTimes": 4.0,
+    "staff": 4.1,
+    "patientCareSatisfaction": 3.9,
+    "affordability": 4.2,
+    "atmosphere": 4.0,
+    "overallRating": 4.0
+  },
+  {
+    "clinicId": 42,
+    "waitTimes": 4.1,
+    "staff": 4.2,
+    "patientCareSatisfaction": 4.0,
+    "affordability": 4.0,
+    "atmosphere": 4.0,
+    "overallRating": 4.1
+  },
+  {
+    "clinicId": 43,
+    "waitTimes": 3.9,
+    "staff": 4.0,
+    "patientCareSatisfaction": 3.8,
+    "affordability": 4.1,
+    "atmosphere": 3.9,
+    "overallRating": 3.9
+  },
+  {
+    "clinicId": 44,
+    "waitTimes": 4.0,
+    "staff": 4.1,
+    "patientCareSatisfaction": 3.9,
+    "affordability": 4.0,
+    "atmosphere": 3.9,
+    "overallRating": 4.0
+  },
+  {
+    "clinicId": 45,
+    "waitTimes": 3.7,
+    "staff": 4.2,
+    "patientCareSatisfaction": 4.0,
+    "affordability": 3.8,
+    "atmosphere": 3.9,
+    "overallRating": 3.9
+  },
+  {
+    "clinicId": 46,
+    "waitTimes": 4.2,
+    "staff": 4.0,
+    "patientCareSatisfaction": 3.8,
+    "affordability": 3.9,
+    "atmosphere": 4.0,
+    "overallRating": 4.0
+  },
+  {
+    "clinicId": 47,
+    "waitTimes": 4.0,
+    "staff": 3.9,
+    "patientCareSatisfaction": 3.7,
+    "affordability": 4.2,
+    "atmosphere": 3.8,
+    "overallRating": 3.9
+  },
+  {
+    "clinicId": 48,
+    "waitTimes": 3.8,
+    "staff": 4.0,
+    "patientCareSatisfaction": 3.8,
+    "affordability": 4.1,
+    "atmosphere": 3.9,
+    "overallRating": 3.9
+  },
+  {
+    "clinicId": 49,
+    "waitTimes": 4.1,
+    "staff": 3.9,
+    "patientCareSatisfaction": 3.7,
+    "affordability": 4.0,
+    "atmosphere": 3.8,
+    "overallRating": 3.9
+  },
+  {
+    "clinicId": 50,
+    "waitTimes": 3.6,
+    "staff": 4.1,
+    "patientCareSatisfaction": 3.9,
+    "affordability": 3.7,
+    "atmosphere": 3.8,
+    "overallRating": 3.8
+  },
+  {
+    "clinicId": 51,
+    "waitTimes": 4.0,
+    "staff": 3.9,
+    "patientCareSatisfaction": 3.7,
+    "affordability": 4.1,
+    "atmosphere": 3.8,
+    "overallRating": 3.9
+  },
+  {
+    "clinicId": 52,
+    "waitTimes": 3.9,
+    "staff": 4.0,
+    "patientCareSatisfaction": 3.8,
+    "affordability": 4.0,
+    "atmosphere": 3.9,
+    "overallRating": 3.9
+  },
+  {
+    "clinicId": 53,
+    "waitTimes": 4.0,
+    "staff": 3.9,
+    "patientCareSatisfaction": 3.7,
+    "affordability": 4.0,
+    "atmosphere": 3.8,
+    "overallRating": 3.9
+  }
+]

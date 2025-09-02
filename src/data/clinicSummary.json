@@ -1,0 +1,320 @@
+[
+  {
+    "id": 1,
+    "summary": "A comprehensive medical center offering multi-specialty care with state-of-the-art facilities and experienced physicians across various disciplines.",
+    "foundedYear": 1985,
+    "services": ["Cardiology", "Orthopedic Surgery", "Neurology", "Oncology", "Emergency Medicine", "Anesthesiology", "Ophthalmology"]
+  },
+  {
+    "id": 2,
+    "summary": "A community-focused health clinic providing accessible healthcare with emphasis on dermatology, neurology, and family medicine services.",
+    "foundedYear": 1992,
+    "services": ["Dermatology", "Neurology", "Internal Medicine", "Family Medicine", "Radiology", "Allergy & Immunology", "Obstetrics & Gynecology"]
+  },
+  {
+    "id": 3,
+    "summary": "Specialized pediatric hospital dedicated to providing comprehensive healthcare services for children from infancy through adolescence.",
+    "foundedYear": 1978,
+    "services": ["Pediatrics", "Radiology"]
+  },
+  {
+    "id": 4,
+    "summary": "Premier cardiovascular institute specializing in heart and vascular conditions with cutting-edge cardiac care and surgical services.",
+    "foundedYear": 1995,
+    "services": ["Cardiology", "Oncology", "Anesthesiology"]
+  },
+  {
+    "id": 5,
+    "summary": "Modern medical plaza offering comprehensive healthcare services with focus on family medicine, dermatology, and pediatric care.",
+    "foundedYear": 1988,
+    "services": ["Dermatology", "Internal Medicine", "Family Medicine", "Allergy & Immunology", "Pediatrics", "Obstetrics & Gynecology"]
+  },
+  {
+    "id": 6,
+    "summary": "Specialty medical center providing advanced care in orthopedics, psychiatry, radiology, and other specialized medical fields.",
+    "foundedYear": 1990,
+    "services": ["Orthopedic Surgery", "Psychiatry", "Radiology", "Anesthesiology", "Dermatology", "Allergy & Immunology", "Ophthalmology"]
+  },
+  {
+    "id": 7,
+    "summary": "Advanced surgical center specializing in complex surgical procedures with experienced surgeons and modern operating facilities.",
+    "foundedYear": 2000,
+    "services": ["General Surgery", "Plastic Surgery", "Neurosurgery", "Anesthesiology", "Oncology"]
+  },
+  {
+    "id": 8,
+    "summary": "University-affiliated medical center providing comprehensive healthcare services with focus on research and medical education.",
+    "foundedYear": 1965,
+    "services": ["General Surgery", "Pulmonology", "Psychology", "Neurosurgery", "Urology", "Pathology", "Family Medicine", "Emergency Medicine", "Critical Care"]
+  },
+  {
+    "id": 9,
+    "summary": "Specialized institute focusing on respiratory care and pulmonary medicine with comprehensive lung health services.",
+    "foundedYear": 2005,
+    "services": ["Pulmonology", "Critical Care", "Allergy & Immunology"]
+  },
+  {
+    "id": 10,
+    "summary": "Specialized center for arthritis and joint disorders offering comprehensive rheumatology and rehabilitation services.",
+    "foundedYear": 1998,
+    "services": ["Rheumatology", "Physical Medicine & Rehabilitation", "Internal Medicine"]
+  },
+  {
+    "id": 11,
+    "summary": "Upscale medical spa combining aesthetic medicine with dermatology and plastic surgery services for cosmetic enhancement.",
+    "foundedYear": 2010,
+    "services": ["Plastic Surgery", "Dermatology"]
+  },
+  {
+    "id": 12,
+    "summary": "Mental health clinic providing comprehensive psychological and psychiatric services in a calming, therapeutic environment.",
+    "foundedYear": 2008,
+    "services": ["Psychology", "Psychiatry"]
+  },
+  {
+    "id": 13,
+    "summary": "Community-based family care center providing comprehensive primary care services for patients of all ages.",
+    "foundedYear": 1982,
+    "services": ["Internal Medicine", "Family Medicine"]
+  },
+  {
+    "id": 14,
+    "summary": "Multi-specialty hospital offering comprehensive medical services with focus on cardiology and internal medicine.",
+    "foundedYear": 1975,
+    "services": ["Cardiology", "Oncology", "Internal Medicine", "Ophthalmology"]
+  },
+  {
+    "id": 15,
+    "summary": "Emergency medical center providing 24/7 urgent care and emergency medical services with rapid response capabilities.",
+    "foundedYear": 2012,
+    "services": ["Emergency Medicine", "Critical Care"]
+  },
+  {
+    "id": 16,
+    "summary": "Community health center focused on providing accessible healthcare services to underserved populations including pediatric care.",
+    "foundedYear": 1980,
+    "services": ["Pediatrics", "Internal Medicine", "Family Medicine"]
+  },
+  {
+    "id": 17,
+    "summary": "Comprehensive medical plaza offering multiple specialties including dermatology and women's health services.",
+    "foundedYear": 1993,
+    "services": ["Dermatology", "Allergy & Immunology", "Obstetrics & Gynecology"]
+  },
+  {
+    "id": 18,
+    "summary": "Specialized cardiac care facility focusing exclusively on heart conditions and cardiovascular health.",
+    "foundedYear": 2001,
+    "services": ["Cardiology", "Internal Medicine"]
+  },
+  {
+    "id": 19,
+    "summary": "Regional medical center providing comprehensive healthcare services including orthopedics, neurology, and oncology.",
+    "foundedYear": 1970,
+    "services": ["Orthopedic Surgery", "Neurology", "Oncology", "Anesthesiology"]
+  },
+  {
+    "id": 20,
+    "summary": "General hospital providing comprehensive medical services including emergency care, surgery, and specialty services.",
+    "foundedYear": 1955,
+    "services": ["Emergency Medicine", "General Surgery", "Internal Medicine", "Family Medicine", "Radiology"]
+  },
+  {
+    "id": 21,
+    "summary": "Women's health center specializing in obstetrics, gynecology, and comprehensive reproductive health services.",
+    "foundedYear": 1987,
+    "services": ["Obstetrics & Gynecology"]
+  },
+  {
+    "id": 22,
+    "summary": "Specialized neuroscience institute providing advanced neurological care and brain health services.",
+    "foundedYear": 2003,
+    "services": ["Neurology", "Neurosurgery", "Psychology", "Radiology"]
+  },
+  {
+    "id": 23,
+    "summary": "Pediatric specialty clinic providing comprehensive healthcare services specifically designed for children and adolescents.",
+    "foundedYear": 1984,
+    "services": ["Pediatrics"]
+  },
+  {
+    "id": 24,
+    "summary": "Orthopedic center specializing in bone, joint, and musculoskeletal conditions with advanced surgical capabilities.",
+    "foundedYear": 1996,
+    "services": ["Orthopedic Surgery", "Physical Medicine & Rehabilitation", "Radiology", "Anesthesiology"]
+  },
+  {
+    "id": 25,
+    "summary": "Mental health facility providing comprehensive psychiatric and psychological services for various mental health conditions.",
+    "foundedYear": 2006,
+    "services": ["Psychiatry", "Psychology"]
+  },
+  {
+    "id": 26,
+    "summary": "Family medicine practice providing comprehensive primary care services for patients across all age groups.",
+    "foundedYear": 1979,
+    "services": ["Family Medicine", "Internal Medicine", "Pediatrics"]
+  },
+  {
+    "id": 27,
+    "summary": "Regional medical center offering comprehensive healthcare services including emergency care and specialty medicine.",
+    "foundedYear": 1968,
+    "services": ["Emergency Medicine", "Internal Medicine", "General Surgery", "Family Medicine", "Radiology"]
+  },
+  {
+    "id": 28,
+    "summary": "Eye care center specializing in comprehensive ophthalmology services including vision care and eye surgery.",
+    "foundedYear": 2004,
+    "services": ["Ophthalmology"]
+  },
+  {
+    "id": 29,
+    "summary": "Oncology center specializing in cancer care and treatment with comprehensive oncology services and support.",
+    "foundedYear": 2007,
+    "services": ["Oncology", "General Surgery"]
+  },
+  {
+    "id": 30,
+    "summary": "Integrated health system providing comprehensive medical services across multiple specialties and locations.",
+    "foundedYear": 1962,
+    "services": ["Internal Medicine", "Family Medicine", "Cardiology", "Orthopedic Surgery", "Emergency Medicine", "Radiology"]
+  },
+  {
+    "id": 31,
+    "summary": "Regional medical center located in the scenic Adirondack region providing comprehensive healthcare services.",
+    "foundedYear": 1973,
+    "services": ["Radiology", "Pathology"]
+  },
+  {
+    "id": 32,
+    "summary": "Health network serving the Catskills region with focus on internal medicine and rehabilitation services.",
+    "foundedYear": 1986,
+    "services": ["Dermatology", "Allergy & Immunology", "Physical Medicine & Rehabilitation"]
+  },
+  {
+    "id": 33,
+    "summary": "Medical group serving the Thousand Islands region with specialization in pulmonology and allergy treatment.",
+    "foundedYear": 1991,
+    "services": ["Pulmonology", "Allergy & Immunology"]
+  },
+  {
+    "id": 34,
+    "summary": "Valley-based medical center providing comprehensive healthcare with focus on pulmonology and critical care.",
+    "foundedYear": 1977,
+    "services": ["Pulmonology", "Critical Care", "Allergy & Immunology"]
+  },
+  {
+    "id": 35,
+    "summary": "Physician group serving the Champlain Valley region with comprehensive medical services.",
+    "foundedYear": 1983,
+    "services": ["Internal Medicine", "Family Medicine", "Cardiology", "Dermatology"]
+  },
+  {
+    "id": 36,
+    "summary": "Dermatology practice specializing in skin care and dermatological conditions with expert skin health services.",
+    "foundedYear": 1999,
+    "services": ["Dermatology", "Plastic Surgery"]
+  },
+  {
+    "id": 37,
+    "summary": "Medical plaza serving the Niagara Falls region providing comprehensive healthcare services including urology.",
+    "foundedYear": 1989,
+    "services": ["Urology"]
+  },
+  {
+    "id": 38,
+    "summary": "Medical associates providing comprehensive healthcare services in the historic Cooperstown area.",
+    "foundedYear": 1985,
+    "services": ["Family Medicine", "Internal Medicine", "Pediatrics", "Radiology"]
+  },
+  {
+    "id": 39,
+    "summary": "Health center serving the Lake George region with focus on plastic surgery and aesthetic medicine.",
+    "foundedYear": 1994,
+    "services": ["Plastic Surgery"]
+  },
+  {
+    "id": 40,
+    "summary": "Wellness center in Saratoga Springs providing comprehensive healthcare with focus on general surgery.",
+    "foundedYear": 2002,
+    "services": ["General Surgery"]
+  },
+  {
+    "id": 41,
+    "summary": "Family health practice providing comprehensive primary care services for families in Orange County.",
+    "foundedYear": 1981,
+    "services": ["Family Medicine", "Internal Medicine", "Pediatrics", "Obstetrics & Gynecology"]
+  },
+  {
+    "id": 42,
+    "summary": "Medical group serving Sullivan County with focus on family medicine and pediatric care.",
+    "foundedYear": 1988,
+    "services": ["Family Medicine", "Pediatrics"]
+  },
+  {
+    "id": 43,
+    "summary": "County hospital providing comprehensive medical services including women's health and general medical care.",
+    "foundedYear": 1963,
+    "services": ["Obstetrics & Gynecology", "Family Medicine"]
+  },
+  {
+    "id": 44,
+    "summary": "Memorial hospital providing comprehensive healthcare services including family medicine and general care.",
+    "foundedYear": 1957,
+    "services": ["Family Medicine", "Internal Medicine"]
+  },
+  {
+    "id": 45,
+    "summary": "County health system providing comprehensive medical services including cardiology and ophthalmology.",
+    "foundedYear": 1966,
+    "services": ["Cardiology", "Internal Medicine", "Ophthalmology"]
+  },
+  {
+    "id": 46,
+    "summary": "Regional health network serving St. Lawrence County with focus on dermatology and internal medicine.",
+    "foundedYear": 1974,
+    "services": ["Dermatology", "Allergy & Immunology"]
+  },
+  {
+    "id": 47,
+    "summary": "County medical center providing comprehensive healthcare services to the Franklin County community.",
+    "foundedYear": 1971,
+    "services": ["Family Medicine", "Internal Medicine", "Emergency Medicine", "General Surgery"]
+  },
+  {
+    "id": 48,
+    "summary": "County health services providing comprehensive medical care to the Clinton County region.",
+    "foundedYear": 1969,
+    "services": ["Family Medicine", "Internal Medicine", "Emergency Medicine", "Radiology"]
+  },
+  {
+    "id": 49,
+    "summary": "Medical associates serving Essex County with comprehensive healthcare services.",
+    "foundedYear": 1976,
+    "services": ["Family Medicine", "Internal Medicine", "General Surgery"]
+  },
+  {
+    "id": 50,
+    "summary": "Health center serving Hamilton County with focus on oncology and surgical services.",
+    "foundedYear": 1987,
+    "services": ["Oncology", "General Surgery"]
+  },
+  {
+    "id": 51,
+    "summary": "County medical group providing comprehensive healthcare services to the Herkimer County region.",
+    "foundedYear": 1978,
+    "services": ["Family Medicine", "Internal Medicine", "Radiology", "Emergency Medicine"]
+  },
+  {
+    "id": 52,
+    "summary": "General hospital providing comprehensive medical services to the Lewis County community.",
+    "foundedYear": 1961,
+    "services": ["Emergency Medicine", "General Surgery", "Internal Medicine", "Family Medicine", "Radiology"]
+  },
+  {
+    "id": 53,
+    "summary": "County health network providing comprehensive medical services to the Fulton County region.",
+    "foundedYear": 1972,
+    "services": ["Family Medicine", "Internal Medicine", "Emergency Medicine", "General Surgery"]
+  }
+]
