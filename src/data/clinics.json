@@ -476,7 +476,16 @@
       "Medicare",
       "Medicaid"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      4,
+      9,
+      12,
+      23,
+      25,
+      26,
+      31,
+      32
+    ]
   },
   {
     "id": 21,
@@ -516,7 +525,15 @@
       "Aetna",
       "Medicare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      1,
+      7,
+      10,
+      21,
+      27,
+      34,
+      35
+    ]
   },
   {
     "id": 23,
@@ -558,7 +575,14 @@
       "Blue Cross Blue Shield",
       "Medicare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      2,
+      5,
+      28,
+      36,
+      38,
+      39
+    ]
   },
   {
     "id": 25,
@@ -600,7 +624,17 @@
       "Humana",
       "Medicare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      3,
+      6,
+      11,
+      15,
+      24,
+      29,
+      33,
+      37,
+      40
+    ]
   },
   {
     "id": 27,
@@ -619,7 +653,15 @@
       "Medicaid",
       "UnitedHealthcare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      8,
+      13,
+      14,
+      16,
+      22,
+      30,
+      35
+    ]
   },
   {
     "id": 28,
@@ -682,7 +724,15 @@
       "Medicare",
       "Medicaid"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      17,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
   },
   {
     "id": 31,
@@ -789,7 +839,14 @@
       "Medicare",
       "Humana"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
   },
   {
     "id": 36,
@@ -851,7 +908,13 @@
       "Cigna",
       "Medicare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      33,
+      34,
+      36,
+      37,
+      38
+    ]
   },
   {
     "id": 39,
@@ -912,7 +975,16 @@
       "CHIP",
       "UnitedHealthcare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      39,
+      40,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
   },
   {
     "id": 42,
@@ -954,8 +1026,7 @@
       "UnitedHealthcare"
     ],
     "doctorIds": [
-      16,
-      19
+      16
     ]
   },
   {
@@ -975,10 +1046,7 @@
       "Aetna",
       "Medicare"
     ],
-    "doctorIds": [
-      18,
-      20
-    ]
+    "doctorIds": []
   },
   {
     "id": 45,
@@ -1042,7 +1110,13 @@
       "Medicaid",
       "UnitedHealthcare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
   },
   {
     "id": 48,
@@ -1061,7 +1135,14 @@
       "Aetna",
       "Medicare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
   },
   {
     "id": 49,
@@ -1080,7 +1161,12 @@
       "Medicare",
       "Humana"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      21,
+      22,
+      23,
+      24
+    ]
   },
   {
     "id": 50,
@@ -1121,7 +1207,13 @@
       "UnitedHealthcare",
       "Medicare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
   },
   {
     "id": 52,
@@ -1140,7 +1232,15 @@
       "Aetna",
       "Medicare"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
   },
   {
     "id": 53,
@@ -1159,6 +1259,14 @@
       "Medicare",
       "Medicaid"
     ],
-    "doctorIds": []
+    "doctorIds": [
+      37,
+      38,
+      39,
+      40,
+      1,
+      2,
+      3
+    ]
   }
 ]

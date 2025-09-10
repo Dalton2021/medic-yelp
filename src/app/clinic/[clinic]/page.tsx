@@ -27,7 +27,7 @@ export default async function Page({ params }: { params: Promise<{ clinic: strin
     `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}`,
     {
       headers: { 'User-Agent': 'nextjs-app/1.0 (your@email.com)' },
-      cache: 'no-store', // like getServerSideProps
+      cache: 'default'
     }
   );
 

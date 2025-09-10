@@ -8,7 +8,9 @@
     ],
     "clinicIds": [
       1,
-      4
+      4,
+      22,
+      41
     ],
     "clinics": [
       {
@@ -80,7 +82,9 @@
     ],
     "clinicIds": [
       2,
-      5
+      5,
+      24,
+      41
     ],
     "clinics": [
       {
@@ -151,7 +155,9 @@
       "Pediatrics"
     ],
     "clinicIds": [
-      3
+      3,
+      26,
+      41
     ],
     "clinics": [
       {
@@ -194,7 +200,9 @@
     ],
     "clinicIds": [
       1,
-      6
+      6,
+      20,
+      41
     ],
     "clinics": [
       {
@@ -268,7 +276,9 @@
     ],
     "clinicIds": [
       1,
-      2
+      2,
+      24,
+      41
     ],
     "clinics": [
       {
@@ -343,7 +353,9 @@
     ],
     "clinicIds": [
       2,
-      5
+      5,
+      26,
+      41
     ],
     "clinics": [
       {
@@ -414,7 +426,9 @@
       "Psychiatry"
     ],
     "clinicIds": [
-      6
+      6,
+      22,
+      47
     ],
     "clinics": [
       {
@@ -459,7 +473,9 @@
     ],
     "clinicIds": [
       1,
-      4
+      4,
+      27,
+      47
     ],
     "clinics": [
       {
@@ -530,7 +546,9 @@
       "Emergency Medicine"
     ],
     "clinicIds": [
-      1
+      1,
+      20,
+      47
     ],
     "clinics": [
       {
@@ -578,7 +596,9 @@
     "clinicIds": [
       2,
       3,
-      6
+      6,
+      22,
+      47
     ],
     "clinics": [
       {
@@ -676,7 +696,9 @@
     "clinicIds": [
       1,
       4,
-      6
+      6,
+      26,
+      47
     ],
     "clinics": [
       {
@@ -774,7 +796,9 @@
       "Family Medicine"
     ],
     "clinicIds": [
-      5
+      5,
+      20,
+      48
     ],
     "clinics": [
       {
@@ -822,7 +846,9 @@
     "clinicIds": [
       2,
       5,
-      6
+      6,
+      27,
+      48
     ],
     "clinics": [
       {
@@ -922,7 +948,9 @@
     ],
     "clinicIds": [
       1,
-      4
+      4,
+      27,
+      48
     ],
     "clinics": [
       {
@@ -994,7 +1022,9 @@
     ],
     "clinicIds": [
       3,
-      5
+      5,
+      26,
+      48
     ],
     "clinics": [
       {
@@ -1064,7 +1094,9 @@
     ],
     "clinicIds": [
       2,
-      5
+      5,
+      27,
+      48
     ],
     "clinics": [
       {
@@ -1136,7 +1168,9 @@
     ],
     "clinicIds": [
       1,
-      6
+      6,
+      30,
+      48
     ],
     "clinics": [
       {
@@ -1210,7 +1244,10 @@
     ],
     "clinicIds": [
       7,
-      8
+      8,
+      22,
+      30,
+      49
     ],
     "clinics": [
       {
@@ -1281,7 +1318,10 @@
     ],
     "clinicIds": [
       8,
-      9
+      9,
+      27,
+      30,
+      49
     ],
     "clinics": [
       {
@@ -1350,7 +1390,10 @@
       "Rheumatology"
     ],
     "clinicIds": [
-      10
+      10,
+      20,
+      30,
+      49
     ],
     "clinics": [
       {
@@ -1391,7 +1434,10 @@
     ],
     "clinicIds": [
       7,
-      11
+      11,
+      26,
+      30,
+      49
     ],
     "clinics": [
       {
@@ -1455,7 +1501,10 @@
     ],
     "clinicIds": [
       8,
-      12
+      12,
+      20,
+      30,
+      51
     ],
     "clinics": [
       {
@@ -1524,7 +1573,10 @@
       "Critical Care"
     ],
     "clinicIds": [
-      9
+      9,
+      20,
+      30,
+      51
     ],
     "clinics": [
       {
@@ -1566,7 +1618,10 @@
     ],
     "clinicIds": [
       7,
-      8
+      8,
+      22,
+      35,
+      51
     ],
     "clinics": [
       {
@@ -1636,7 +1691,10 @@
       "Urology"
     ],
     "clinicIds": [
-      8
+      8,
+      24,
+      35,
+      51
     ],
     "clinics": [
       {
@@ -1681,7 +1739,10 @@
       "Physical Medicine & Rehabilitation"
     ],
     "clinicIds": [
-      10
+      10,
+      26,
+      35,
+      51
     ],
     "clinics": [
       {
@@ -1721,7 +1782,10 @@
       "Allergy & Immunology"
     ],
     "clinicIds": [
-      9
+      9,
+      27,
+      35,
+      52
     ],
     "clinics": [
       {
@@ -1762,7 +1826,10 @@
       "Anesthesiology"
     ],
     "clinicIds": [
-      7
+      7,
+      20,
+      35,
+      52
     ],
     "clinics": [
       {
@@ -1804,7 +1871,10 @@
       "Pathology"
     ],
     "clinicIds": [
-      8
+      8,
+      20,
+      35,
+      52
     ],
     "clinics": [
       {
@@ -1850,7 +1920,10 @@
       "Pulmonology"
     ],
     "clinicIds": [
-      9
+      9,
+      26,
+      38,
+      52
     ],
     "clinics": [
       {
@@ -1892,7 +1965,9 @@
       "Internal Medicine"
     ],
     "clinicIds": [
-      10
+      10,
+      22,
+      52
     ],
     "clinics": [
       {
@@ -1933,7 +2008,10 @@
       "Oncology"
     ],
     "clinicIds": [
-      7
+      7,
+      22,
+      27,
+      52
     ],
     "clinics": [
       {
@@ -1975,7 +2053,10 @@
       "Family Medicine"
     ],
     "clinicIds": [
-      8
+      8,
+      24,
+      38,
+      52
     ],
     "clinics": [
       {
@@ -2021,7 +2102,10 @@
       "Plastic Surgery"
     ],
     "clinicIds": [
-      11
+      11,
+      26,
+      38,
+      53
     ],
     "clinics": [
       {
@@ -2060,7 +2144,10 @@
       "Psychology"
     ],
     "clinicIds": [
-      12
+      12,
+      24,
+      38,
+      53
     ],
     "clinics": [
       {
@@ -2101,7 +2188,10 @@
       "Critical Care"
     ],
     "clinicIds": [
-      8
+      8,
+      24,
+      41,
+      53
     ],
     "clinics": [
       {
@@ -2146,7 +2236,10 @@
       "Psychiatry"
     ],
     "clinicIds": [
-      12
+      12,
+      26,
+      41,
+      53
     ],
     "clinics": [
       {
