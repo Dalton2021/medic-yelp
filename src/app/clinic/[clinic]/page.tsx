@@ -43,7 +43,7 @@ export default async function Page({ params }: { params: Promise<{ clinic: strin
             <CardHeader>
               <div className="flex items-start justify-between">
                 <div>
-                  <CardTitle className="text-2xl font-bold text-blue-900">{clinicDeets.name}</CardTitle>
+                  <CardTitle className="text-4xl font-bold text-blue-900">{clinicDeets.name}</CardTitle>
                   <div className="flex items-center gap-4 mt-2 text-gray-600">
                     <div className="flex items-center gap-1">
                       <Calendar className="h-4 w-4" />
@@ -73,9 +73,9 @@ export default async function Page({ params }: { params: Promise<{ clinic: strin
           <div className="grid md:grid-cols-2 gap-6">
             {/* Contact Information */}
             <Card>
-              <CardHeader className=" pb-2">
-                <CardTitle className="text-xl flex items-center gap-1">
-                  <Phone className="h-5 w-5 me-1" />
+              <CardHeader className="pb-4">
+                <CardTitle className="text-3xl flex items-center gap-1">
+                  <Phone className="h-6 w-6 me-1" />
                   Contact Information
                 </CardTitle>
               </CardHeader>
@@ -128,9 +128,9 @@ export default async function Page({ params }: { params: Promise<{ clinic: strin
 
             {/* Ratings */}
             <Card>
-              <CardHeader>
-                <CardTitle className="flex text-xl items-center gap-2">
-                  <Star className="h-5 w-5" />
+              <CardHeader className="pb-4">
+                <CardTitle className="flex text-3xl items-center gap-2">
+                  <Star className="h-6 w-6" />
                   Patient Ratings
                 </CardTitle>
               </CardHeader>
@@ -144,7 +144,27 @@ export default async function Page({ params }: { params: Promise<{ clinic: strin
             </Card>
           </div>
 
+          {/* Is insurance needed here? It's already rendering on line 117 above ^^^ - Dalton */}
           {/* Insurance */}
+
+          {/* Staff list */}
+          <div className="px-10">
+            <h2 className="font-bold text-3xl tracking-tight">Staff List</h2>
+            <p className="text-sm text-muted-foreground">All publicly listed physicians are found below</p>
+            <div className="grid grid-cols-12 gap-6 mt-8">
+              <div className="col-span-3 rounded-md bg-gray-50 p-5">
+                <div className="grid grid-cols-3">
+                  <div className="col-span-1 place-items-center">
+                    <div className="w-12 h-12 rounded-full border-[0.5px] border-gray-300 flex justify-center items-center">
+                      <div className="w-10 h-10 rounded-full bg-gray-200 flex justify-center items-center">
+                        <p>404</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       ) : (
         <div>Clinic Not Found</div>
