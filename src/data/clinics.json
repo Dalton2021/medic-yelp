@@ -3,10 +3,10 @@
     "id": 1,
     "name": "Central Medical Center",
     "address": {
-      "street": "123 Main St",
-      "city": "Downtown",
+      "street": "1000 Peachtree St NE",
+      "city": "Atlanta",
       "state": "GA",
-      "zipCode": "30374"
+      "zipCode": "30309"
     },
     "phone": "(555) 123-4567",
     "website": "https://centralmedical.com",
@@ -31,10 +31,10 @@
     "id": 2,
     "name": "Westside Health Clinic",
     "address": {
-      "street": "456 Oak Ave",
-      "city": "Westside",
+      "street": "2500 Westheimer Rd",
+      "city": "Houston",
       "state": "TX",
-      "zipCode": "84544"
+      "zipCode": "77098"
     },
     "phone": "(555) 234-5678",
     "website": "https://westsidehealth.com",
@@ -57,10 +57,10 @@
     "id": 3,
     "name": "Children's Hospital",
     "address": {
-      "street": "789 Pine St",
-      "city": "Midtown",
+      "street": "1500 E Broad St",
+      "city": "Richmond",
       "state": "VA",
-      "zipCode": "20476"
+      "zipCode": "23219"
     },
     "phone": "(555) 345-6789",
     "website": "https://childrenshospital.org",
@@ -81,10 +81,10 @@
     "id": 4,
     "name": "Heart & Vascular Institute",
     "address": {
-      "street": "321 Elm Dr",
-      "city": "Uptown",
+      "street": "525 E 68th St",
+      "city": "New York",
       "state": "NY",
-      "zipCode": "12371"
+      "zipCode": "10065"
     },
     "phone": "(555) 456-7890",
     "website": "https://heartvascular.org",
@@ -105,10 +105,10 @@
     "id": 5,
     "name": "Sunrise Medical Plaza",
     "address": {
-      "street": "654 Maple Rd",
-      "city": "Eastside",
+      "street": "1234 Wilshire Blvd",
+      "city": "Los Angeles",
       "state": "CA",
-      "zipCode": "91908"
+      "zipCode": "90017"
     },
     "phone": "(555) 567-8901",
     "website": "https://sunrisemedical.net",
@@ -131,10 +131,10 @@
     "id": 6,
     "name": "Metro Specialty Center",
     "address": {
-      "street": "987 Cedar Blvd",
-      "city": "Southside",
+      "street": "4321 S Lamar Blvd",
+      "city": "Austin",
       "state": "TX",
-      "zipCode": "79228"
+      "zipCode": "78704"
     },
     "phone": "(555) 678-9012",
     "website": "https://metrospecialty.com",
@@ -157,10 +157,10 @@
     "id": 7,
     "name": "Regional Surgical Center",
     "address": {
-      "street": "555 Broadway Ave",
-      "city": "Northside",
+      "street": "1601 E Jefferson St",
+      "city": "Seattle",
       "state": "WA",
-      "zipCode": "98159"
+      "zipCode": "98122"
     },
     "phone": "(555) 789-0123",
     "website": "https://regionalsurgical.com",
@@ -182,10 +182,10 @@
     "id": 8,
     "name": "University Medical Center",
     "address": {
-      "street": "200 College Rd",
-      "city": "University District",
+      "street": "1501 N Campbell Ave",
+      "city": "Tucson",
       "state": "AZ",
-      "zipCode": "85242"
+      "zipCode": "85724"
     },
     "phone": "(555) 890-1234",
     "website": "https://universitymedical.edu",
@@ -210,10 +210,10 @@
     "id": 9,
     "name": "Respiratory Care Institute",
     "address": {
-      "street": "777 Wellness Blvd",
-      "city": "Medview",
+      "street": "3601 Fifth Ave",
+      "city": "Pittsburgh",
       "state": "PA",
-      "zipCode": "16728"
+      "zipCode": "15213"
     },
     "phone": "(555) 901-2345",
     "website": "https://respiratorycare.org",
@@ -234,10 +234,10 @@
     "id": 10,
     "name": "Arthritis & Joint Center",
     "address": {
-      "street": "333 Mobility Way",
-      "city": "Westbrook",
+      "street": "2025 Zonal Ave",
+      "city": "Los Angeles",
       "state": "CA",
-      "zipCode": "95491"
+      "zipCode": "90033"
     },
     "phone": "(555) 012-3456",
     "website": "https://arthritiscenter.net",
@@ -257,10 +257,10 @@
     "id": 11,
     "name": "Aesthetic Medical Spa",
     "address": {
-      "street": "888 Beauty Lane",
-      "city": "Riverside",
+      "street": "45 E 33rd St",
+      "city": "New York",
       "state": "NY",
-      "zipCode": "12438"
+      "zipCode": "10016"
     },
     "phone": "(555) 123-4567",
     "website": "https://aestheticmedspa.com",
@@ -278,10 +278,10 @@
     "id": 12,
     "name": "Mindful Health Clinic",
     "address": {
-      "street": "444 Serenity St",
-      "city": "Peaceful Valley",
+      "street": "2001 Vail Ave",
+      "city": "Charlotte",
       "state": "NC",
-      "zipCode": "28248"
+      "zipCode": "28207"
     },
     "phone": "(555) 234-5678",
     "website": "https://mindfulhealth.org",
@@ -303,8 +303,8 @@
     "address": {
       "street": "1022 Atlantic Ave",
       "city": "Brooklyn",
-      "state": "FL",
-      "zipCode": "34188"
+      "state": "NY",
+      "zipCode": "11238"
     },
     "phone": "(718) 555-0101",
     "website": "https://brooklynfamilycare.com",
@@ -326,8 +326,8 @@
     "address": {
       "street": "456 Northern Blvd",
       "city": "Queens",
-      "state": "PA",
-      "zipCode": "16339"
+      "state": "NY",
+      "zipCode": "11354"
     },
     "phone": "(718) 555-0202",
     "website": "https://queensspecialty.org",
@@ -349,9 +349,9 @@
     "name": "Manhattan Emergency Center",
     "address": {
       "street": "789 E 42nd St",
-      "city": "Manhattan",
-      "state": "FL",
-      "zipCode": "33778"
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10017"
     },
     "phone": "(212) 555-0303",
     "website": "https://manhattanemergency.com",
@@ -372,8 +372,8 @@
     "address": {
       "street": "1234 Grand Concourse",
       "city": "Bronx",
-      "state": "OH",
-      "zipCode": "44948"
+      "state": "NY",
+      "zipCode": "10452"
     },
     "phone": "(718) 555-0404",
     "website": "https://bronxcommunityhealth.org",
@@ -396,7 +396,7 @@
       "street": "567 Richmond Ave",
       "city": "Staten Island",
       "state": "NY",
-      "zipCode": "12657"
+      "zipCode": "10314"
     },
     "phone": "(718) 555-0505",
     "website": "https://statenislandmedical.com",
@@ -418,8 +418,8 @@
     "address": {
       "street": "890 Hempstead Tpke",
       "city": "West Hempstead",
-      "state": "TX",
-      "zipCode": "76753"
+      "state": "NY",
+      "zipCode": "11552"
     },
     "phone": "(516) 555-0606",
     "website": "https://licardiaccare.com",
@@ -440,8 +440,8 @@
     "address": {
       "street": "123 New Scotland Ave",
       "city": "Albany",
-      "state": "MI",
-      "zipCode": "49649"
+      "state": "NY",
+      "zipCode": "12208"
     },
     "phone": "(518) 555-0707",
     "website": "https://albanyregional.org",
@@ -465,7 +465,7 @@
       "street": "456 Elmwood Ave",
       "city": "Buffalo",
       "state": "NY",
-      "zipCode": "11822"
+      "zipCode": "14222"
     },
     "phone": "(716) 555-0808",
     "website": "https://buffalogeneral.com",
@@ -484,8 +484,8 @@
     "address": {
       "street": "789 East Ave",
       "city": "Rochester",
-      "state": "FL",
-      "zipCode": "33136"
+      "state": "NY",
+      "zipCode": "14607"
     },
     "phone": "(585) 555-0909",
     "website": "https://rochesterwomenshealth.com",
@@ -506,7 +506,7 @@
       "street": "321 Harrison St",
       "city": "Syracuse",
       "state": "NY",
-      "zipCode": "14647"
+      "zipCode": "13202"
     },
     "phone": "(315) 555-1010",
     "website": "https://syracuseneuroscience.org",
@@ -524,8 +524,8 @@
     "address": {
       "street": "654 Central Ave",
       "city": "White Plains",
-      "state": "IL",
-      "zipCode": "61218"
+      "state": "NY",
+      "zipCode": "10606"
     },
     "phone": "(914) 555-1111",
     "website": "https://westchesterpediatrics.com",
@@ -547,8 +547,8 @@
     "address": {
       "street": "987 Route 9W",
       "city": "Newburgh",
-      "state": "TX",
-      "zipCode": "78242"
+      "state": "NY",
+      "zipCode": "12550"
     },
     "phone": "(845) 555-1212",
     "website": "https://hvorthopedic.com",
@@ -566,8 +566,8 @@
     "address": {
       "street": "111 Washington Ave",
       "city": "Albany",
-      "state": "MA",
-      "zipCode": "2137"
+      "state": "NY",
+      "zipCode": "12210"
     },
     "phone": "(518) 555-1313",
     "website": "https://capitalmentalhealth.org",
@@ -589,8 +589,8 @@
     "address": {
       "street": "222 Main St",
       "city": "Geneva",
-      "state": "TX",
-      "zipCode": "76144"
+      "state": "NY",
+      "zipCode": "14456"
     },
     "phone": "(315) 555-1414",
     "website": "https://fingerlakesfamily.com",
@@ -609,7 +609,7 @@
       "street": "333 Hospital Dr",
       "city": "Plattsburgh",
       "state": "NY",
-      "zipCode": "14599"
+      "zipCode": "12901"
     },
     "phone": "(518) 555-1515",
     "website": "https://northcountrymedical.org",
@@ -627,8 +627,8 @@
     "address": {
       "street": "444 James St",
       "city": "Syracuse",
-      "state": "MI",
-      "zipCode": "48292"
+      "state": "NY",
+      "zipCode": "13203"
     },
     "phone": "(315) 555-1616",
     "website": "https://cnyeyecare.com",
@@ -648,8 +648,8 @@
     "address": {
       "street": "555 Riverside Dr",
       "city": "Binghamton",
-      "state": "TX",
-      "zipCode": "79781"
+      "state": "NY",
+      "zipCode": "13905"
     },
     "phone": "(607) 555-1717",
     "website": "https://southerntieroncology.org",
@@ -670,8 +670,8 @@
     "address": {
       "street": "666 Oriskany Blvd",
       "city": "Utica",
-      "state": "NJ",
-      "zipCode": "7886"
+      "state": "NY",
+      "zipCode": "13501"
     },
     "phone": "(315) 555-1818",
     "website": "https://mvhs.org",
@@ -690,8 +690,8 @@
     "address": {
       "street": "777 Glen St",
       "city": "Glens Falls",
-      "state": "CA",
-      "zipCode": "91134"
+      "state": "NY",
+      "zipCode": "12801"
     },
     "phone": "(518) 555-1919",
     "website": "https://adirondackregional.com",
@@ -712,8 +712,8 @@
     "address": {
       "street": "888 Mountain Ave",
       "city": "Kingston",
-      "state": "FL",
-      "zipCode": "33187"
+      "state": "NY",
+      "zipCode": "12401"
     },
     "phone": "(845) 555-2020",
     "website": "https://catskillshealth.org",
@@ -734,8 +734,8 @@
     "address": {
       "street": "999 Seaway Dr",
       "city": "Alexandria Bay",
-      "state": "IL",
-      "zipCode": "60450"
+      "state": "NY",
+      "zipCode": "13607"
     },
     "phone": "(315) 555-2121",
     "website": "https://thousandislandsmedical.com",
@@ -756,8 +756,8 @@
     "address": {
       "street": "101 Valley View Dr",
       "city": "Dansville",
-      "state": "TX",
-      "zipCode": "83281"
+      "state": "NY",
+      "zipCode": "14437"
     },
     "phone": "(585) 555-2222",
     "website": "https://geneseevalleymedical.org",
@@ -778,8 +778,8 @@
     "address": {
       "street": "202 Champlain St",
       "city": "Ticonderoga",
-      "state": "CA",
-      "zipCode": "95575"
+      "state": "NY",
+      "zipCode": "12883"
     },
     "phone": "(518) 555-2323",
     "website": "https://champlainvalleyphysicians.com",
@@ -797,8 +797,8 @@
     "address": {
       "street": "303 Delaware Ave",
       "city": "Buffalo",
-      "state": "PA",
-      "zipCode": "17222"
+      "state": "NY",
+      "zipCode": "14202"
     },
     "phone": "(716) 555-2424",
     "website": "https://eriecountydermatology.com",
@@ -819,8 +819,8 @@
     "address": {
       "street": "404 Rainbow Blvd",
       "city": "Niagara Falls",
-      "state": "OH",
-      "zipCode": "44577"
+      "state": "NY",
+      "zipCode": "14303"
     },
     "phone": "(716) 555-2525",
     "website": "https://niagarafallsmedical.com",
@@ -840,8 +840,8 @@
     "address": {
       "street": "505 Main St",
       "city": "Cooperstown",
-      "state": "FL",
-      "zipCode": "34221"
+      "state": "NY",
+      "zipCode": "13326"
     },
     "phone": "(607) 555-2626",
     "website": "https://cooperstownmedical.org",
@@ -859,8 +859,8 @@
     "address": {
       "street": "606 Canada St",
       "city": "Lake George",
-      "state": "VA",
-      "zipCode": "22542"
+      "state": "NY",
+      "zipCode": "12845"
     },
     "phone": "(518) 555-2727",
     "website": "https://lakegeorgehealth.com",
@@ -880,8 +880,8 @@
     "address": {
       "street": "707 Broadway",
       "city": "Saratoga Springs",
-      "state": "CA",
-      "zipCode": "95267"
+      "state": "NY",
+      "zipCode": "12866"
     },
     "phone": "(518) 555-2828",
     "website": "https://saratogawellness.org",
@@ -901,8 +901,8 @@
     "address": {
       "street": "808 Route 17M",
       "city": "Middletown",
-      "state": "GA",
-      "zipCode": "31394"
+      "state": "NY",
+      "zipCode": "10940"
     },
     "phone": "(845) 555-2929",
     "website": "https://orangecountyfamily.com",
@@ -920,8 +920,8 @@
     "address": {
       "street": "909 Liberty St",
       "city": "Monticello",
-      "state": "AZ",
-      "zipCode": "86397"
+      "state": "NY",
+      "zipCode": "12701"
     },
     "phone": "(845) 555-3030",
     "website": "https://sullivancountymedical.org",
@@ -943,7 +943,7 @@
       "street": "1010 Main St",
       "city": "Delhi",
       "state": "NY",
-      "zipCode": "12575"
+      "zipCode": "13753"
     },
     "phone": "(607) 555-3131",
     "website": "https://delawarecountyhospital.com",
@@ -964,8 +964,8 @@
     "address": {
       "street": "1111 State Hwy 12",
       "city": "Norwich",
-      "state": "FL",
-      "zipCode": "33229"
+      "state": "NY",
+      "zipCode": "13815"
     },
     "phone": "(607) 555-3232",
     "website": "https://chenangomemorial.org",
@@ -986,8 +986,8 @@
     "address": {
       "street": "1212 Arsenal St",
       "city": "Watertown",
-      "state": "IL",
-      "zipCode": "61446"
+      "state": "NY",
+      "zipCode": "13601"
     },
     "phone": "(315) 555-3333",
     "website": "https://jeffersoncountyhealth.org",
@@ -1010,7 +1010,7 @@
       "street": "1313 Riverside Dr",
       "city": "Potsdam",
       "state": "NY",
-      "zipCode": "13717"
+      "zipCode": "13676"
     },
     "phone": "(315) 555-3434",
     "website": "https://stlawrencehealth.org",
@@ -1031,8 +1031,8 @@
     "address": {
       "street": "1414 Park St",
       "city": "Malone",
-      "state": "PA",
-      "zipCode": "17158"
+      "state": "NY",
+      "zipCode": "12953"
     },
     "phone": "(518) 555-3535",
     "website": "https://franklincountymedical.com",
@@ -1050,8 +1050,8 @@
     "address": {
       "street": "1515 Court St",
       "city": "Plattsburgh",
-      "state": "NJ",
-      "zipCode": "8040"
+      "state": "NY",
+      "zipCode": "12901"
     },
     "phone": "(518) 555-3636",
     "website": "https://clintoncountyhealth.org",
@@ -1069,8 +1069,8 @@
     "address": {
       "street": "1616 Main St",
       "city": "Elizabethtown",
-      "state": "GA",
-      "zipCode": "31783"
+      "state": "NY",
+      "zipCode": "12932"
     },
     "phone": "(518) 555-3737",
     "website": "https://essexcountymedical.com",
@@ -1089,7 +1089,7 @@
       "street": "1717 Route 28",
       "city": "Indian Lake",
       "state": "NY",
-      "zipCode": "12724"
+      "zipCode": "12842"
     },
     "phone": "(518) 555-3838",
     "website": "https://hamiltoncountyhealth.org",
@@ -1110,8 +1110,8 @@
     "address": {
       "street": "1818 German St",
       "city": "Herkimer",
-      "state": "WA",
-      "zipCode": "98314"
+      "state": "NY",
+      "zipCode": "13350"
     },
     "phone": "(315) 555-3939",
     "website": "https://herkimercountymedical.com",
@@ -1130,7 +1130,7 @@
       "street": "1919 Outer Stowe St",
       "city": "Lowville",
       "state": "NY",
-      "zipCode": "12562"
+      "zipCode": "13367"
     },
     "phone": "(315) 555-4040",
     "website": "https://lewiscountygeneral.org",
@@ -1148,8 +1148,8 @@
     "address": {
       "street": "2020 N Main St",
       "city": "Gloversville",
-      "state": "CA",
-      "zipCode": "94419"
+      "state": "NY",
+      "zipCode": "12078"
     },
     "phone": "(518) 555-4141",
     "website": "https://fultoncountyhealth.org",

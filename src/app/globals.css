@@ -1,4 +1,5 @@
 /* @import "tailwindcss"; */
+@import 'leaflet/dist/leaflet.css';
 
 @tailwind base;
 @tailwind components;
@@ -68,7 +69,6 @@
     text-decoration: underline;
   }
 }
-
 
 @layer base {
   * {
